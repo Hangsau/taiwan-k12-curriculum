@@ -108,22 +108,22 @@ def extract_text_from_page(page) -> str:
 def discover_domain_url(page, slug: str) -> str | None:
     """自動發現某領域總覽頁 URL。try 多個變體，第一個 200 就用。
     已知 pattern：
-      /topics/<slug>           → 領域總覽（不一定存在）
-      /topics/<slug>-elem      → 國小
+      /topics/<slug>-elem      → 國小（最先試，因為大多領域都有國小）
+      /topics/<slug>           → 領域總覽
       /topics/<slug>-juni      → 國中
       /topics/<slug>-high      → 高中
-      /topics/junyi-<slug>     → 主題式（不一定每個領域都有）
+      /topics/junyi-<slug>     → 主題式
       /topics/<slug>_curriculum → 課程綱要
     """
     variants = [
-        slug, f"{slug}-elem", f"{slug}-juni", f"{slug}-high",
+        f"{slug}-elem", slug, f"{slug}-juni", f"{slug}-high",
         f"junyi-{slug}", f"{slug}_curriculum",
         f"{slug}-high-vocation", f"{slug}-univ",
     ]
     for v in variants:
         url = f"{JUNYI_BASE}/topics/{v}"
         try:
-            resp = page.goto(url, timeout=8000, wait_until="domcontentloaded")
+            resp = page.goto(url, timeout=4000, wait_until="domcontentloaded")
             if resp and resp.status < 400:
                 log(f"    找到 {url}")
                 return url
