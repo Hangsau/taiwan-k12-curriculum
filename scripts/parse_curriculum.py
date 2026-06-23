@@ -39,9 +39,16 @@ SCHEMA_VERSION = "1.0"
 # 時區固定 +08:00 (Asia/Taipei)
 TZ = timezone(timedelta(hours=8))
 
-# 羅馬數字正規化（full-width → half-width, Arabic → Roman）
+# 羅馬數字正規化（full-width → half-width, Arabic → Roman, 帶子類）
+# 注意：自然科學高中用 `ti-Ⅴc-1` / `tr-Ⅴa-1` 格式（Ⅴ + c=必修 / a=加深加廣選修）
+# 正規化為 V（不區分子類），但 code 欄位保留原始 `ti-Ⅴc-1` 整段供下游參考。
 ROMAN_MAP = {
     "Ⅰ": "I", "Ⅱ": "II", "Ⅲ": "III", "Ⅳ": "IV", "Ⅴ": "V",
+    "Ⅰc": "I", "Ⅰa": "I",
+    "Ⅱc": "II", "Ⅱa": "II",
+    "Ⅲc": "III", "Ⅲa": "III",
+    "Ⅳc": "IV", "Ⅳa": "IV",
+    "Ⅴc": "V", "Ⅴa": "V",  # 普通型高中必修 / 加深加廣選修
     "I": "I", "II": "II", "III": "III", "IV": "IV", "V": "V",
     "1": "I", "2": "II", "3": "III", "4": "IV", "5": "V",
 }
@@ -51,11 +58,15 @@ ROMAN_MAP = {
 # prefix 形態：
 #   - perf: 1-3 個小寫字母 (n, ti) / 數字 + 可選小寫 (1, 1a, 2b)
 #   - cont: 1-3 個大寫+小寫混 (Ab, INa, POc) / 中文 prefix (歷Aa, 地Ba)
+# stage 形態：
+#   - 羅馬數字 I/II/III/IV/V（含 full-width）
+#   - 數字 1-5（數學內容專用，後面跟 ordinal 而非字母）
+#   - 高中帶子類：`Ⅴc` (普通型高中必修) / `Ⅴa` (普通型高中加深加廣選修)
 # 注意：social / science 有「歷Aa-IV-1」這種 subject + 主題混合 prefix，需允許中文
 ALL_CODE_RE = re.compile(
     r"(?<![A-Za-z0-9])"
     r"((?:[一-鿿]{0,2}([a-z]{1,3}|\d[a-z]?|[A-Z][A-Z]?[a-z]?)|([A-Z][a-z]?))-"
-    r"(Ⅰ|Ⅱ|Ⅲ|Ⅳ|Ⅴ|I{1,3}|IV|V{1,3}|[1-5])-"
+    r"(Ⅰ|Ⅱ|Ⅲ|Ⅳ|Ⅴ|I{1,3}|IV|V{1,3}|[1-5])(?:[ca])?-"
     r"(\d+))"
 )
 
@@ -63,10 +74,20 @@ ALL_CODE_RE = re.compile(
 MATH_CONT_RE = re.compile(r"(?<![A-Za-z0-9])([A-Z])-([1-5])-(\d+)(?![A-Za-z0-9])")
 
 # 階段標題 regex（Type B 用）
+# real heading 範例（從自然科學 raw 看到）：
+#   - 一、國民小學教育階段學習重點
+#   - 二、國民中學教育階段學習重點
+#   - 三、普通型高中必修課程學習重點
+#   - 四、普通型高中加深加廣選修課程學習重點
+# 結尾允許「學習重點」「學習內容」等。前面可選「一、二、三、」前綴。
+# 不收「第N學習階段」型 — 太多領域（國語文 / 英語文）在表格 column header 用它，
+# 會誤判為 heading。
 STAGE_HEADING_RE = re.compile(
     r"^[ \t]*(?:[一二三四五六七八九十]、)?\s*"
-    r"(國民小學(?:教育階段)?|國民中學(?:教育階段)?(?:及普通型高級中等學校)?(?:必修課程)?|"
-    r"普通型(?:高級中等學校)?(?:必修課程)?(?:加深加廣選修(?:課程)?)?)\s*$",
+    r"(國民小學(?:教育階段)?(?:學習重點|學習內容)?"
+    r"|國民中學(?:教育階段)?(?:及普通型(?:高級中等學校|高中))?(?:必修課程)?(?:學習重點|學習內容)?"
+    r"|普通型(?:高級中等學校|高中)?(?:必修課程)?(?:加深加廣選修(?:課程)?)?(?:學習重點|學習內容)?"
+    r")\s*$",
     re.MULTILINE,
 )
 
@@ -145,17 +166,20 @@ def extract_section_5(md_text: str) -> tuple[str, str]:
 def detect_structure_type(section_5_text: str) -> str:
     """
     偵測結構類型。
-    Type B 特徵：section 5 內有「國民小學教育階段」「國民中學教育階段」等明顯子節標題
-                  且這些是 ## 級或一、級（不是「依學習階段排序」這種說明文字）
+    Type B 特徵：section 5 內有「國民小學教育階段學習重點」「國民中學教育階段學習重點」
+                  等明顯子節標題（依教育階段切小節），這些是 ## 級或「一、」級。
+    v2 (2026-06-23 修)：
+      - regex 放寬行尾允許「學習重點」「學習內容」結尾（從自然科學 raw 觀察到的真 heading 格式）
+      - 不收「第N學習階段」型（會誤判表格 column header 為 heading）
+      - 仍要求 ≥2 個 heading 才算 Type B（避免誤判）
+
+    已知限制：社會領域是表格型（stage label 在 cell 內，非獨立 heading 行），
+              不會被偵測為 Type B。保持 Type A，靠 stages_present + raw_section_5 提供資料。
     """
-    # 粗略啟發：有「國民小學教育階段」+「國民中學教育階段」同時出現，且
-    # 第二個不是「（一）國民小學」這種小節編號，而是真的大節
     if STAGE_HEADING_RE.search(section_5_text):
-        # 統計 stage heading 出現次數
         headings = STAGE_HEADING_RE.findall(section_5_text)
-        # 自然科學：國小 / 國中 / 高中必修 / 高中選修 (4 個)
-        # 社會：國小 / 國中及高中必修 / 高中選修 (3 個)
-        # 數學雖然也提「第一學習階段」但不命中這個 regex
+        # 自然科學：國小 / 國中 / 高中必修 / 高中選修 (≥3)
+        # 社會雖然也是依教育階段切但用表格 cell 不命中
         if len(headings) >= 2:
             return "B"
     return "A"
@@ -186,6 +210,19 @@ def split_type_b_by_stage(section_5_text: str) -> list[dict]:
 def normalize_stage(raw: str) -> str:
     """正規化階段標記為 I/II/III/IV/V enum。"""
     return ROMAN_MAP.get(raw, raw)
+
+
+# 領域提示（2026-06-23 加）：某些領域是表格型而非 heading 切段 Type B，
+# parser 自動偵測不到 → 加 warning 提示下游使用者。
+# 加在這裡而不是 hardcode 在 parse 邏輯，是要保留「parser 不假設任何領域結構」
+# 的哲學（§11 哲學章節：「lightweight + raw preserved」）。
+DOMAIN_HINTS = {
+    "社會": [
+        "表格型：stage label 在 cell 內（非獨立 heading 行），parser 不切段。"
+        "stages_present 欄位已標明實際 stage 分布。",
+    ],
+    # 預備：未來發現更多領域時加
+}
 
 
 def parse_code(code: str, prefix: str, stage_raw: str, ordinal: str) -> dict:
@@ -330,7 +367,8 @@ def parse_single_md(md_path: Path, dry_run: bool = False) -> dict | None:
         structured["performance_count"] = len(perf)
         structured["content_count"] = len(cont)
         structured["stages_present"] = sorted(stages, key=lambda s: ["I", "II", "III", "IV", "V"].index(s) if s in ["I", "II", "III", "IV", "V"] else 99)
-        structured["warnings"] = []
+        # 領域提示（表格型 Type B 自動 warning）
+        structured["warnings"] = list(DOMAIN_HINTS.get(domain, []))
         structured["no_codes"] = False
     else:
         # Type B

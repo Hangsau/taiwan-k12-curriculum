@@ -31,3 +31,6 @@ status: active
 - 學習表現編碼：95
 - 學習內容編碼：500
 - 涵蓋階段：II, III, IV, V
+
+### ⚠️ Warnings
+- 表格型：stage label 在 cell 內（非獨立 heading 行），parser 不切段。stages_present 欄位已標明實際 stage 分布。
