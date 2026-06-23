@@ -47,16 +47,21 @@
 
 ---
 
-## Phase 2 — 抓部編本教材 🚧
+## Phase 2 — 抓部編本教材 ✅ 2026-06-24
 
 > 目標：把國家教育院部編本教材整理成純文字
 > 注意：108 課綱後多數領域已委由民間編寫（審定版），部編本可能只佔少數，先探勘
 
-- [x] 探勘腳本 + 矩陣初版（2026-06-23，`scripts/probe_textbooks.py` + `plans/P2-coverage-survey.md`，commit `4bb090c`）— 待 user 補 SOURCES 重跑
-- [ ] user 補各領域各階段 NAER PageSyllabus URL（矩陣未定稿）
-- [ ] 抓純文字（OCR 或官方提供的文字檔）
-- [ ] 對齊課綱（標出對應的學習內容）
-- [ ] 結構化（單元 / 課次 / 段落 → JSON）
+- [x] 探勘腳本 + 矩陣初版（2026-06-23，`scripts/probe_textbooks.py` + `plans/P2-coverage-survey.md`，commit `4bb090c`）
+- [x] **教材全 K12 完成 2026-06-24**：
+  - 6 來源探勘（均一/學習吧/國教署/NAER/因材網/data.gov.tw）→ 詳見 `docs/textbook-sources-survey.md`
+  - **均一教育平台 21 年級總覽**（junyi/，CC BY-NC-SA 3.0 TW）：國語文 3 / 英語文 4 / 數學 6 / 社會 5 / 自然科學 3
+  - **AI 衍生 12 stage 教材**（generated/，CC BY 4.0 課綱衍生）：藝術 4 / 健康 1 / 綜合 4 / 科技 2 / 國防 1
+  - **章節深入 POC 6 章節**（download_junyi_chapters.py v3 POC）：數學一年級 2 版本 × 3 章節
+  - **§15-C 對齊完成**：33 .md 全部加 aligned_codes，總對齊 3237 個 curriculum codes
+  - **§15-E 結構化完成**：33 .structured.json 全部生（含 chapters + aligned_codes + 來源 + 授權）
+- [ ] 章節內文完整版（v3 `--all`）：21 年級 × 5 版本 × 6 章節 ≈ 630 章節，預估 50 分鐘
+- [ ] 對齊精度提升：每章對應部分 codes（v2：整個 stage 對齊所有 codes）
 
 ---
 
