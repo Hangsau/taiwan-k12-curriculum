@@ -47,25 +47,27 @@
 
 ---
 
-## Phase 2 — 抓部編本教材 ⏳
+## Phase 2 — 抓部編本教材 🚧
 
 > 目標：把國家教育院部編本教材整理成純文字
 > 注意：108 課綱後多數領域已委由民間編寫（審定版），部編本可能只佔少數，先探勘
 
-- [ ] 探勘：哪些領域仍有部編本（國小 / 國中 / 高中）
+- [x] 探勘腳本 + 矩陣初版（2026-06-23，`scripts/probe_textbooks.py` + `plans/P2-coverage-survey.md`，commit `4bb090c`）— 待 user 補 SOURCES 重跑
+- [ ] user 補各領域各階段 NAER PageSyllabus URL（矩陣未定稿）
 - [ ] 抓純文字（OCR 或官方提供的文字檔）
 - [ ] 對齊課綱（標出對應的學習內容）
 - [ ] 結構化（單元 / 課次 / 段落 → JSON）
 
 ---
 
-## Phase 3 — 全領域知識圖譜 ⏳
+## Phase 3 — 全領域知識圖譜 🚧
 
 > 目標：為每個領域畫出 1-12 年級的知識點前備依賴圖譜
 
-- [ ] 設計知識圖譜 schema（節點 = 知識點，邊 = 前備依賴）
+- [x] 設計知識圖譜 schema（2026-06-23，`docs/knowledge-graph-schema.md`，commit `b6bca8a`）— 解答 Open Question #4
+- [ ] 寫 `scripts/generate_graph.py` 從 `structured.json` 產 `graph.json` + `graph.mermaid`
 - [ ] 全領域並行：國語文、本土語文、英語文、數學、社會、自然科學、藝術、健康與體育、綜合活動、科技、國防
-- [ ] 結構化：`graph.json`（機器讀）+ `graph.mermaid`（人讀）
+- [ ] 寫 `scripts/verify_graph.py`（schema 合規、無循環、stage 單調、node 數一致 — 6 項檢查）
 - [ ] 寫 README 說明怎麼看、怎麼用
 
 ---
