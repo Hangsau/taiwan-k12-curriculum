@@ -216,7 +216,30 @@ def verify_structured(sj_path: Path) -> tuple[list[str], list[str]]:
                 failures.append(f"content_codes[{i}] 缺欄位 {key}")
                 break
 
-    # 11. min_codes warning（不擋）
+    # 11. round-trip（§13 #4）：每個 structured code 反查 raw_section_5 是否能找到
+    # 從 raw 重抽所有 codes（含 MATH_CONT_RE）→ 與 structured codes set 比對
+    # 任一 structured code 在 raw 找不到 → fail（保證 parser 不憑空生 code）
+    raw_section_5 = data.get("raw_section_5", "")
+    if raw_section_5:
+        raw_codes_set = set()
+        for m in ALL_CODE_RE.finditer(raw_section_5):
+            raw_codes_set.add(m.group(1))
+        for m in MATH_CONT_RE.finditer(raw_section_5):
+            raw_codes_set.add(m.group(0))
+
+        missing_codes = []
+        for code in perf + cont:
+            c = code.get("code")
+            if c and c not in raw_codes_set:
+                missing_codes.append(c)
+        if missing_codes:
+            sample = missing_codes[:5]
+            failures.append(
+                f"round-trip: {len(missing_codes)} 個 structured code 在 raw 找不到，"
+                f"範例：{sample}{'...' if len(missing_codes) > 5 else ''}"
+            )
+
+    # 12. min_codes warning（不擋）
     domain_dir = sj_path.parent.name
     md_stem = sj_path.stem.replace(".structured", "")
     min_codes = find_min_for_domain(domain_dir, md_stem)
@@ -227,7 +250,7 @@ def verify_structured(sj_path: Path) -> tuple[list[str], list[str]]:
         if len(cont) < min_cont:
             warnings.append(f"content_codes={len(cont)} < min={min_cont}（預期）")
 
-    # 12. stages_present 必為 subset of VALID_STAGES
+    # 13. stages_present 必為 subset of VALID_STAGES
     stages_present = set(data.get("stages_present", []))
     bad_sp = stages_present - VALID_STAGES
     if bad_sp:
