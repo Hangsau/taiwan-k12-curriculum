@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Secrets / config
+.env
+.env.local
+*.key
+*.pem
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS / logs
+*.log
+*.tmp
+*.bak
+
+# Project-specific
+data/raw/
+data/intermediate/
+*.pdf
+!docs/**/*.pdf
