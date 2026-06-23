@@ -13,6 +13,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+# Windows cp950 console 無法輸出 ✓ 等 Unicode 符號（會 UnicodeEncodeError），強制 UTF-8
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).parent.parent  # taiwan-k12-curriculum/
 TMP_DIR = Path("/tmp/curriculum-pdf")
 TMP_DIR.mkdir(parents=True, exist_ok=True)

@@ -27,6 +27,11 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+# Windows cp950 console 無法輸出 ✓ 等 Unicode 符號（會 UnicodeEncodeError），強制 UTF-8
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).parent.parent  # taiwan-k12-curriculum/
 CURRICULUM = ROOT / "curriculum"
 SCHEMA_VERSION = "1.0"
