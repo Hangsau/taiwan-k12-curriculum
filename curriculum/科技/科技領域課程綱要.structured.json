@@ -1,0 +1,813 @@
+{
+  "schema_version": "1.0",
+  "domain": "科技",
+  "source_file": "curriculum/科技/科技領域課程綱要.md",
+  "frontmatter": {
+    "title": "科技領域課程綱要",
+    "domain": "科技",
+    "source": "國家教育研究院 (NAER)",
+    "source_url": "https://www.naer.edu.tw/upload/1/16/doc/816/十二年國民基本教育課程綱要國民中學暨普通型高級中等學校-科技領域.pdf",
+    "published_date": "107-09-20",
+    "downloaded_date": "2026-06-23"
+  },
+  "parsed_at": "2026-06-23T19:40:47+08:00",
+  "structure_type": "A",
+  "section_5_title": "\n伍、學習重點",
+  "raw_section_5": "科技領域學習重點的內容由「學習表現」與「學習內容」兩部份所組成，其中學習表現\n 包含「運算思維」與「設計思考」兩個構面，而學習內容依據資訊科技與生活科技的學科\n 內涵規劃主題，資訊科技包括：\n              「演算法」\n                  、「程式設計」\n                        、「系統平台」\n                              、「資料表示、處理及\n 分析」\n   、「資訊科技應用」\n           、「資訊科技與人類社會」等主題，生活科技包括：\n                                 「科技的本質」\n                                       、\n 「設計與製作」、「科技的應用」、「科技與社會」等主題。\n     「科技領域學習重點與核心素養呼應表參考示例」(詳參附錄一)乃為使學習重點與核心\n 素養能夠相互呼應，且透過學習重點落實本領域核心素養，並引導跨領域/跨科目的課程設\n 計，增進課程發展的嚴謹度。\n     「議題適切融入領域課程綱要」(詳參附錄二)乃為豐富本領域的學習，促進核心素養的\n 涵育，使各項議題可與科技領域的學習重點適當結合。\n 一、學習表現\n      本領域課程之學習表現包括運算思維與設計思考兩個構面。運算思維的學習表現是\n  培養學生運用資訊科技工具解決問題、合作互動與溝通表達，並協助學生建立資訊社會\n  中應有的態度，了解資訊科技與人類社會相關議題，養成正確的資訊科技使用習慣，遵\n  守相關之倫理、道德及法律，並關懷資訊社會的各項議題，如智慧財產權、資訊揭露等。\n  運算思維的學習表現類別包含「運算思維與問題解決」、「資訊科技與合作共創」、「資\n  訊科技與溝通表達」、「資訊科技的使用態度」、「運算表達與程序」\n                                、「資訊科技創作」，\n  分別說明如下：\n  （一）運算思維與問題解決：能具備運用運算工具之思維能力，藉以分析問題、發展\n       解題方法，並進行有效的決策。\n  （二）資訊科技與合作共創：能利用資訊科技與他人合作並進行創作。\n\n                         5\n\f（三）資訊科技與溝通表達：能利用資訊科技表達想法並與他人溝通。\n（四）資訊科技的使用態度：能建立健康、合理與合法的資訊科技使用態度與習慣，並\n   樂於探索資訊科技。\n（五） 運算表達與程序：能將問題以運算形式呈現、或能將資料以適合於運算之結構表\n   示；能利用程式語言表達運算程序、或發展演算法以解決運算問題。\n（六）資訊科技創作：能利用運算思維進行創作、或利用資訊科技創作解決問題。\n  設計思考的學習表現在引導學生從生活中的需求中去設計與製作有用及適用的物\n品，並在設計與製作的過程中，學習從嘗試錯誤以至系統性思考。培養學生動手做的能\n力、使用科技產品的能力、及設計與批判思考的能力。換言之，透過實作、使用、思考\n的歷程，協助學生統整知識與技能，以解決生活的問題。更重要的是，要透過實作的經\n驗與習慣的養成，培養學生主動面對各種科技問題的正向態度，並能發揮創意以解決問\n題。依此，設計思考之學習表現類別為：「日常生活的科技知識」、「日常科技的使用態\n度」、「日常科技的操作技能」以及「科技實作的統合能力」，分別說明如下：\n（一）日常生活的科技知識：包含本質演進、科技概念、科技程序、影響評估等項目。\n   著重在培養學生了解科技的本質演進、科技的概念知識（如科技原理、工具使用\n   知識、材料處理知識等）\n             、科技的程序知識（如問題解決程序、工程設計程序等）\n                                     、\n   及能進行科技的影響評估（如科技與社會的互動、科技與環境的互動）等。\n（二）日常科技的使用態度：包含興趣、態度、習慣等項目。著重在培養學生學習科技\n   的興趣、使用科技的正確態度、及養成動手實作的習慣等。\n（三）日常科技的操作技能：包含操作、使用及維護等項目。著重在培養學生具備操作\n   機具的能力、使用科技產品的能力、以及維護科技產品的能力。\n（四）科技實作的統合能力：包含設計、實作、整合、創意、溝通等項目。著重在培養\n   學生具備整合科際知識以實踐設計與製作的能力，並能在過程中進行有效的溝通\n   與合作，以利於創意之發揮。\n  學習表現編碼說明如下：\n 1.第 1 碼為學習表現的構面及類別。\n 2.第 2 碼為學習階段別，依序為Ⅳ代表第四學習階段（國民中學 7-9 年級）、Ⅴ代表\n  第五學習階段（高級中等學校 10-12 年級）；\n 3.第 3 碼為流水號。\n  4.「※」代表加深加廣選修課程的學習表現。\n         第1碼             第2碼        第3碼\n 構面           類別        學習階段別       流水號\n        運算思維與問題解決(t)\n運算思維\n        資訊科技與合作共創(c)     IV、V      1、2、3……\n (運)\n        資訊科技與溝通表達(p)\n\n                       6\n\f          資訊科技的使用態度(a)\n          運算表達與程序(r)\n          資訊科技創作(m)\n          日常生活的科技知識(k)\n 設計思考     日常科技的使用態度(a)\n                                 IV、V      1、2、3……\n  (設)     日常科技的操作技能(s)\n          科技實作的統合能力(c)\n  科技領域的學習表現如下：\n 構面     類別                      學習表現\n            運 t-IV-1      能了解資訊系統的基本組成架構與運算原理。\n            運 t-IV-2      能熟悉資訊系統之使用與簡易故障排除。\n      運算思維與 運 t-IV-3      能設計資訊作品以解決生活問題。\n       問題解決 運 t-IV-4      能應用運算思維解析問題。\n        (t) 運 t-V-1       能了解資訊系統之運算原理。\n            運 t-V-2       能使用程式設計實現運算思維的解題方法。\n            運 t-V-3       能應用運算思維評估解題方法的優劣。\n            運 c-IV-1      能熟悉資訊科技共創工具的使用方法。\n            運 c-IV-2      能選用適當的資訊科技與他人合作完成作品。\n      資訊科技與\n            運 c-IV-3      能應用資訊科技與他人合作進行數位創作。\n       合作共創\n            運 c-V-1       能使用資訊科技增進團隊合作效率。\n        (c)\n            運 c-V-2       能認識專案管理的概念。\n            運 c-V-3       能整合適當的資訊科技與他人合作完成專題製作。\n            運 p-IV-1      能選用適當的資訊科技組織思維，並進行有效的表\n      資訊科技與               達。\n       溝通表達 運 p-IV-2      能利用資訊科技與他人進行有效的互動。\n        (p) 運 p-IV-3      能有系統地整理數位資源。\n運算思維        運 p-V-1       能整合資訊科技進行有效的溝通表達。\n (運)        運 a-IV-1      能落實健康的數位使用習慣與態度。\n            運 a-IV-2      能了解資訊科技相關之法律、倫理及社會議題，以\n                          保護自己與尊重他人。\n               運 a-IV-3   能具備探索資訊科技之興趣，不受性別限制。\n       資訊科技的   運 a-V-1    能實踐健康適切的數位公民生活。\n        使用態度   運 a-V-2    能使用多元的觀點思辨資訊科技相關議題。\n         (a)   運 a-V-3    能探索新興的資訊科技。\n               運 a-V-4    能解析各種媒體與科技產品所傳遞的社會議題之\n                          迷思、偏見與歧視。\n               ※運 a-V-5   能主動探索資訊科技新知。\n               ※運 a-V-6   能了解自己對資訊科學之性向，不受性別限制。\n               ※運 r-V-1   能將問題以運算形式呈現。\n       運算表達與\n               ※運 r-V-2   能將資料以適合於運算之結構表示。\n         程序\n               ※運 r-V-3   能利用程式語言表達運算程序。\n         (r)\n               ※運 r-V-4   能發展演算法以解決運算問題。\n        資訊科技   ※運 m-V-1   能利用運算思維進行創作。\n         創作\n               ※運 m-V-2   能利用資訊科技創作解決問題。\n         (m)\n設計思考   日常生活的   設 k-IV-1   能了解日常科技的意涵與設計製作的基本概念。\n\n                           7\n\f構面       類別                      學習表現\n(設)     科技知識    設 k-IV-2   能了解科技產品的基本原理、發展歷程、與創新關\n         (k)               鍵。\n                設 k-IV-3   能了解選用適當材料及正確工具的基本知識。\n                設 k-IV-4   能了解選擇、分析與運用科技產品的基本知識。\n                ※設 k-V-1   能了解工程與工程設計的基本知識。\n                ※設 k-V-2   能了解科技產業現況及新興科技發展趨勢。\n                設 k-V-3    能分析、思辨與批判人與科技、社會、環境之間的\n                           關係。\n                設 a-IV-1   能主動參與科技實作活動及試探興趣，不受性別的\n                           限制。\n                設 a-IV-2   能具有正確的科技價值觀，並適當的選用科技產\n                           品。\n        日常科技的   設 a-IV-3   能主動關注人與科技、社會、環境的關係。\n         使用態度   設 a-IV-4   能針對科技議題養成社會責任感與公民意識。\n          (a)   ※設 a-V-1   能主動探索科技新知。\n                設 a-V-2    能從關懷自然生態與社會人文的角度，思考科技的\n                           選用及永續發展議題。\n                ※設 a-V-3   能不受性別限制主動關注並參與生活中的科技議\n                           題。\n                設 s-IV-1   能繪製可正確傳達設計理念的平面或立體設計圖。\n                設 s-IV-2   能運用基本工具進行材料處理與組裝。\n        日常科技的   設 s-IV-3   能運用科技工具保養與維護科技產品。\n         操作技能   ※設 s-V-1   能運用繪圖軟體或相關科技以表達設計構想。\n          (s)   ※設 s-V-2   能針對實作需求，有效活用材料、工具並進行精確\n                           加工處理。\n                ※設 s-V-3   能運用科技工具維修及調校科技產品。\n                設 c-IV-1   能運用設計流程，實際設計並製作科技產品以解決\n                           問題。\n                設 c-IV-2   能在實作活動中展現創新思考的能力。\n        科技實作的   設 c-IV-3   能具備與人溝通、協調、合作的能力。\n         統合能力   ※設 c-V-1   能運用工程設計流程，規劃、分析並執行專案計畫\n          (c)              以解決實務問題。\n                ※設 c-V-2   能運用科技知能及創新思考以設計並實際製作科\n                           技產品。\n                ※設 c-V-3   能具備溝通協調、組織工作團隊的能力。\n二、學習內容\n      科技領域包含資訊科技與生活科技兩科目。資訊科技部定課程/部定必修的學習內容\n 包括：「演算法」、「程式設計」、「系統平台」、「資料表示、處理及分析」、「資訊科技應\n 用」\n  、「資訊科技與人類社會」等主題。資訊科技加深加廣選修課程「進階程式設計」的\n 學習內容包括：「程式語言」、「資料結構」、「演算法」、「程式設計實作」等主題。\n      生活科技部定課程/部定必修的學習內容包括：「科技的本質」、「設計與製作」、「科\n 技的應用」\n     、「科技與社會」等主題。生活科技的加深加廣選修課程「工程設計專題」的\n\n\n                            8\n\f  學習內容包含「設計與製作」、「科技的應用」等主題。\n    加深加廣選修的領域課程中，\n                「機器人專題」的學習內容包含「機器人發展」\n                                    、「機器\n  人控制」\n     、「機器人專題實作」\n              、「設計與製作」等主題。\n                         「科技應用專題」的學習內容包含\n  「資訊科技應用原理」、「資訊科技應用實作」、「設計與製作」等主題。\n    學習內容編碼說明如下：\n    1.第 1 碼為科目與主題，\n                 「資」表示資訊科技的內涵、\n                             「生」表示生活科技的內涵，學\n     習內容主題以英文字母代表之。惟加深加廣選修的領域課程同時包含資訊科技與\n     生活科技的學習內容，故於各主題代碼前亦標示「資」或「生」以說明其課程內涵。\n    2.第 2 碼為學習階段別，依序為Ⅳ代表第四學習階段（國民中學 7-9 年級）、Ⅴ代表\n     第五學習階段（高級中等學校 10-12 年級）。\n    3.第 3 碼為流水號。\n    4.「＊」表示各校或教師可依學生學習需求自行決定是否教授本學習內容。\n                   第1碼                第2碼    第3碼\n課程類別\n            科目/課程           主題       學習階段別   流水號\n                     演算法(A)、程式設計\n                     (P)、系統平台(S)、資料\n           資訊科技(資)   表示、處理及分析(D)、     IV、V 1、2、3……\n部定課程/                資訊科技應用(T)、資訊\n部定必修                 科技與人類社會(H)\n                     科技的本質(N)、設計\n           生活科技(生)   與製作(P)、科技的應用     IV、V 1、2、3……\n                     (A)、科技與社會(S)\n        資\n        訊            程式語言(L)、資料結構\n        科 進階程式設計     (Da) 、演算法(A) 、程    V  1、2、3……\n        技            式設計實作(I)\n       (資)\n        生\n        活\n                     設計與製作(P)、科技的\n        科 工程設計專題                        V  1、2、3……\n                     應用(A)\n加深加廣 技\n 選修    (生)\n                     機器人發展(資 Rd)、機\n                     器人控制(資 Rc)與機\n            機器人專題                       V  1、2、3……\n        領            器人專題實作(資 Rp)、\n        域            設計與製作(生 P)\n        課            資訊科技應用原理(資\n        程            Tt)、資訊科技應用實作\n            科技應用專題                      V  1、2、3……\n                     (資 Tp)、設計與製作(生\n                     P)\n\n\n\n\n                        9\n\f  （一）資訊科技國民中學與普通型高級中等學校必修課程\n      資訊科技的學習內容，乃依據資訊科技學科的基本內涵訂定，同時因應資訊科\n    技潮流，與未來發展趨勢，以培養學生與時俱進的資訊科技基本能力，成為主動、\n    積極且負責任的數位公民。國民中學教育階段以問題解決為主軸，強調培養學生利\n    用資訊科技與運算思維解決問題之能力；高級中等學校教育階段則更重視整合運用，\n    藉由資訊科學的初步探索，讓學生進一步理解運算思維之相關原理，以培養整合資\n    訊科技與運算思維以有效解決問題之能力。因此，資訊科技學習內容包含六個主題\n    （學習內容說明詳參附錄三）：「演算法」、「程式設計」、「系統平台」、「資料表示、\n    處理及分析」、「資訊科技應用」以及「資訊科技與人類社會」，如下。\n     演算法：包含演算法的概念、原理、表示方法、設計應用及效能分析。\n     程式設計：包含程式設計的概念、實作及應用。可採用視覺化程式設計工具，並\n      搭配演算法進行教學。\n     系統平台：包含各式資訊系統平台（例如：個人電腦、行動裝置、網際網路、雲\n      端運算平台）之使用方法、基本架構、工作原理及未來發展。\n     資料表示、處理及分析：包含數位資料的屬性、表示、轉換、分析及應用。\n     資訊科技應用：包含各式常見資訊科技應用軟體與網路服務的使用方法。\n     資訊科技與人類社會：包含資訊科技合理使用原則，以及資訊倫理、法律及社會\n      相關議題。\n       1.國民中學\n   主題                         學習內容\n           七年級\n           資 A-IV-1 演算法基本概念。\n  演算法\n           八年級\n   (A)\n           資 A-IV-2 陣列資料結構的概念與應用。\n           資 A-IV-3 基本演算法的介紹。\n           七年級\n           資 P-IV-1 程式語言基本概念、功能及應用。\n           資 P-IV-2 結構化程式設計。\n 程式設計\n           八年級\n   (P)\n           資 P-IV-3 陣列程式設計實作。\n           資 P-IV-4 模組化程式設計的概念。\n           資 P-IV-5 模組化程式設計與問題解決實作。\n           九年級\n           資 S-IV-1 系統平台重要發展與演進。\n 系統平台\n           資 S-IV-2 系統平台之組成架構與基本運作原理。\n   (S)\n           資 S-IV-3 網路技術的概念與介紹。\n           資 S-IV-4 網路服務的概念與介紹。\n資料表示、 九年級\n處理及分析 資 D-IV-1 資料數位化之原理與方法。\n   (D)\n                         10\n\f  主題                        學習內容\n         資 D-IV-2 數位資料的表示方法。\n         資 D-IV-3 資料處理概念與方法。\n         七年級\n資訊科技\n         資 T-IV-1 資料處理應用專題。\n 應用\n         九年級\n (T)\n         資 T-IV-2 資訊科技應用專題。\n         七年級\n         資 H-IV-1 個人資料保護。\n         資 H-IV-2 資訊科技合理使用原則。\n         資 H-IV-3 資訊安全。\n資訊科技與\n         八年級\n 人類社會\n         資 H-IV-4 媒體與資訊科技相關社會議題。\n  (H)\n         資 H-IV-5 資訊倫理與法律。\n         九年級\n         資 H-IV-6 資訊科技對人類生活之影響。\n         資 H-IV-7 常見資訊產業的特性與種類。\n       2.普通型高級中等學校必修課程\n    主題                         學習內容\n            資 A-V-1 重要資料結構的概念與應用。\n   演算法\n            資 A-V-2 重要演算法的概念與應用。\n    (A)\n            資 A-V-3 演算法效能分析。\n            資 P-V-1 文字式程式設計概念與實作。\n  程式設計\n            資 P-V-2 陣列資料結構的程式設計實作。\n    (P)\n            資 P-V-3 重要演算法的程式設計實作。\n  系統平台      資 S-V-1 系統平台之運作原理。\n    (S)     資 S-V-2 系統平台之未來發展趨勢。\n 資料表示、\n            資 D-V-1 巨量資料的概念。\n 處理及分析\n            資 D-V-2 資料探勘與機器學習的基本概念。\n    (D)\n資訊科技應用\n            資 T-V-1 數位合作共創的概念與工具使用。\n    (T)\n 資訊科技與 資 H-V-1 資訊科技的合理使用原則。\n  人類社會      資 H-V-2 個人資料的保護。\n    (H)     資 H-V-3 資訊科技對人與社會的影響與衝擊。\n  （二）生活科技國民中學與普通型高級中等學校必修課程\n        生活科技的學習內容在國民中學教育階段強調透過運用簡單機具及材料處理\n       之製作程序，培養學生的創意與設計能力，並藉此協助其了解科技的形成及其與生\n       活的關係；而高級中等學校教育階段則強調藉由工程設計的專題製作活動，提供學\n       生跨學科知識整合的學習（如科學、科技、工程及數學）\n                               ，並藉此培養設計、創新、\n       批判思考等高層次思考能力。具體而言，其學習內容主要分為：\n                                  「科技的本質」\n                                        、「設\n       計與製作」\n           、「科技的應用」以及「科技與社會」四個主題（各主題之學習內容說明\n       詳參附錄三），如下。\n\n\n                         11\n\f    科技的本質：介紹科技的本質與演進、科技系統的運作、各種科技產業與其發展\n    趨勢、以及科技與科學、工程的關係等內涵。使學生能理解重要且具實用性的科\n    技概念知識（如常見科技產品的使用、科技的運作原理、科技與科學的關係、工\n    程領域的內涵等）。\n    設計與製作：介紹設計/工程設計/解決問題流程、製圖與識圖、材料選用及常用機\n    具操作等內涵。使學生能具備操作工具與處理材料的技能，並理解產品設計/工程\n    設計的流程，以利其解決日常的科技問題或滿足生活中的需求，進而養成動手實\n    作的興趣與習慣。\n    科技的應用：介紹科技產品保養與維護、機構與結構的設計、機電整合的原理與\n    應用等內涵。使學生能透過專題導向的科技實作活動，運用設計流程以發揮創意，\n    設計並製作在材料、機構、或功能等方面具有特色及適用性的作品；同時藉此學\n    習整合應用科學、科技、工程與數學等學科知識，使其能實踐創意構想，解決生\n    活中的科技問題。\n    科技與社會：介紹科技與社會、環境的互動關係及影響、以及新興科技議題等內\n    涵，使學生能探究科技與個人、社會、環境及文化之間的互動關係，並能了解濫\n    用科技與誤用科技產品所衍生的社會問題，藉此養成使用科技產品的正確態度及\n    科技價值觀；同時，介紹不同科技產業的特性，以協助學生進行探索與規劃。\n   1.國民中學\n      國民中學生活科技課程強調動手實作活動，教師應以實作活動為主軸，妥善整\n   合下表中的學習內容，以使學生能夠真正體會科技的本質，並能善用設計與製作以\n      解決日常生活中的科技問題，進而評估、反思科技與社會的互動關係。\n  主題                        學習內容\n         七年級\n         生 N-IV-1 科技的起源與演進。\n科技的本質 八年級\n  (N)    生 N-IV-2 科技的系統。\n         九年級\n         生 N-IV-3 科技與科學的關係。\n         七年級\n         生 P-IV-1 創意思考的方法。\n         生 P-IV-2 設計圖的繪製。\n         生 P-IV-3 手工具的操作與使用。\n設計與製作 八年級\n  (P)    生 P-IV-4 設計的流程。\n         生 P-IV-5 材料的選用與加工處理。\n         生 P-IV-6 常用的機具操作與使用。\n         九年級\n         生 P-IV-7 產品的設計與發展。\n\n\n                   12\n\f 主題                          學習內容\n         七年級\n         生 A-IV-1 日常科技產品的選用。\n         生 A-IV-2 日常科技產品的機構與結構應用。\n         八年級\n科技的應用\n         生 A-IV-3 日常科技產品的保養與維護。\n  (A)\n         生 A-IV-4 日常科技產品的能源與動力應用。\n         九年級\n         生 A-IV-5 日常科技產品的電與控制應用。\n         生 A-IV-6 新興科技的應用。\n         七年級\n         生 S-IV-1 科技與社會的互動關係。\n         八年級\n科技與社會\n         生 S-IV-2 科技對社會與環境的影響。\n  (S)\n         九年級\n         生 S-IV-3 科技議題的探究。\n         生 S-IV-4 科技產業的發展。\n   2.普通型高級中等學校必修課程\n        普通型高級中等學校生活科技課程強調以專題製作為主軸的動手實作活動，教\n      師應運用工程設計流程，妥善整合下表中的學習內容，以使學生能夠真正體會工程\n      的本質，並能善用工程設計流程以解決機構與結構、機電整合與控制等工程問題，\n      進而評估、反思工程與社會的互動關係。\n  主題                        學習內容\n科技的本質 生 N-V-1 科技與工程的關係。\n  (N)    生 N-V-2 工程、科技、科學與數學的統整與應用。\n設計與製作\n         生 P-V-1 工程設計與實作。\n  (P)\n科技的應用 生 A-V-1 機構與結構的設計與應用。\n  (A)    生 A-V-2 機電整合與控制的設計與應用。\n科技與社會\n         生 S-V-1 工程科技議題的探究。\n  (S)\n （三）普通型高級中等學校加深加廣選修課程\n       科技領域規劃加深加廣選修課程，資訊科技規劃「進階程式設計」\n                                   （2 學分）\n                                        ；生\n   活科技規劃「工程設計專題」\n               （2 學分）\n                    ；領域課程規劃「機器人專題」\n                                 （2 學分）\n                                      、「科\n   技應用專題」（2 學分）。\n   1.資訊科技「進階程式設計」課程的學習內容\n        資訊科技加深加廣選修課程乃依據科技領域課程之基本理念所規劃，希望培養\n      學生更深入探索科技知識以及整合應用科技知識與技能之能力，並增進對科技之\n      興趣，以試探與發展未來生涯所需之科技專業知能。因此，資訊科技加深加廣選修\n      課程提供學生整合資訊科技知能之機會，學生透過加深加廣選修課程的修習，能應\n      用運算思維與資訊科技工具於問題解決，並進行資訊科技創作。「進階程式設計」\n\n                        13\n\f     課程之目標為：\n     發展整合應用運算思維與資訊科技之能力。\n     培養探索資訊科技新知之能力。\n     發展善用資訊科技知能、創新思考以及解決問題的能力。\n     培養整合資訊、計畫管理、有效溝通與團隊合作之能力。\n     培養正確的資訊科技觀念和態度，並啟發對資訊科技研究與發展的興趣。\n          提供試探與發展資訊科技專業知能之機會。\n   主題                          學習內容\n 程式語言        資 L-V-1  程式語言概念與應用。\n    (L)      資 L-V-2  程式語言的發展。\n             資 Da-V-1 常見資料結構之原理與應用。\n                      - 堆疊。\n                      - 佇列。\n 資料結構\n                      - 串列。\n   (Da)\n             資 Da-V-2 常見資料結構之程式實作。\n                      - 堆疊。\n                      - 佇列。\n             資 A-V-4 重要演算法之原理與應用。\n                      - 搜尋演算法。\n                      - 排序演算法。\n                      - 分而治之演算法。\n                      - 貪心演算法。\n             資 A-V-5 重要演算法之程式設計實作。\n  演算法\n                      - 搜尋演算法。\n    (A)\n                      - 排序演算法。\n                      - 分而治之演算法。\n                      - 貪心演算法。\n             資 A-V-6 演算法效能分析與比較。\n                      - 循序搜尋與二元搜尋演算法。\n                      - 重複與遞迴結構。\n程式設計實作 資 I-V-1        程式設計專題實作。\n     (I)     資 I-V-2  程式除錯。\n    2.生活科技「工程設計專題」課程的學習內容\n        生活科技加深加廣選修課程依循科技領域之理念，以學生生涯發展及社會發展\n     之需求為基礎，規劃「工程設計專題」課程，提供學生適性發展與自我實現的學習\n     機會。「工程設計專題」應著重在科際整合概念與探究思考能力的建構，強調務實\n     的專題導向實作學習，讓學生深入體驗工程導向的設計與製作。教師可依據學校設\n     備、學生興趣等選擇適當主題以進行專題製作。「工程設計專題」課程目標如下：\n     理解科技、工程、科學及數學的互動關係。\n     善用科技知能、創造思考，以及解決問題的能力。\n     正確的科技觀念和態度，及對科技研究與發展的興趣。\n                          14\n\f     資源整合、計畫管理、有效溝通與團隊合作的能力。\n       工程設計與進行探究實驗、分析與解釋數據的能力。\n   主題                       學習內容\n          生 P-V-2  進階工程設計與實作。\n                   - 使用者需求與市場分析。\n 設計與製作             - 設計與開發程序。\n   (P)             - 功能分析與創新。\n                   - 力學模擬與分析。\n                   - 數位輔助設計與製造。\n          ＊生 A-V-3 空間與結構設計。\n          ＊生 A-V-4 工程材料與應用。\n 科技的應用\n          ＊生 A-V-5 產品開發與製作。\n   (A)\n          ＊生 A-V-6 運輸載具製作。\n          ＊生 A-V-7 新興科技應用。\n＊代表選授內容，由教師依據學校特色及學生需求，至少選擇一項學習內容規劃課程。\n    3.領域課程的學習內容\n       領域課程規劃「機器人專題」與「科技應用專題」各兩學分，領域跨科加深加\n     廣選修課程依循科技領域之理念，強調運算思維與設計思考之科技統合能力，希望\n     透過進階的專題製作課程，以培養學生統整應用資訊科技與生活科技的知識與能\n     力。以下說明兩課程的學習內容。\n     （1）「機器人專題」課程的學習內容：\n         「機器人專題」著重應用運算思維與設計思考的知能以進行專題製作，課\n       程的學習內容包含機器人發展、機器人程式控制與實作、進階機電整合設計與\n       實作等內涵。其課程目標如下：\n     培養以程式設計自動化進行資料存取與運算之能力。\n     培養程式設計與機電整合實作能力。\n       發展整合運算思維與設計思考之能力。\n   主題                         學習內容\n 機器人發展\n           資 Rd-V-1 機器人的種類與應用。\n   (Rd)\n           資 Rc-V-1 機器人程式開發工具的使用方法。\n 機器人控制\n           資 Rc-V-2 機器人之各項機動裝置的控制方法。\n   (Rc)\n           資 Rc-V-3 機器人之各項感測器的資料存取方法。\n機器人專題實作\n           資 Rp-V-1 機器人程式設計專題實作。\n   (Rp)\n           生 P-V-3  進階機電整合設計與實作。\n                    - 功能分析與創新。\n 設計與製作\n                    - 機構控制裝置。\n    (P)\n                    - 傳動與動力系統。\n                    - 感測電路及程式控制。\n\n\n                       15\n\f    （2）「科技應用專題」課程的學習內容：\n          「科技應用專題」強調運算思維與設計思考之科技統合能力，可整合利用\n       巨量資料分析、資料探勘、影像處理與辨識、圖學、人工智慧、網路、工程設\n       計原理、機電原理及科技產品設計等進行專題製作，讓學生主動學習與應用主\n       題相關的資訊科技應用原理與實作，透過進階工程設計與實作以完成專題成品。\n       其課程目標如下：\n    培養探索科技領域新知之能力。\n    培養計畫管理、有效溝通與團隊合作之能力。\n    培養運用資訊科技進行資料存取、分析與運算之能力。\n    培養軟硬體整合的實作能力。\n       培養整合運算思維與設計思考之能力。\n  主題                        學習內容\n 資訊科技\n 應用原理     資 Tt-V-1 資訊科技應用運算原理。\n  (Tt)\n 資訊科技     資 Tp-V-1 資訊科技應用實作方法。\n 應用實作\n          資 Tp-V-2 資訊科技應用效能評估。\n  (Tp)\n          生 P-V-2  進階工程設計與實作。\n                   - 使用者需求與市場分析。\n設計與製作              - 設計與開發程序。\n   (P)             - 功能分析與創新。\n                   - 力學模擬與分析。\n                   - 數位輔助設計與製造。",
+  "performance_codes": [
+    {
+      "code": "t-IV-1",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "t-IV-2",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "t-IV-3",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "t-IV-4",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "t-V-1",
+      "stage": "V",
+      "category": "t",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "t-V-2",
+      "stage": "V",
+      "category": "t",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "t-V-3",
+      "stage": "V",
+      "category": "t",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "c-IV-1",
+      "stage": "IV",
+      "category": "c",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "c-IV-2",
+      "stage": "IV",
+      "category": "c",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "c-IV-3",
+      "stage": "IV",
+      "category": "c",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "c-V-1",
+      "stage": "V",
+      "category": "c",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "c-V-2",
+      "stage": "V",
+      "category": "c",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "c-V-3",
+      "stage": "V",
+      "category": "c",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "p-IV-1",
+      "stage": "IV",
+      "category": "p",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "p-IV-2",
+      "stage": "IV",
+      "category": "p",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "p-IV-3",
+      "stage": "IV",
+      "category": "p",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "p-V-1",
+      "stage": "V",
+      "category": "p",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-IV-1",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-IV-2",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-IV-3",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-V-1",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-V-2",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-V-3",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-V-4",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-V-5",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 5,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-V-6",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 6,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "r-V-1",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "r-V-2",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "r-V-3",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "r-V-4",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "m-V-1",
+      "stage": "V",
+      "category": "m",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "m-V-2",
+      "stage": "V",
+      "category": "m",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "k-IV-1",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "k-IV-2",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "k-IV-3",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "k-IV-4",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "k-V-1",
+      "stage": "V",
+      "category": "k",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "k-V-2",
+      "stage": "V",
+      "category": "k",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "k-V-3",
+      "stage": "V",
+      "category": "k",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "a-IV-4",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "s-IV-1",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "s-IV-2",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "s-IV-3",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "s-V-1",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "s-V-2",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "s-V-3",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    }
+  ],
+  "content_codes": [
+    {
+      "code": "A-IV-1",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-IV-2",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-IV-3",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-IV-1",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-IV-2",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-IV-3",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-IV-4",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-IV-5",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 5,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "S-IV-1",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "S-IV-2",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "S-IV-3",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "S-IV-4",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "D-IV-1",
+      "stage": "IV",
+      "category": "D",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "D-IV-2",
+      "stage": "IV",
+      "category": "D",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "D-IV-3",
+      "stage": "IV",
+      "category": "D",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "T-IV-1",
+      "stage": "IV",
+      "category": "T",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "T-IV-2",
+      "stage": "IV",
+      "category": "T",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-IV-1",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-IV-2",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-IV-3",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-IV-4",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-IV-5",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 5,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-IV-6",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 6,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-IV-7",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 7,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-V-1",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-V-2",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-V-3",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-V-1",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-V-2",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-V-3",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "S-V-1",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "S-V-2",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "D-V-1",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "D-V-2",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "T-V-1",
+      "stage": "V",
+      "category": "T",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-V-1",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-V-2",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "H-V-3",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "N-IV-1",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "N-IV-2",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "N-IV-3",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-IV-6",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 6,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "P-IV-7",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 7,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-IV-4",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-IV-5",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 5,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-IV-6",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 6,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "N-V-1",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "N-V-2",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "L-V-1",
+      "stage": "V",
+      "category": "L",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "L-V-2",
+      "stage": "V",
+      "category": "L",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Da-V-1",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Da-V-2",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-V-4",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-V-5",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 5,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-V-6",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 6,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "I-V-1",
+      "stage": "V",
+      "category": "I",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "I-V-2",
+      "stage": "V",
+      "category": "I",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "A-V-7",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 7,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Rd-V-1",
+      "stage": "V",
+      "category": "Rd",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Rc-V-1",
+      "stage": "V",
+      "category": "Rc",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Rc-V-2",
+      "stage": "V",
+      "category": "Rc",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Rc-V-3",
+      "stage": "V",
+      "category": "Rc",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Rp-V-1",
+      "stage": "V",
+      "category": "Rp",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Tt-V-1",
+      "stage": "V",
+      "category": "Tt",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Tp-V-1",
+      "stage": "V",
+      "category": "Tp",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Tp-V-2",
+      "stage": "V",
+      "category": "Tp",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    }
+  ],
+  "performance_count": 46,
+  "content_count": 66,
+  "stages_present": [
+    "IV",
+    "V"
+  ],
+  "warnings": [],
+  "no_codes": false
+}

@@ -1,0 +1,759 @@
+{
+  "schema_version": "1.0",
+  "domain": "本土語文",
+  "source_file": "curriculum/本土語文/新住民語文課程綱要.md",
+  "frontmatter": {
+    "title": "新住民語文課程綱要",
+    "domain": "本土語文",
+    "source": "國家教育研究院 (NAER)",
+    "source_url": "https://www.naer.edu.tw/upload/1/16/doc/1283/十二年國民基本教育課程綱要國民中小學語文領域-新住民語文.pdf",
+    "published_date": "107-03-02",
+    "downloaded_date": "2026-06-23"
+  },
+  "parsed_at": "2026-06-23T19:40:47+08:00",
+  "structure_type": "A",
+  "section_5_title": "\n伍、學習重點",
+  "raw_section_5": "「學習重點」呼應新住民語文之「核心素養」，由「學習表現」以及「學習內容」兩\n 大部分所組成，提供課程設計、教材發展、教科用書審查及學習評量的架構，並配合教\n 學加以實踐。惟「學習表現」與「學習內容」可以有不同的對應關係，得視學習階段或領\n                            3\n\f域/科目的特性，彈性加以組合。學習重點中「學習表現」與「學習內容」兩部分，每一部\n分包括數個不同的「面向」。這些「面向」有以下特性：\n1.   語言與文化的關聯性\n       要了解新住民文化，尌頇學習新住民的語言；要學會使用新住民的語言，必頇結\n     合該族群文化的學習。因此，本「學習重點」包含語言與文化兩大範疇，為支持語言\n     學習，文化學習的內容配合語言學習進程，優先選擇下列五項：（1）互動行為規範；\n     （2）支撐互動行為規範的文化背景；（3）與學生生活經驗有關者；（4）文化對比差\n     異性較大者；（5）易造成跨文化誤解者。\n2.   語文程度級別的優位性\n       基於以下原因：（1）學生不一定於低年級尌修習本課程；（2）學生是否在家使\n     用該語言會使學生在新住民語文的學習起始點有很大的差異；（3）不同語種在學習發\n     音、語法及辨認字母時各有不同的進程需求，新住民語文依學生的語文程度級別敘寫\n     學習重點。課程開始前，學校應採用合宜的方式了解學生的語文程度，規劃合適的語\n     文程度級別課程，實施適性教學。學校考量語文學習的連貫性，除依照學生的語文程\n     度級別開課外，亦可採用學習階段安排課程。各學習階段之學習重點，可參照各級別\n     （一級至四級）的學習重點，其對應關係如下表：\n\n            編碼      語文程度級別     學習階段\n                Ⅰ    一級       第一學習階段\n                Ⅱ    二級       第二學習階段\n                Ⅲ    三級       第三學習階段\n                Ⅳ    四級       第四學習階段\n\n3.   課程架構的原則性\n       學習重點涉及多個新住民語文，無法針對個別語文的差異性進行規劃，所呈現的\n     各「面向」是對課程架構的原則性建議，提供課程設計者作為發展教材與實踐教學的\n     基礎，各課程仍應依實際需求進行調整。\n\n     「新住民語文科目學習重點與核心素養呼應表參考示例」（詳參附錄一）乃為使學習\n重點與核心素養能夠相互呼應，且透過學習重點落實本科目核心素養，並引導跨領域/跨\n科目的課程設計，增進課程發展的嚴謹度。\n     「議題適切融入領域課程綱要」（詳參附錄二）乃為豐富本科目的學習，促進核心素\n養的涵育，使各項議題可與新住民語文的學習重點適當結合。\n\n\n\n\n                      4\n\f                學習態度                                 字母與語音\n                                              語言要素   詞彙\n                       聽\n                                                     語句\n      學習               說                 學習\n             語言能力                                    互動中的語言規範\n      表現               讀                 內容\n                       寫                             互動中的非語言規範\n                                              文化要素\n                                                     國情概況\n               跨文化行動力\n                                                     文化差異\n\n一、學習表現\n\n      新住民語文的學習表現區分為「學習態度」、「語言能力」與「跨文化行動力」三個\n 類別，其中「語言能力」還區分為「聽」、「說」、「讀」、「寫」等層次。\n      「跨文化行動力」指的是與屬於不同語言、文化背景的人互動的能力，包含跨文化的\n 人際互動能力、組織互動能力與國際互動能力等三層面。\n      在編碼部分，說明如下：\n\n 1.   第 1 碼為「類別」，以阿拉伯數字為代碼。以 1 表示「學習態度」，以 2 表示「語言\n      能力」，以 3 表示「跨文化行動力」。其中，2「語言能力」還包括四個次項目，分\n      別以小寫英文字母表示之：以 a 表示「聽」，以 b 表示「說」，以 c 表示「讀」，以\n      d 表示「寫」。\n\n 2.   第 2 碼為「語文程度級別」，以羅馬數字編號，以Ⅰ代表一級，以Ⅱ代表二級，以Ⅲ\n      代表三級，以Ⅳ代表四級。\n\n 3.   第 3 碼為流水號。\n      類別      語文程度級別                      學習表現\n                           1-Ⅰ-1    樂於參與新住民語文學習活動。\n                 Ⅰ\n                           1-Ⅰ-2    樂於和不同語文背景的同學交朋友。\n                           1-Ⅱ-1    主動向他人提出新住民語文的學習問題。\n                 Ⅱ\n                           1-Ⅱ-2    在生活中主動接觸新住民語言與文化。\n   1.\n 學習態度                      1-Ⅲ-1    主動運用各類媒材認識新住民語言與文化。\n                 Ⅲ\n                           1-Ⅲ-2    在生活情境中嘗詴使用新住民語文。\n                           1-Ⅳ-1    主動與他人分享新住民語文的學習收穫。\n                 Ⅳ         1-Ⅳ-2    主動關心新住民的社會議題，及其在本國的生活\n                                    處境與解決辦法。\n                           2a-Ⅰ-1   能聽辨新住民語言的字母。\n 2.              Ⅰ\n                           2a-Ⅰ-2   能聽辨所學習的新住民語言的簡單詞彙。\n語言     a.聽                 2a-Ⅱ-1   能聽辨所學習的新住民語言的簡單句子。\n能力               Ⅱ         2a-Ⅱ-2   能聽辨新住民語言簡易歌謠和韻文的主要內容。\n\n\n\n                                     5\n\f  類別      語文程度級別                  學習表現\n                   2a-Ⅲ-1   能聽辨新住民語言所使用的日常生活用語。\n            Ⅲ      2a-Ⅲ-2   能聽辨使用新住民語言所描述的個人狀況與感\n                            受。\n            Ⅳ      2a-Ⅳ-1   能聽辨新住民語言日常生活中的對話。\n                   2b-Ⅰ-1   能掌握新住民語言的發音。\n            Ⅰ\n                   2b-Ⅰ-2   能說出所學習的新住民語言的簡單詞彙。\n                   2b-Ⅱ-1   能說出所學習的新住民語言的簡單句子。\n            Ⅱ      2b-Ⅱ-2   能複誦和吟唱所學習新住民語言的簡易韻文和\n    b.說\n                            歌謠。\n                   2b-Ⅲ-1   能說出所學習新住民語言的日常生活用語。\n            Ⅲ\n                   2b-Ⅲ-2   能使用新住民語言描述個人的狀況與感受。\n            Ⅳ      2b-Ⅳ-1   能依情境說出新住民語言的日常生活用語。\n                   2c-Ⅰ-1   能唸出新住民語言的字母。\n            Ⅰ      2c-Ⅰ-2   能拼讀新住民語言的簡單詞彙。\n                   2c-Ⅰ-3   能讀懂所學習新住民語言的簡單詞彙。\n    c.讀\n            Ⅱ      2c-Ⅱ-1   能閱讀新住民語言歌謠和韻文的主要內容。\n            Ⅲ      2c-Ⅲ-1   能辨識日常生活中的新住民語言標示。\n            Ⅳ      2c-Ⅳ-1   能閱讀生活中新住民語言的簡易文本。\n                   2d-Ⅰ-1   能書寫新住民語言的字母。\n            Ⅰ\n                   2d-Ⅰ-2   能書寫學習新住民語言的簡單詞彙。\n    d.寫     Ⅱ      2d-Ⅱ-1   能書寫所學習新住民語言的簡單句子。\n            Ⅲ      2d-Ⅲ-1   能書寫出簡單的新住民語言日常生活用語。\n            Ⅳ      2d-Ⅳ-1   能書寫日常生活中所需的新住民語言簡易文本。\n                   3-Ⅰ-1    能與不同文化背景的人和樂相處。\n            Ⅰ\n                   3-Ⅰ-2    樂於參與多元文化活動。\n                   3-Ⅱ-1    能以適當的禮儀與不同文化背景的人互動。\n                   3-Ⅱ-2    能依循新住民的言語互動行為規範，與親近的新\n            Ⅱ\n                            住民進行生活溝通。\n                   3-Ⅱ-3    樂於邀請不同文化背景的人參與社區活動。\n                   3-Ⅲ-1    能分辨新住民日常言語互動行為規範的特徵。\n  3.\n                   3-Ⅲ-2    能依循新住民日常的言語互動行為規範，與陌生\n跨文化行動\n            Ⅲ               的新住民進行溝通。\n  力\n                   3-Ⅲ-3    欣賞新住民文化的特色。\n                   3-Ⅲ-4    能認識新住民語言與文化中的性別規範。\n                   3-Ⅳ-1    能協助他人與新住民溝通。\n                   3-Ⅳ-2    能以新住民文化的視角來思考人際相處的方式。\n                   3-Ⅳ-3    關心新住民的性別平等與其他人權相關議題，以\n            Ⅳ\n                            及應該受到的法律保障。\n                   3-Ⅳ-4    理解並尊重新住民原生國與我國的文化差異。\n                   3-Ⅳ-5    能與不同文化背景的人合作解決問題。\n\n二、學習內容\n\n   學習內容區分為「語言要素」與「文化要素」兩個主題，前者包含「字母與語音」、\n\n                             6\n\f「詞彙」、「語句」等項目；後者包含「互動中的語言規範」、「互動中的非語言規範」、\n「國情概況」、「文化差異」等項目。\n\n     在編碼部分，說明如下：\n\n1.   第 1 碼為「主題」，以大寫英文字母為代碼，以 A 表示「語言要素」，以 B 表示「文\n      化要素」。其中，A「語言要素」還包括三個項目，分別以小寫英文字母表示之：以 a\n      表示「字母與語音」，以 b 表示「詞彙」，以 c 表示「語句」。B「文化要素」還包\n      括四個項目，分別以小寫英文字母表示之：以 a 表示「互動中的語言規範」，以 b 表\n      示「互動中的非語言規範」，以 c 表示「國情概況」，以 d 表示「文化差異」。\n\n（1）語言要素中「b.詞彙」的設計，依循語言習得的自然歷程，以學習者為中心，由自我\n      逐漸擴展到家庭、學校、社區至社會。\n\n（2）文化要素中「b.互動中的非語言規範」是指人際互動時常見的肢體語言、面部表情、\n      手勢、坐姿、衣著等方面的規範，尤其常應用於問候、感謝、致歉、傳遞物品、送\n      禮、提問、道別等情境。\n\n（3）文化要素中「d.文化差異」單獨列出，提醒教師及學生頇對新住民原生國與我國文化\n      差異有更多了解，方能養成尊重多元與欣賞差異的態度，以達成培養學生跨文化溝\n      通與跨國行動能力與素養之課程目標。\n\n2. 第 2 碼為「語文程度級別」，以羅馬數字編號，以Ⅰ代表一級，以Ⅱ代表二級，以Ⅲ\n      代表三級，以Ⅳ代表四級。\n\n3.   第 3 碼為流水號。\n\n4.   圈號（◎）係指相同學習內容重複出現在不同級別（學習階段）。新住民語文的學習\n      常涉及加深加廣、螺旋向上的知識精進，故以雙圈（◎）之方式標示。\n主題     項目    語文程度級別                  學習內容\n                      ◎\n                        Aa-Ⅰ-1 新住民語言的發音與語調。\n                      ◎\n               Ⅰ        Aa-Ⅰ-2 新住民語言的聲調標記。\n                      ◎\n                        Aa-Ⅰ-3 新住民語言的字母與拼讀系統。\n                      ◎\n        a.              Aa-Ⅱ-1 新住民語言的發音與語調。\n                      ◎\n       字母      Ⅱ        Aa-Ⅱ-2 新住民語言的聲調標記。\n                      ◎\n        與               Aa-Ⅱ-3 新住民語言的字母與拼讀系統。\n A.    語音             ◎\n                        Aa-Ⅲ-1 新住民語言的發音與語調。\n語言             Ⅲ      ◎\n                        Aa-Ⅲ-2 新住民語言的聲調標記。\n要素                    ◎\n                        Aa-Ⅳ-1 新住民語言的發音與語調。\n               Ⅳ      ◎\n                        Aa-Ⅳ-2 新住民語言的聲調標記。\n                        Ab-Ⅰ-1 簡單自我介紹時的新住民語言常用詞彙。\n        b.     Ⅰ        Ab-Ⅰ-2 家庭及學校生活中的新住民語言基本詞彙\n       詞彙                      （如：稱謂、數字等）。\n               Ⅱ        Ab-Ⅱ-1 家庭及學校生活中的新住民語言常用詞彙。\n\n                           7\n\f主題   項目    語文程度級別                學習內容\n              Ⅲ     Ab-Ⅲ-1 社區生活中的新住民語言常用詞彙。\n              Ⅳ     Ab-Ⅳ-1 社會生活中的新住民語言常用詞彙。\n                    Ac-Ⅰ-1 簡單自我介紹時的新住民語言常用語句。\n             Ⅰ      Ac-Ⅰ-2 家庭及學校生活中的新住民語言基本語句\n      c.                   （如：招呼語、感謝語等）。\n     語句      Ⅱ      Ac-Ⅱ-1 家庭及學校生活中的新住民語言常用語句。\n             Ⅲ      Ac-Ⅲ-1 社區生活中的新住民語言常用語句。\n             Ⅳ      Ac-Ⅳ-1 社會生活中的新住民語言常用語句。\n                    Ba-Ⅰ-1 與親屬互動時的問候規範（亦包含輩份、性別\n             Ⅰ             的因素）。\n                    Ba-Ⅰ-2 與師長及同學互動時的問候規範。\n      a.\n                    Ba-Ⅱ-1 與友人互動時的問候規範。\n     互動      Ⅱ\n                    Ba-Ⅱ-2 與家中賓客相處的問候規範。\n     中的\n                    Ba-Ⅲ-1 與陌生人互動時的言語規範。\n     語言\n             Ⅲ      Ba-Ⅲ-2 在宗教場所、政府機關等公共場合的言語規\n     規範\n                           範。\n                    Ba-Ⅳ-1 在正式場合（如：婚禮、餐會、會議等）的言\n             Ⅳ\n                           語規範。\n                    Bb-Ⅰ-1 與親屬、師長、同學互動時的肢體語言和面部\n                           表情（亦包含輩份、性別的因素）。\n             Ⅰ\n                    Bb-Ⅰ-2 新住民與親屬、師長、同學互動時的適當手\n                           勢、坐姿、衣著等。\n      b.            Bb-Ⅱ-1 與友人互動時的肢體語言與面部表情。\n     互動      Ⅱ      Bb-Ⅱ-2 新住民與友人互動時的適當手勢、坐姿、衣著\nＢ.\n     中的                    等。\n文化\n     非語             Bb-Ⅲ-1 與陌生人互動時的肢體語言與面部表情。\n要素\n     言規             Bb-Ⅲ-2 新住民與陌生人互動時的適當手勢、坐姿、衣\n      範      Ⅲ             著等。\n                    Bb-Ⅲ-3 在宗教場所、政府機關等公共場合的肢體語\n                           言、座位、衣著等。\n                    Bb-Ⅳ-1 在正式場合（如：婚禮、餐會、會議等）的肢\n             Ⅳ\n                           體語言、座位、衣著等。\n                    Bc-Ⅰ-1 新住民原生國的家庭生活環境。\n             Ⅰ\n                    Bc-Ⅰ-2 新住民原生國的學校生活情境。\n                    Bc-Ⅱ-1 新住民原生國具代表性的人、事、物。\n             Ⅱ      Bc-Ⅱ-2 新住民原生國的都市與鄉村景觀及生活。\n      c.\n                    Bc-Ⅱ-3 新住民原生國的主要節慶、習俗、禁忌。\n     國情\n                    Bc-Ⅲ-1 新住民原生國的地理位置、氣候。\n     概況      Ⅲ\n                    Bc-Ⅲ-2 新住民原生國的主要宗教信仰。\n                    Bc-Ⅳ-1 新住民原生國的政治特色。\n             Ⅳ      Bc-Ⅳ-2 新住民原生國的藝文特色。\n                    Bc-Ⅳ-3 新住民原生國與我國的關係與未來發展。\n\n\n\n                        8\n\f 主題   項目    語文程度級別                學習內容\n                     Bd-Ⅰ-1 新住民原生國的親屬、師長、同學互動方式（包\n                            括語言與非語言）與我國的異同。\n              Ⅰ\n                     Bd-Ⅰ-2 新住民原生國的家庭生活環境與我國的異同。\n                     Bd-Ⅰ-3 新住民原生國的學校生活與我國的異同。\n                     Bd-Ⅱ-1 新住民原生國的友人互動方式（包括語言與非\n                            語言）與我國的異同。\n                     Bd-Ⅱ-2 新住民原生國的城鄉景觀和生活方式與我國\n              Ⅱ\n                            的異同。\n                     Bd-Ⅱ-3 新住民原生國主要節慶、習俗、禁忌與我國的\n       d.                   異同。\n      文化             Bd-Ⅲ-1 新住民原生國的陌生人互動方式（包括語言與\n      差異                    非語言）與我國的異同。\n                     Bd-Ⅲ-2 新住民原生國語言文化中之性別規範與我國\n              Ⅲ\n                            異同。\n                     Bd-Ⅲ-3 當前社會對新住民的看法與文化差異之間的\n                            關聯。\n                     Bd-Ⅳ-1 新住民原生國的正式場合互動方式（包括語言\n                            與非語言）與我國的異同。\n              Ⅳ      Bd-Ⅳ-2 新住民原生國的主要宗教信仰與我國的異同。\n                     Bd-Ⅳ-3 當前社會對新住民看法中的文化偏見與法律\n                            相關議題。",
+  "performance_codes": [
+    {
+      "code": "1-Ⅰ-1",
+      "stage": "I",
+      "category": "1",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "1-Ⅰ-2",
+      "stage": "I",
+      "category": "1",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "1-Ⅱ-1",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "1-Ⅱ-2",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "1-Ⅲ-1",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "1-Ⅲ-2",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "1-Ⅳ-1",
+      "stage": "IV",
+      "category": "1",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "1-Ⅳ-2",
+      "stage": "IV",
+      "category": "1",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2a-Ⅰ-1",
+      "stage": "I",
+      "category": "2a",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2a-Ⅰ-2",
+      "stage": "I",
+      "category": "2a",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2a-Ⅱ-1",
+      "stage": "II",
+      "category": "2a",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2a-Ⅱ-2",
+      "stage": "II",
+      "category": "2a",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2a-Ⅲ-1",
+      "stage": "III",
+      "category": "2a",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2a-Ⅲ-2",
+      "stage": "III",
+      "category": "2a",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2a-Ⅳ-1",
+      "stage": "IV",
+      "category": "2a",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2b-Ⅰ-1",
+      "stage": "I",
+      "category": "2b",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2b-Ⅰ-2",
+      "stage": "I",
+      "category": "2b",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2b-Ⅱ-1",
+      "stage": "II",
+      "category": "2b",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2b-Ⅱ-2",
+      "stage": "II",
+      "category": "2b",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2b-Ⅲ-1",
+      "stage": "III",
+      "category": "2b",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2b-Ⅲ-2",
+      "stage": "III",
+      "category": "2b",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2b-Ⅳ-1",
+      "stage": "IV",
+      "category": "2b",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2c-Ⅰ-1",
+      "stage": "I",
+      "category": "2c",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2c-Ⅰ-2",
+      "stage": "I",
+      "category": "2c",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2c-Ⅰ-3",
+      "stage": "I",
+      "category": "2c",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2c-Ⅱ-1",
+      "stage": "II",
+      "category": "2c",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2c-Ⅲ-1",
+      "stage": "III",
+      "category": "2c",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2c-Ⅳ-1",
+      "stage": "IV",
+      "category": "2c",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2d-Ⅰ-1",
+      "stage": "I",
+      "category": "2d",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2d-Ⅰ-2",
+      "stage": "I",
+      "category": "2d",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2d-Ⅱ-1",
+      "stage": "II",
+      "category": "2d",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2d-Ⅲ-1",
+      "stage": "III",
+      "category": "2d",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "2d-Ⅳ-1",
+      "stage": "IV",
+      "category": "2d",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅰ-1",
+      "stage": "I",
+      "category": "3",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅰ-2",
+      "stage": "I",
+      "category": "3",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅱ-1",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅱ-2",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅱ-3",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅲ-1",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅲ-2",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅲ-3",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅲ-4",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅳ-1",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅳ-2",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅳ-3",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅳ-4",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 4,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "3-Ⅳ-5",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 5,
+      "code_format": "roman_phase"
+    }
+  ],
+  "content_codes": [
+    {
+      "code": "Aa-Ⅰ-1",
+      "stage": "I",
+      "category": "Aa",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅰ-2",
+      "stage": "I",
+      "category": "Aa",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅰ-3",
+      "stage": "I",
+      "category": "Aa",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅱ-1",
+      "stage": "II",
+      "category": "Aa",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅱ-2",
+      "stage": "II",
+      "category": "Aa",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅱ-3",
+      "stage": "II",
+      "category": "Aa",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅲ-1",
+      "stage": "III",
+      "category": "Aa",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅲ-2",
+      "stage": "III",
+      "category": "Aa",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅳ-1",
+      "stage": "IV",
+      "category": "Aa",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Aa-Ⅳ-2",
+      "stage": "IV",
+      "category": "Aa",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ab-Ⅰ-1",
+      "stage": "I",
+      "category": "Ab",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ab-Ⅰ-2",
+      "stage": "I",
+      "category": "Ab",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ab-Ⅱ-1",
+      "stage": "II",
+      "category": "Ab",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ab-Ⅲ-1",
+      "stage": "III",
+      "category": "Ab",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ab-Ⅳ-1",
+      "stage": "IV",
+      "category": "Ab",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ac-Ⅰ-1",
+      "stage": "I",
+      "category": "Ac",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ac-Ⅰ-2",
+      "stage": "I",
+      "category": "Ac",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ac-Ⅱ-1",
+      "stage": "II",
+      "category": "Ac",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ac-Ⅲ-1",
+      "stage": "III",
+      "category": "Ac",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ac-Ⅳ-1",
+      "stage": "IV",
+      "category": "Ac",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ba-Ⅰ-1",
+      "stage": "I",
+      "category": "Ba",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ba-Ⅰ-2",
+      "stage": "I",
+      "category": "Ba",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ba-Ⅱ-1",
+      "stage": "II",
+      "category": "Ba",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ba-Ⅱ-2",
+      "stage": "II",
+      "category": "Ba",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ba-Ⅲ-1",
+      "stage": "III",
+      "category": "Ba",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ba-Ⅲ-2",
+      "stage": "III",
+      "category": "Ba",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Ba-Ⅳ-1",
+      "stage": "IV",
+      "category": "Ba",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅰ-1",
+      "stage": "I",
+      "category": "Bb",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅰ-2",
+      "stage": "I",
+      "category": "Bb",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅱ-1",
+      "stage": "II",
+      "category": "Bb",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅱ-2",
+      "stage": "II",
+      "category": "Bb",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅲ-1",
+      "stage": "III",
+      "category": "Bb",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅲ-2",
+      "stage": "III",
+      "category": "Bb",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅲ-3",
+      "stage": "III",
+      "category": "Bb",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bb-Ⅳ-1",
+      "stage": "IV",
+      "category": "Bb",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅰ-1",
+      "stage": "I",
+      "category": "Bc",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅰ-2",
+      "stage": "I",
+      "category": "Bc",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅱ-1",
+      "stage": "II",
+      "category": "Bc",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅱ-2",
+      "stage": "II",
+      "category": "Bc",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅱ-3",
+      "stage": "II",
+      "category": "Bc",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅲ-1",
+      "stage": "III",
+      "category": "Bc",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅲ-2",
+      "stage": "III",
+      "category": "Bc",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅳ-1",
+      "stage": "IV",
+      "category": "Bc",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅳ-2",
+      "stage": "IV",
+      "category": "Bc",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bc-Ⅳ-3",
+      "stage": "IV",
+      "category": "Bc",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅰ-1",
+      "stage": "I",
+      "category": "Bd",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅰ-2",
+      "stage": "I",
+      "category": "Bd",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅰ-3",
+      "stage": "I",
+      "category": "Bd",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅱ-1",
+      "stage": "II",
+      "category": "Bd",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅱ-2",
+      "stage": "II",
+      "category": "Bd",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅱ-3",
+      "stage": "II",
+      "category": "Bd",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅲ-1",
+      "stage": "III",
+      "category": "Bd",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅲ-2",
+      "stage": "III",
+      "category": "Bd",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅲ-3",
+      "stage": "III",
+      "category": "Bd",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅳ-1",
+      "stage": "IV",
+      "category": "Bd",
+      "ordinal": 1,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅳ-2",
+      "stage": "IV",
+      "category": "Bd",
+      "ordinal": 2,
+      "code_format": "roman_phase"
+    },
+    {
+      "code": "Bd-Ⅳ-3",
+      "stage": "IV",
+      "category": "Bd",
+      "ordinal": 3,
+      "code_format": "roman_phase"
+    }
+  ],
+  "performance_count": 47,
+  "content_count": 57,
+  "stages_present": [
+    "I",
+    "II",
+    "III",
+    "IV"
+  ],
+  "warnings": [],
+  "no_codes": false
+}

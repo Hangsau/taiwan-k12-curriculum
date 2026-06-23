@@ -23,3 +23,11 @@ status: active
 ## 授權
 
 依原始發布單位授權（多為 CC BY）
+
+## 結構化資料
+
+- **結構化 JSON**：[`自然科學領域課程綱要.structured.json`](./自然科學領域課程綱要.structured.json)
+- 結構類型：`A`
+- 學習表現編碼：58
+- 學習內容編碼：353
+- 涵蓋階段：II, III, IV

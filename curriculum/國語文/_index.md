@@ -23,3 +23,11 @@ status: active
 ## 授權
 
 依原始發布單位授權（多為 CC BY）
+
+## 結構化資料
+
+- **結構化 JSON**：[`國語文課程綱要.structured.json`](./國語文課程綱要.structured.json)
+- 結構類型：`A`
+- 學習表現編碼：157
+- 學習內容編碼：174
+- 涵蓋階段：I, II, III, IV, V

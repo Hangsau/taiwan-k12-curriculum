@@ -28,3 +28,11 @@ status: active
 ## 授權
 
 依原始發布單位授權（多為 CC BY）
+
+## 結構化資料
+
+- **結構化 JSON**：[`閩東語文課程綱要.structured.json`](./閩東語文課程綱要.structured.json)
+- 結構類型：`A`
+- 學習表現編碼：53
+- 學習內容編碼：101
+- 涵蓋階段：I, II, III, IV, V

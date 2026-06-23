@@ -8,121 +8,390 @@
       "domain": "總綱",
       "name": "十二年國教課程綱要總綱",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/288/十二年國教課程綱要總綱.pdf",
-      "published_date": "103-11-28"
+      "published_date": "103-11-28",
+      "structured": {
+        "source_file": "curriculum/總綱/十二年國教課程綱要總綱.md",
+        "structure_type": "none",
+        "performance_count": 0,
+        "content_count": 0,
+        "stages_present": [],
+        "warnings": [
+          "總綱無學習表現/學習內容編碼，符合預期"
+        ],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "總綱",
       "name": "十二年國教課程綱要總綱（111學年度實施）",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/288/(111學年度實施)十二年國教課程綱要總綱.pdf",
-      "published_date": "110-03-15"
+      "published_date": "110-03-15",
+      "structured": {
+        "source_file": "curriculum/總綱/十二年國教課程綱要總綱_111學年度實施.md",
+        "structure_type": "none",
+        "performance_count": 0,
+        "content_count": 0,
+        "stages_present": [],
+        "warnings": [
+          "總綱無學習表現/學習內容編碼，符合預期"
+        ],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "國語文",
       "name": "國語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/806/十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校(語文領域─國語文).pdf",
-      "published_date": "107-01-25"
+      "published_date": "107-01-25",
+      "structured": {
+        "source_file": "curriculum/國語文/國語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 157,
+        "content_count": 174,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "英語文",
       "name": "英語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/812/(發布版)國民中小學暨普通型高級中等學校-語文領域-英語文課程綱要.pdf",
-      "published_date": "107-04-16"
+      "published_date": "107-04-16",
+      "structured": {
+        "source_file": "curriculum/英語文/英語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 282,
+        "content_count": 114,
+        "stages_present": [
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "英語文",
       "name": "第二外國語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/812/(發布版)國民中學暨普通型高級中等學校-語文領域-第二外國語文課程綱要.pdf",
-      "published_date": "107-04-16"
+      "published_date": "107-04-16",
+      "structured": {
+        "source_file": "curriculum/英語文/第二外國語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 169,
+        "content_count": 146,
+        "stages_present": [
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "本土語文",
       "name": "閩南語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/1278/十二年國民基本教育課程綱要國民中小學語文領域-本土語文(閩南語文).pdf",
-      "published_date": "107-03-02"
+      "published_date": "107-03-02",
+      "structured": {
+        "source_file": "curriculum/本土語文/閩南語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 64,
+        "content_count": 101,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "本土語文",
       "name": "客家語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/1280/十二年國民基本教育課程綱要國民中小學語文領域-本土語文(客家語文).pdf",
-      "published_date": "107-03-02"
+      "published_date": "107-03-02",
+      "structured": {
+        "source_file": "curriculum/本土語文/客家語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 47,
+        "content_count": 116,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "本土語文",
       "name": "原住民族語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/1282/十二年國民基本教育課程綱要國民中小學語文領域-本土語文(原住民族語文).pdf",
-      "published_date": "107-03-02"
+      "published_date": "107-03-02",
+      "structured": {
+        "source_file": "curriculum/本土語文/原住民族語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 157,
+        "content_count": 102,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "本土語文",
       "name": "新住民語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/1283/十二年國民基本教育課程綱要國民中小學語文領域-新住民語文.pdf",
-      "published_date": "107-03-02"
+      "published_date": "107-03-02",
+      "structured": {
+        "source_file": "curriculum/本土語文/新住民語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 47,
+        "content_count": 57,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "本土語文",
       "name": "臺灣手語課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/9/doc/3393/十二年國民基本教育課程綱要語文領域-臺灣手語-發布版.pdf",
-      "published_date": "110-12-10"
+      "published_date": "110-12-10",
+      "structured": {
+        "source_file": "curriculum/本土語文/臺灣手語課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 42,
+        "content_count": 74,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "本土語文",
       "name": "閩東語文課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/9/doc/3444/(111學年度實施)十二年國民基本教育課程綱要語文領域-本土語文(閩東語文)-發布版.pdf",
-      "published_date": "110-12-27"
+      "published_date": "110-12-27",
+      "structured": {
+        "source_file": "curriculum/本土語文/閩東語文課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 53,
+        "content_count": 101,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "數學",
       "name": "數學領域課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/815/十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校-數學領域.pdf",
-      "published_date": "107-07-26"
+      "published_date": "107-07-26",
+      "structured": {
+        "source_file": "curriculum/數學/數學領域課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 131,
+        "content_count": 112,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "自然科學",
       "name": "自然科學領域課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/820/十二年國民基本教育課程綱要國民中小學暨普通型高級中等校-自然科學領域.pdf",
-      "published_date": "107-11-02"
+      "published_date": "107-11-02",
+      "structured": {
+        "source_file": "curriculum/自然科學/自然科學領域課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 58,
+        "content_count": 353,
+        "stages_present": [
+          "II",
+          "III",
+          "IV"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "社會",
       "name": "社會領域課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/819/十二年國民基本教育課程綱要國民中小學暨普通型高級中等校-社會領域.pdf",
-      "published_date": "107-10-26"
+      "published_date": "107-10-26",
+      "structured": {
+        "source_file": "curriculum/社會/社會領域課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 95,
+        "content_count": 500,
+        "stages_present": [
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "藝術",
       "name": "藝術領域課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/818/十二年國民基本教育課程綱要國民中小學暨普通型高級中等校-藝術領域.pdf",
-      "published_date": "107-10-23"
+      "published_date": "107-10-23",
+      "structured": {
+        "source_file": "curriculum/藝術/藝術領域課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 63,
+        "content_count": 54,
+        "stages_present": [
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "綜合活動",
       "name": "綜合活動領域課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/817/十二年國民基本教育課程綱要國民中小學暨普通型高級中等校-綜合活動領域.pdf",
-      "published_date": "107-10-23"
+      "published_date": "107-10-23",
+      "structured": {
+        "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 76,
+        "content_count": 176,
+        "stages_present": [
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "科技",
       "name": "科技領域課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/816/十二年國民基本教育課程綱要國民中學暨普通型高級中等學校-科技領域.pdf",
-      "published_date": "107-09-20"
+      "published_date": "107-09-20",
+      "structured": {
+        "source_file": "curriculum/科技/科技領域課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 46,
+        "content_count": 66,
+        "stages_present": [
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "健康與體育",
       "name": "健康與體育領域課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/814/十二年國民基本教育課程綱要國民中小學暨普通型高級中等學校-健康與體育領域.pdf",
-      "published_date": "107-06-08"
+      "published_date": "107-06-08",
+      "structured": {
+        "source_file": "curriculum/健康與體育/健康與體育領域課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 236,
+        "content_count": 282,
+        "stages_present": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "健康與體育",
       "name": "生活課程課程綱要（國小）",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/813/(發布版)生活課程課程綱要.pdf",
-      "published_date": "107-04-16"
+      "published_date": "107-04-16",
+      "structured": {
+        "source_file": "curriculum/健康與體育/生活課程課程綱要_國小.md",
+        "structure_type": "A",
+        "performance_count": 30,
+        "content_count": 23,
+        "stages_present": [
+          "I"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     },
     {
       "domain": "國防",
       "name": "全民國防教育課程綱要",
       "source_url": "https://www.naer.edu.tw/upload/1/16/doc/811/十二年國民基本教育課程綱要-全民國防教育.pdf",
-      "published_date": "107-03-02"
+      "published_date": "107-03-02",
+      "structured": {
+        "source_file": "curriculum/國防/全民國防教育課程綱要.md",
+        "structure_type": "A",
+        "performance_count": 20,
+        "content_count": 22,
+        "stages_present": [
+          "V"
+        ],
+        "warnings": [],
+        "parsed_at": "2026-06-23T19:40:47+08:00"
+      }
     }
   ],
   "educational_orders": [
@@ -141,5 +410,11 @@
       "name": "十二年國教總綱修正發布令（111學年度）",
       "url": "https://www.naer.edu.tw/upload/1/16/doc/288/110年3月15日教育部修正發布令.pdf"
     }
-  ]
+  ],
+  "structured_parsed_at": "2026-06-23T19:40:47+08:00",
+  "structured_summary": {
+    "total_files": 20,
+    "total_performance_codes": 1773,
+    "total_content_codes": 2573
+  }
 }

@@ -16,7 +16,7 @@
 
 ---
 
-## Phase 1 — 抓 108 課綱 🚧 2026-06-23 部分完成
+## Phase 1 — 抓 108 課綱 ✅ 2026-06-23
 
 > 目標：把教育部 108 課綱各領域指引整理成純文字 + 結構化 JSON
 
@@ -25,8 +25,10 @@
 - [x] 轉純文字（PDF → Markdown，pdftotext）
 - [x] 寫 `scripts/download_curriculum.py`（可重跑）
 - [x] 為每個領域生 `_index.md` MOC
-- [ ] 結構化（每個學習內容 / 學習表現 → JSON）
-- [ ] 寫驗證腳本（檢查必填欄位、跨年級連續性）
+- [x] 結構化：20 個 `<stem>.structured.json`（universal schema，Type A/B/none 三變體）
+- [x] 寫 `scripts/parse_curriculum.py`（stdlib only，可重跑、idempotent）
+- [x] 寫 `scripts/verify_curriculum.py`（含 regex self-test，20/20 pass exit 0）
+- [x] 更新 aggregate `curriculum/_index.json` 加 structured_summary（總 perf 1773 / cont 2573）
 
 ---
 

@@ -11,13 +11,20 @@
 接手 session 開始時，**先看這個區塊**判斷最新狀態：
 
 - **最後更新**：2026-06-23
-- **當前 Phase**：P1 抓 108 課綱 **已完成 20/20 個領域**
-- **內容進度**：所有領域資料夾從 `.gitkeep` → 純文字課程綱要 + index MOC
+- **當前 Phase**：P1 結構化 + 驗證 ✅ 完成
+- **內容進度**：
+  - 20/20 領域純文字 markdown（P1 上半）
+  - 20/20 領域結構化 JSON（P1 下半，新增）
+  - `scripts/parse_curriculum.py` + `scripts/verify_curriculum.py` 兩個 stdlib-only 腳本
 - **本次更新重點**：
-  - **P1 完成**：從 NAER 下載 20 個 108 課綱 PDF → 純文字 markdown（含總綱、本土語文 6 種、英語文、數學、自然科學、社會、藝術、綜合活動、科技、健康與體育、生活課程、國防、全民國防）
-  - 寫 `scripts/download_curriculum.py`：可重跑、已驗證 20/20 success
-  - 為每個領域生 `_index.md` MOC
-  - 修 README.md / CLAUDE.md 中 5 個失效 URL
+  - **P1 結構化完成**：
+    - 寫 `scripts/parse_curriculum.py`：20 markdown → 20 `<stem>.structured.json`（per-md filename 避免多檔 domain 互相覆蓋）
+    - 寫 `scripts/verify_curriculum.py`：含 regex self-test（14 fixtures + ROMAN_MAP smoke），20/20 pass exit 0
+    - Schema：universal + 3 變體（Type A/B/none），frontmatter + 編碼清單 + raw_section_5 完整保留
+    - Roman 數字正規化為 I/II/III/IV/V；數學 N-1-1 標 `code_format: numeric_phase`
+    - 更新 20 個 `_index.md` 加結構化區塊
+    - 更新 aggregate `curriculum/_index.json` 加 structured_summary（總 perf 1773 / cont 2573 / 20 files）
+  - 結構類型分佈：Type A = 18、Type none（總綱）= 2；Type B 偵測待加強（自然科學/社會歸 A，但 raw_section_5 保留全部原文，下游可重 parse）
 - **本地協作約定**：每次 session 開始時，先 `git pull` + 看 STATE 區塊 + 跑 `python3 scripts/download_curriculum.py` 確認新 URL
 
 ### ⚠️ 已知 URL 失效（不要再用）
