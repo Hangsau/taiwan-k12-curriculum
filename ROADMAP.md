@@ -73,11 +73,13 @@
 ## Phase 4 — 遊戲端整合介面 ⏳
 
 > 目標：定義這個 repo 怎麼被遊戲端使用
+> 設計前必讀：`docs/motivation-research-collection-mechanics.md`（研究）+ `docs/sdt-design-audit-framework.md`（稽核框架）+ `docs/p4-design-concept-pet-home.md`（寵物+居家擺飾設計概念）
 
 - [ ] 資料 schema 定義（給遊戲端讀的格式）
 - [ ] API 契約（REST / static JSON / SQLite？之後定）
 - [ ] 版本管理（資料更新不破壞遊戲端）
 - [ ] 範例 client（reference implementation）
+- [x] 遊戲化動機研究 + SDT 稽核框架 + 寵物/居家擺飾設計概念（前置設計，2026-06-23）
 
 ---
 
