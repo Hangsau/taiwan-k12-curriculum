@@ -51,8 +51,8 @@
 
 ## 資料來源
 
-- **教育部 108 課綱**：https://cirn.moe.edu.tw/
-- **國家教育研究院 部編本**：https://naer.edu.tw/
+- **教育部 108 課綱**：https://www.edu.tw/
+- **國家教育研究院 部編本**：https://www.naer.edu.tw/
 
 ---
 
