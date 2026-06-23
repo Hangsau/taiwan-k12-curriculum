@@ -32,15 +32,18 @@
 
 ---
 
-## Phase 1.5 — 收尾 / 跨平台 🚧
+## Phase 1.5 — 遊戲化動機研究 ✅ 2026-06-23
 
-> P1 完成後發現的補強項（詳見 CLAUDE.md §12）
+> 目標：在 P4 遊戲端設計前，先研究「蒐集機制會不會毀掉內在動機」這個核心問題，避免設計出踩 SDT / overjustification 陷阱的遊戲
 
-- [x] 三個 scripts 加 Windows cp950 編碼防護（verify 原本在 Windows console 崩） — 2026-06-23
-- [x] README「目前狀態」對齊到 P1 完成（原停在 P0 scaffold） — 2026-06-23
-- [ ] **Type B 偵測修正**：parser docstring 宣稱自然科學/社會是 Type B，實際歸成 Type A；P3 前必修（依教育階段分段是圖譜關鍵維度）
-- [ ] 加 round-trip / count-consistency 驗證（structured.json ↔ 原文編碼數一致）
-- [ ] （選）加 `make check`（git pull + verify）一鍵入口，降低忘記 pull
+- [x] `docs/motivation-research-collection-mechanics.md`（~18K 字）— deep-research workflow（5 angles, 15 sources, 39 claims, 25 verified, **8 confirmed / 15 refuted / 4 evidence gap**）
+  - 理論：SDT 三大需求 + CET controlling vs. informational + OIT 內化連續線 + Deci 1971 經典實驗
+  - 設計原則矩陣（年齡 × 蒐集類型）— 該做 ✅ / 該避免 ❌ / 不確定 ⚠️
+  - 9 大領域 × 蒐集類型適配性矩陣（推論性，標明 evidence gap）
+  - 案例研究：DragonBox（mastery-coupled 範例）/ Duolingo（controlling framework 警示）
+- [ ] 補年齡層差異研究（1-3 / 4-6 / 7-9 年級對三種蒐集類型反應）— evidence gap
+- [ ] Hamari 2015 結果方向驗證（DOI 直讀 paper）— evidence gap
+- [ ] Loot box / gacha 對兒童長期影響（Zendle 2020 等）— evidence gap
 
 ---
 
@@ -48,9 +51,8 @@
 
 > 目標：把國家教育院部編本教材整理成純文字
 > 注意：108 課綱後多數領域已委由民間編寫（審定版），部編本可能只佔少數，先探勘
-> ⚠️ 開工前先做覆蓋率探勘，不要假設每個階段每個領域都有部編本就建空目錄（現有 textbooks/ 骨架是猜的，可能要重排）
 
-- [ ] 探勘：哪些領域仍有部編本（國小 / 國中 / 高中）— 先確認合法純文字源再定 textbooks/ 結構
+- [ ] 探勘：哪些領域仍有部編本（國小 / 國中 / 高中）
 - [ ] 抓純文字（OCR 或官方提供的文字檔）
 - [ ] 對齊課綱（標出對應的學習內容）
 - [ ] 結構化（單元 / 課次 / 段落 → JSON）
