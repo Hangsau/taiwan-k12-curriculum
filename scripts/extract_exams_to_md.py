@@ -70,16 +70,31 @@ W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 # 學段年級中文 label
 STAGE_LABEL = {"國小": "國小", "國中": "國中", "高中": "高中"}
 def safe_filename(name: str) -> str:
-    """檔名如果是 BIG5 mojibake（被當 UTF-8 解碼的亂碼），嘗試 reverse 回正確 UTF-8。
-    米蘭老師 Drive 來源的檔案常常是 BIG5 編碼（看到 `ç¸£ç«` 開頭就知道）。
-    反轉：mojibake_str.encode('utf-8').decode('big5') = 原始正確字串
+    """檔名如果是 BIG5 / GBK mojibake（被當 UTF-8 解碼的亂碼），嘗試 reverse 回正確 UTF-8。
+    米蘭老師 Drive 來源的檔案常常是某種編碼被誤存：raw bytes 是 UTF-8 encoded Latin-1 chars。
+    嘗試多條 decode 路徑找含 CJK 的版本。
     """
+    # 嘗試 1：直接 decode raw bytes 為 GBK（即使解出來是簡體 mojibake 也保留 raw 結構）
     try:
-        decoded = name.encode("utf-8", errors="strict").decode("big5", errors="strict")
-        # 簡單啟示：成功轉回後應該含中文字（U+4E00-U+9FFF）
+        raw_bytes = name.encode("utf-8", errors="strict")
+        decoded = raw_bytes.decode("gbk", errors="strict")
         if any("一" <= c <= "鿿" for c in decoded):
             return decoded
     except (UnicodeEncodeError, UnicodeDecodeError):
+        pass
+    # 嘗試 2：latin-1 → big5
+    try:
+        decoded = name.encode("latin-1", errors="strict").decode("big5", errors="strict")
+        if any("一" <= c <= "鿿" for c in decoded):
+            return decoded
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        pass
+    # 嘗試 3：cp1252 → big5
+    try:
+        decoded = name.encode("cp1252", errors="strict").decode("big5", errors="strict")
+        if any("一" <= c <= "鿿" for c in decoded):
+            return decoded
+    except (UnicodeEncodeError, UnicodeDecodeError, LookupError):
         pass
     return name
 
@@ -146,8 +161,20 @@ def extract_docx(path: Path) -> str:
 
 
 def extract_doc(path: Path) -> str:
-    """舊版 .doc binary 格式 — 沒有 antiword/libreoffice 可用，跳過。"""
-    raise RuntimeError("doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用")
+    """舊版 .doc binary 格式 — 用 antiword 或 catdoc（Arch 官方套件）。"""
+    # 優先 antiword（PDF/Word → text）
+    for cmd in [["antiword", str(path)], ["catdoc", str(path)]]:
+        try:
+            result = subprocess.run(
+                cmd, capture_output=True, text=True, timeout=60,
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                return result.stdout
+        except FileNotFoundError:
+            continue
+        except Exception as e:
+            last_err = str(e)
+    raise RuntimeError(f"doc-skipped: antiword+catdoc 都失敗，{locals().get('last_err', 'binary not in PATH')}")
 
 
 def extract_xlsx(path: Path) -> str:
@@ -362,6 +389,10 @@ def classify_file(path: Path) -> dict:
     )
     info["extracted_at"] = datetime.now(TZ).isoformat()
 
+    # melances BIG5 mojibake fallback：把 GBK decoded str 存 frontmatter
+    if info.get("source") == "melances":
+        info["original_filename_raw"] = safe_filename(name)
+
     # clean empty
     info = {k: v for k, v in info.items() if v is not None and v != ""}
     return info
@@ -373,11 +404,19 @@ def classify_file(path: Path) -> dict:
 
 def build_frontmatter(info: dict) -> str:
     """產 YAML frontmatter。"""
+    # 預設值：subject / grade_label / stage 缺失時填「未分」
+    info = dict(info)  # copy
+    if "subject" not in info or not info["subject"]:
+        info["subject"] = "未分科目"
+    if "grade_label" not in info or not info["grade_label"]:
+        info["grade_label"] = "未分年級"
+    if "stage" not in info or not info["stage"]:
+        info["stage"] = "未分"
     keys_order = [
         "source", "year_roc", "stage", "grade_label", "grade_num",
         "subject", "semester", "test_type", "variant",
         "school", "version",
-        "original_filename", "original_path", "sha256",
+        "original_filename", "original_filename_raw", "original_path", "sha256",
         "size", "ext",
         "license", "extracted_at",
     ]
@@ -437,13 +476,18 @@ def extract_text(info: dict) -> str:
 
 
 def write_md(info: dict, body: str) -> Path:
-    """寫 .md 到 by-grade-subject/。"""
+    """寫 .md 到 by-grade-subject/。若檔案已存在（sha256 重複），跳過避免覆蓋。"""
     out_path = build_output_path(info)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     info["original_filename"] = info.get("filename") or Path(info["path"]).name
     info["original_path"] = info["path"]
     front = build_frontmatter(info)
     md_content = f"{front}\n\n{body}\n"
+    # 防覆蓋：若檔案已存在就跳過
+    if out_path.exists():
+        # 用 sha256 + index 強制唯一
+        sha = info.get("sha256", "00000000")[:12]
+        out_path = out_path.parent / f"{out_path.stem}-{sha[:4]}.md"
     out_path.write_text(md_content, encoding="utf-8")
     return out_path
 
