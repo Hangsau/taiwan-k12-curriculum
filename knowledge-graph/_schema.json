@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "description": "P3 知識圖譜 schema 規格（對應 docs/knowledge-graph-schema.md）",
+  "node": {
+    "required": [
+      "id",
+      "domain",
+      "code",
+      "code_format",
+      "stage",
+      "category",
+      "ordinal",
+      "type",
+      "source_file"
+    ],
+    "optional": [
+      "title",
+      "description",
+      "source_ref",
+      "keywords",
+      "warnings"
+    ],
+    "fields": {
+      "id": "格式 <domain>/<code>，唯一",
+      "domain": "11 領域名（中文）+ 總綱",
+      "code": "原始 curriculum 編碼",
+      "code_format": "numeric_phase 或 roman_phase",
+      "stage": "I/II/III/IV/V",
+      "category": "編碼前綴",
+      "ordinal": "序號 int",
+      "type": "content 或 performance",
+      "title": "v1 留空（TODO 從 raw_section_5 抽取）",
+      "description": "v1 留空",
+      "source_file": "對應 structured.json 路徑",
+      "source_ref": "指向 structured.json 內位置",
+      "keywords": "v1 留空（跨域搜尋用）",
+      "warnings": "非阻擋問題"
+    }
+  },
+  "edge": {
+    "required": [
+      "from",
+      "to",
+      "relation"
+    ],
+    "optional": [
+      "strength",
+      "note",
+      "source"
+    ],
+    "fields": {
+      "from": "來源節點 id（前備）",
+      "to": "目標節點 id（後學）",
+      "relation": "prerequisite / related / extends",
+      "strength": "required / recommended / optional",
+      "note": "一句話說明",
+      "source": "auto / manual:<file>"
+    }
+  },
+  "domain_graph": {
+    "required": [
+      "schema_version",
+      "domain",
+      "total_nodes",
+      "total_edges",
+      "nodes",
+      "edges"
+    ]
+  },
+  "all_graph": {
+    "required": [
+      "schema_version",
+      "domains",
+      "total_nodes",
+      "total_edges",
+      "by_domain",
+      "nodes",
+      "edges"
+    ]
+  }
+}

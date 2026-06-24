@@ -1,0 +1,2878 @@
+{
+  "schema_version": "1.0",
+  "domain": "藝術",
+  "generated_at": "2026-06-24T20:19:31+08:00",
+  "total_nodes": 117,
+  "total_edges": 79,
+  "structure_types": [
+    "A"
+  ],
+  "stages_present": [
+    "II",
+    "III",
+    "IV",
+    "V"
+  ],
+  "source_files": [
+    "curriculum/藝術/藝術領域課程綱要.structured.json"
+  ],
+  "nodes": [
+    {
+      "id": "藝術/E-Ⅱ-1",
+      "domain": "藝術",
+      "code": "E-Ⅱ-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "E",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅱ-2",
+      "domain": "藝術",
+      "code": "E-Ⅱ-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "E",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅱ-3",
+      "domain": "藝術",
+      "code": "E-Ⅱ-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "E",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅱ-4",
+      "domain": "藝術",
+      "code": "E-Ⅱ-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "E",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅱ-5",
+      "domain": "藝術",
+      "code": "E-Ⅱ-5",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "E",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅱ-1",
+      "domain": "藝術",
+      "code": "A-Ⅱ-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "A",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅱ-2",
+      "domain": "藝術",
+      "code": "A-Ⅱ-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "A",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅱ-3",
+      "domain": "藝術",
+      "code": "A-Ⅱ-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "A",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅱ-1",
+      "domain": "藝術",
+      "code": "P-Ⅱ-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "P",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅱ-2",
+      "domain": "藝術",
+      "code": "P-Ⅱ-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "P",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅱ-3",
+      "domain": "藝術",
+      "code": "P-Ⅱ-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "P",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅱ-4",
+      "domain": "藝術",
+      "code": "P-Ⅱ-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "P",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅲ-1",
+      "domain": "藝術",
+      "code": "E-Ⅲ-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "E",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅲ-2",
+      "domain": "藝術",
+      "code": "E-Ⅲ-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "E",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅲ-3",
+      "domain": "藝術",
+      "code": "E-Ⅲ-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "E",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅲ-4",
+      "domain": "藝術",
+      "code": "E-Ⅲ-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "E",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅲ-5",
+      "domain": "藝術",
+      "code": "E-Ⅲ-5",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "E",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅲ-1",
+      "domain": "藝術",
+      "code": "A-Ⅲ-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "A",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅲ-2",
+      "domain": "藝術",
+      "code": "A-Ⅲ-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "A",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅲ-3",
+      "domain": "藝術",
+      "code": "A-Ⅲ-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "A",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅲ-1",
+      "domain": "藝術",
+      "code": "P-Ⅲ-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "P",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅲ-2",
+      "domain": "藝術",
+      "code": "P-Ⅲ-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "P",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅲ-3",
+      "domain": "藝術",
+      "code": "P-Ⅲ-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "P",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅲ-4",
+      "domain": "藝術",
+      "code": "P-Ⅲ-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "P",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅳ-1",
+      "domain": "藝術",
+      "code": "E-Ⅳ-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "E",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅳ-2",
+      "domain": "藝術",
+      "code": "E-Ⅳ-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "E",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅳ-3",
+      "domain": "藝術",
+      "code": "E-Ⅳ-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "E",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅳ-4",
+      "domain": "藝術",
+      "code": "E-Ⅳ-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "E",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-Ⅳ-5",
+      "domain": "藝術",
+      "code": "E-Ⅳ-5",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "E",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅳ-1",
+      "domain": "藝術",
+      "code": "A-Ⅳ-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅳ-2",
+      "domain": "藝術",
+      "code": "A-Ⅳ-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-Ⅳ-3",
+      "domain": "藝術",
+      "code": "A-Ⅳ-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅳ-1",
+      "domain": "藝術",
+      "code": "P-Ⅳ-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅳ-2",
+      "domain": "藝術",
+      "code": "P-Ⅳ-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅳ-3",
+      "domain": "藝術",
+      "code": "P-Ⅳ-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-Ⅳ-4",
+      "domain": "藝術",
+      "code": "P-Ⅳ-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-V-1",
+      "domain": "藝術",
+      "code": "E-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-V-2",
+      "domain": "藝術",
+      "code": "E-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-V-3",
+      "domain": "藝術",
+      "code": "E-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-V-4",
+      "domain": "藝術",
+      "code": "E-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-V-5",
+      "domain": "藝術",
+      "code": "E-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-V-1",
+      "domain": "藝術",
+      "code": "A-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-V-2",
+      "domain": "藝術",
+      "code": "A-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-V-3",
+      "domain": "藝術",
+      "code": "A-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-V-4",
+      "domain": "藝術",
+      "code": "A-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-V-5",
+      "domain": "藝術",
+      "code": "A-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-V-1",
+      "domain": "藝術",
+      "code": "P-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 46
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-V-2",
+      "domain": "藝術",
+      "code": "P-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 47
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-V-3",
+      "domain": "藝術",
+      "code": "P-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 48
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-V-4",
+      "domain": "藝術",
+      "code": "P-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 49
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/E-V-6",
+      "domain": "藝術",
+      "code": "E-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 50
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/A-V-6",
+      "domain": "藝術",
+      "code": "A-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 51
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-V-5",
+      "domain": "藝術",
+      "code": "P-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 52
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/P-V-6",
+      "domain": "藝術",
+      "code": "P-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 53
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-1",
+      "domain": "藝術",
+      "code": "1-Ⅱ-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-2",
+      "domain": "藝術",
+      "code": "1-Ⅱ-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-3",
+      "domain": "藝術",
+      "code": "1-Ⅱ-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-4",
+      "domain": "藝術",
+      "code": "1-Ⅱ-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-5",
+      "domain": "藝術",
+      "code": "1-Ⅱ-5",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-6",
+      "domain": "藝術",
+      "code": "1-Ⅱ-6",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-7",
+      "domain": "藝術",
+      "code": "1-Ⅱ-7",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅱ-8",
+      "domain": "藝術",
+      "code": "1-Ⅱ-8",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅱ-1",
+      "domain": "藝術",
+      "code": "2-Ⅱ-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅱ-2",
+      "domain": "藝術",
+      "code": "2-Ⅱ-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅱ-3",
+      "domain": "藝術",
+      "code": "2-Ⅱ-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅱ-4",
+      "domain": "藝術",
+      "code": "2-Ⅱ-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅱ-5",
+      "domain": "藝術",
+      "code": "2-Ⅱ-5",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅱ-6",
+      "domain": "藝術",
+      "code": "2-Ⅱ-6",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅱ-7",
+      "domain": "藝術",
+      "code": "2-Ⅱ-7",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅱ-1",
+      "domain": "藝術",
+      "code": "3-Ⅱ-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅱ-2",
+      "domain": "藝術",
+      "code": "3-Ⅱ-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅱ-3",
+      "domain": "藝術",
+      "code": "3-Ⅱ-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅱ-4",
+      "domain": "藝術",
+      "code": "3-Ⅱ-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅱ-5",
+      "domain": "藝術",
+      "code": "3-Ⅱ-5",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-1",
+      "domain": "藝術",
+      "code": "1-Ⅲ-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-2",
+      "domain": "藝術",
+      "code": "1-Ⅲ-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-3",
+      "domain": "藝術",
+      "code": "1-Ⅲ-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-4",
+      "domain": "藝術",
+      "code": "1-Ⅲ-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-5",
+      "domain": "藝術",
+      "code": "1-Ⅲ-5",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-6",
+      "domain": "藝術",
+      "code": "1-Ⅲ-6",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-7",
+      "domain": "藝術",
+      "code": "1-Ⅲ-7",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅲ-8",
+      "domain": "藝術",
+      "code": "1-Ⅲ-8",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅲ-1",
+      "domain": "藝術",
+      "code": "2-Ⅲ-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅲ-2",
+      "domain": "藝術",
+      "code": "2-Ⅲ-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅲ-3",
+      "domain": "藝術",
+      "code": "2-Ⅲ-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅲ-4",
+      "domain": "藝術",
+      "code": "2-Ⅲ-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅲ-5",
+      "domain": "藝術",
+      "code": "2-Ⅲ-5",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅲ-6",
+      "domain": "藝術",
+      "code": "2-Ⅲ-6",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅲ-7",
+      "domain": "藝術",
+      "code": "2-Ⅲ-7",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅲ-1",
+      "domain": "藝術",
+      "code": "3-Ⅲ-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅲ-2",
+      "domain": "藝術",
+      "code": "3-Ⅲ-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅲ-3",
+      "domain": "藝術",
+      "code": "3-Ⅲ-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅲ-4",
+      "domain": "藝術",
+      "code": "3-Ⅲ-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅲ-5",
+      "domain": "藝術",
+      "code": "3-Ⅲ-5",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅳ-1",
+      "domain": "藝術",
+      "code": "1-Ⅳ-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅳ-2",
+      "domain": "藝術",
+      "code": "1-Ⅳ-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅳ-1",
+      "domain": "藝術",
+      "code": "2-Ⅳ-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅳ-2",
+      "domain": "藝術",
+      "code": "2-Ⅳ-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅳ-1",
+      "domain": "藝術",
+      "code": "3-Ⅳ-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅳ-2",
+      "domain": "藝術",
+      "code": "3-Ⅳ-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅳ-3",
+      "domain": "藝術",
+      "code": "1-Ⅳ-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 46
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-Ⅳ-4",
+      "domain": "藝術",
+      "code": "1-Ⅳ-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 47
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-Ⅳ-3",
+      "domain": "藝術",
+      "code": "2-Ⅳ-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 48
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅳ-3",
+      "domain": "藝術",
+      "code": "3-Ⅳ-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 49
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-Ⅳ-4",
+      "domain": "藝術",
+      "code": "3-Ⅳ-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 50
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-V-1",
+      "domain": "藝術",
+      "code": "1-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 51
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-V-2",
+      "domain": "藝術",
+      "code": "1-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 52
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-V-3",
+      "domain": "藝術",
+      "code": "1-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 53
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-V-1",
+      "domain": "藝術",
+      "code": "2-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 54
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-V-2",
+      "domain": "藝術",
+      "code": "2-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 55
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-V-1",
+      "domain": "藝術",
+      "code": "3-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 56
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-V-2",
+      "domain": "藝術",
+      "code": "3-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 57
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-V-4",
+      "domain": "藝術",
+      "code": "1-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 58
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/1-V-5",
+      "domain": "藝術",
+      "code": "1-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 59
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/2-V-3",
+      "domain": "藝術",
+      "code": "2-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 60
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-V-3",
+      "domain": "藝術",
+      "code": "3-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 61
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "藝術/3-V-4",
+      "domain": "藝術",
+      "code": "3-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/藝術/藝術領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 62
+      },
+      "keywords": [],
+      "warnings": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "藝術/E-Ⅱ-1",
+      "to": "藝術/E-Ⅲ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅲ-1",
+      "to": "藝術/E-Ⅳ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅳ-1",
+      "to": "藝術/E-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅱ-2",
+      "to": "藝術/E-Ⅲ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅲ-2",
+      "to": "藝術/E-Ⅳ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅳ-2",
+      "to": "藝術/E-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅱ-3",
+      "to": "藝術/E-Ⅲ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅲ-3",
+      "to": "藝術/E-Ⅳ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅳ-3",
+      "to": "藝術/E-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅱ-4",
+      "to": "藝術/E-Ⅲ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅲ-4",
+      "to": "藝術/E-Ⅳ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅳ-4",
+      "to": "藝術/E-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅱ-5",
+      "to": "藝術/E-Ⅲ-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅲ-5",
+      "to": "藝術/E-Ⅳ-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/E-Ⅳ-5",
+      "to": "藝術/E-V-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅱ-1",
+      "to": "藝術/A-Ⅲ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅲ-1",
+      "to": "藝術/A-Ⅳ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅳ-1",
+      "to": "藝術/A-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅱ-2",
+      "to": "藝術/A-Ⅲ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅲ-2",
+      "to": "藝術/A-Ⅳ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅳ-2",
+      "to": "藝術/A-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅱ-3",
+      "to": "藝術/A-Ⅲ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅲ-3",
+      "to": "藝術/A-Ⅳ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/A-Ⅳ-3",
+      "to": "藝術/A-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅱ-1",
+      "to": "藝術/P-Ⅲ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅲ-1",
+      "to": "藝術/P-Ⅳ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅳ-1",
+      "to": "藝術/P-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅱ-2",
+      "to": "藝術/P-Ⅲ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅲ-2",
+      "to": "藝術/P-Ⅳ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅳ-2",
+      "to": "藝術/P-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅱ-3",
+      "to": "藝術/P-Ⅲ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅲ-3",
+      "to": "藝術/P-Ⅳ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅳ-3",
+      "to": "藝術/P-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅱ-4",
+      "to": "藝術/P-Ⅲ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅲ-4",
+      "to": "藝術/P-Ⅳ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/P-Ⅳ-4",
+      "to": "藝術/P-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-1",
+      "to": "藝術/1-Ⅲ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅲ-1",
+      "to": "藝術/1-Ⅳ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅳ-1",
+      "to": "藝術/1-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-2",
+      "to": "藝術/1-Ⅲ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅲ-2",
+      "to": "藝術/1-Ⅳ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅳ-2",
+      "to": "藝術/1-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-3",
+      "to": "藝術/1-Ⅲ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅲ-3",
+      "to": "藝術/1-Ⅳ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅳ-3",
+      "to": "藝術/1-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-4",
+      "to": "藝術/1-Ⅲ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅲ-4",
+      "to": "藝術/1-Ⅳ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅳ-4",
+      "to": "藝術/1-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-5",
+      "to": "藝術/1-Ⅲ-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅲ-5",
+      "to": "藝術/1-V-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-6",
+      "to": "藝術/1-Ⅲ-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-7",
+      "to": "藝術/1-Ⅲ-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/1-Ⅱ-8",
+      "to": "藝術/1-Ⅲ-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅱ-1",
+      "to": "藝術/2-Ⅲ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅲ-1",
+      "to": "藝術/2-Ⅳ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅳ-1",
+      "to": "藝術/2-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅱ-2",
+      "to": "藝術/2-Ⅲ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅲ-2",
+      "to": "藝術/2-Ⅳ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅳ-2",
+      "to": "藝術/2-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅱ-3",
+      "to": "藝術/2-Ⅲ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅲ-3",
+      "to": "藝術/2-Ⅳ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅳ-3",
+      "to": "藝術/2-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅱ-4",
+      "to": "藝術/2-Ⅲ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅱ-5",
+      "to": "藝術/2-Ⅲ-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅱ-6",
+      "to": "藝術/2-Ⅲ-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/2-Ⅱ-7",
+      "to": "藝術/2-Ⅲ-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅱ-1",
+      "to": "藝術/3-Ⅲ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅲ-1",
+      "to": "藝術/3-Ⅳ-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅳ-1",
+      "to": "藝術/3-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅱ-2",
+      "to": "藝術/3-Ⅲ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅲ-2",
+      "to": "藝術/3-Ⅳ-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅳ-2",
+      "to": "藝術/3-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅱ-3",
+      "to": "藝術/3-Ⅲ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅲ-3",
+      "to": "藝術/3-Ⅳ-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅳ-3",
+      "to": "藝術/3-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅱ-4",
+      "to": "藝術/3-Ⅲ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅲ-4",
+      "to": "藝術/3-Ⅳ-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅳ-4",
+      "to": "藝術/3-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "藝術/3-Ⅱ-5",
+      "to": "藝術/3-Ⅲ-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    }
+  ]
+}

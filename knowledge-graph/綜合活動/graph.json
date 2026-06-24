@@ -1,0 +1,5803 @@
+{
+  "schema_version": "1.0",
+  "domain": "綜合活動",
+  "generated_at": "2026-06-24T20:19:31+08:00",
+  "total_nodes": 252,
+  "total_edges": 124,
+  "structure_types": [
+    "A"
+  ],
+  "stages_present": [
+    "II",
+    "III",
+    "IV",
+    "V"
+  ],
+  "source_files": [
+    "curriculum/綜合活動/綜合活動領域課程綱要.structured.json"
+  ],
+  "nodes": [
+    {
+      "id": "綜合活動/Aa-II-1",
+      "domain": "綜合活動",
+      "code": "Aa-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Aa",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-IV-1",
+      "domain": "綜合活動",
+      "code": "Aa-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Aa",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-V-1",
+      "domain": "綜合活動",
+      "code": "Aa-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Aa",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-II-2",
+      "domain": "綜合活動",
+      "code": "Aa-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Aa",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-II-3",
+      "domain": "綜合活動",
+      "code": "Aa-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Aa",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-III-1",
+      "domain": "綜合活動",
+      "code": "Aa-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Aa",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-III-2",
+      "domain": "綜合活動",
+      "code": "Aa-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Aa",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-II-1",
+      "domain": "綜合活動",
+      "code": "Ab-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ab",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-II-2",
+      "domain": "綜合活動",
+      "code": "Ab-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ab",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-III-1",
+      "domain": "綜合活動",
+      "code": "Ab-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ab",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-III-2",
+      "domain": "綜合活動",
+      "code": "Ab-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ab",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-II-1",
+      "domain": "綜合活動",
+      "code": "Ac-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ac",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-II-2",
+      "domain": "綜合活動",
+      "code": "Ac-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ac",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-II-3",
+      "domain": "綜合活動",
+      "code": "Ac-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ac",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-III-1",
+      "domain": "綜合活動",
+      "code": "Ac-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ac",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-III-2",
+      "domain": "綜合活動",
+      "code": "Ac-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ac",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-III-3",
+      "domain": "綜合活動",
+      "code": "Ac-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ac",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ad-II-1",
+      "domain": "綜合活動",
+      "code": "Ad-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ad",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ad-II-2",
+      "domain": "綜合活動",
+      "code": "Ad-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ad",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ad-III-1",
+      "domain": "綜合活動",
+      "code": "Ad-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ad",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ad-III-2",
+      "domain": "綜合活動",
+      "code": "Ad-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ad",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ad-III-3",
+      "domain": "綜合活動",
+      "code": "Ad-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ad",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ad-III-4",
+      "domain": "綜合活動",
+      "code": "Ad-III-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ad",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-II-1",
+      "domain": "綜合活動",
+      "code": "Ba-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ba",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-II-2",
+      "domain": "綜合活動",
+      "code": "Ba-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ba",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-II-3",
+      "domain": "綜合活動",
+      "code": "Ba-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ba",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-III-1",
+      "domain": "綜合活動",
+      "code": "Ba-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ba",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-III-2",
+      "domain": "綜合活動",
+      "code": "Ba-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ba",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-III-3",
+      "domain": "綜合活動",
+      "code": "Ba-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ba",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-II-1",
+      "domain": "綜合活動",
+      "code": "Bb-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-II-2",
+      "domain": "綜合活動",
+      "code": "Bb-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-II-3",
+      "domain": "綜合活動",
+      "code": "Bb-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-III-1",
+      "domain": "綜合活動",
+      "code": "Bb-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-III-2",
+      "domain": "綜合活動",
+      "code": "Bb-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-III-3",
+      "domain": "綜合活動",
+      "code": "Bb-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-II-1",
+      "domain": "綜合活動",
+      "code": "Bc-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-II-2",
+      "domain": "綜合活動",
+      "code": "Bc-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-II-3",
+      "domain": "綜合活動",
+      "code": "Bc-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bc",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-III-1",
+      "domain": "綜合活動",
+      "code": "Bc-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-III-2",
+      "domain": "綜合活動",
+      "code": "Bc-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-III-3",
+      "domain": "綜合活動",
+      "code": "Bc-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bc",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bd-II-1",
+      "domain": "綜合活動",
+      "code": "Bd-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bd",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bd-II-2",
+      "domain": "綜合活動",
+      "code": "Bd-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bd",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bd-II-3",
+      "domain": "綜合活動",
+      "code": "Bd-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Bd",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bd-III-1",
+      "domain": "綜合活動",
+      "code": "Bd-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bd",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bd-III-2",
+      "domain": "綜合活動",
+      "code": "Bd-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Bd",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-II-1",
+      "domain": "綜合活動",
+      "code": "Ca-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ca",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 46
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-II-2",
+      "domain": "綜合活動",
+      "code": "Ca-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ca",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 47
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-II-3",
+      "domain": "綜合活動",
+      "code": "Ca-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Ca",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 48
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-III-1",
+      "domain": "綜合活動",
+      "code": "Ca-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ca",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 49
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-III-2",
+      "domain": "綜合活動",
+      "code": "Ca-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ca",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 50
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-III-3",
+      "domain": "綜合活動",
+      "code": "Ca-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Ca",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 51
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-II-1",
+      "domain": "綜合活動",
+      "code": "Cb-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Cb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 52
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-II-2",
+      "domain": "綜合活動",
+      "code": "Cb-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Cb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 53
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-III-1",
+      "domain": "綜合活動",
+      "code": "Cb-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 54
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-III-2",
+      "domain": "綜合活動",
+      "code": "Cb-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 55
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-III-3",
+      "domain": "綜合活動",
+      "code": "Cb-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 56
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-II-1",
+      "domain": "綜合活動",
+      "code": "Cc-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Cc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 57
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-II-2",
+      "domain": "綜合活動",
+      "code": "Cc-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Cc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 58
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-II-3",
+      "domain": "綜合活動",
+      "code": "Cc-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Cc",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 59
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-III-1",
+      "domain": "綜合活動",
+      "code": "Cc-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 60
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-III-2",
+      "domain": "綜合活動",
+      "code": "Cc-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 61
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-III-3",
+      "domain": "綜合活動",
+      "code": "Cc-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cc",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 62
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-III-4",
+      "domain": "綜合活動",
+      "code": "Cc-III-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cc",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 63
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cd-II-1",
+      "domain": "綜合活動",
+      "code": "Cd-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Cd",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 64
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cd-II-2",
+      "domain": "綜合活動",
+      "code": "Cd-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "Cd",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 65
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cd-III-1",
+      "domain": "綜合活動",
+      "code": "Cd-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cd",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 66
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cd-III-2",
+      "domain": "綜合活動",
+      "code": "Cd-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cd",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 67
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cd-III-3",
+      "domain": "綜合活動",
+      "code": "Cd-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cd",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 68
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cd-III-4",
+      "domain": "綜合活動",
+      "code": "Cd-III-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "Cd",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 69
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Db-IV-1",
+      "domain": "綜合活動",
+      "code": "Db-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Db",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 70
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-IV-1",
+      "domain": "綜合活動",
+      "code": "Ab-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ab",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 71
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-IV-2",
+      "domain": "綜合活動",
+      "code": "Ab-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ab",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 72
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-IV-2",
+      "domain": "綜合活動",
+      "code": "Cc-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 73
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-IV-2",
+      "domain": "綜合活動",
+      "code": "Aa-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Aa",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 74
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-IV-2",
+      "domain": "綜合活動",
+      "code": "Bc-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 75
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Dd-IV-1",
+      "domain": "綜合活動",
+      "code": "Dd-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dd",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 76
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-IV-1",
+      "domain": "綜合活動",
+      "code": "Ca-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ca",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 77
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-IV-1",
+      "domain": "綜合活動",
+      "code": "Ba-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ba",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 78
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-IV-2",
+      "domain": "綜合活動",
+      "code": "Ba-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ba",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 79
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-IV-1",
+      "domain": "綜合活動",
+      "code": "Bb-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 80
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Db-IV-2",
+      "domain": "綜合活動",
+      "code": "Db-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Db",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 81
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-IV-1",
+      "domain": "綜合活動",
+      "code": "Cc-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 82
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Dd-IV-2",
+      "domain": "綜合活動",
+      "code": "Dd-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dd",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 83
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Dd-IV-3",
+      "domain": "綜合活動",
+      "code": "Dd-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dd",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 84
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-IV-2",
+      "domain": "綜合活動",
+      "code": "Ca-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ca",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 85
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-IV-1",
+      "domain": "綜合活動",
+      "code": "Cb-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 86
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-IV-3",
+      "domain": "綜合活動",
+      "code": "Bb-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 87
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-IV-2",
+      "domain": "綜合活動",
+      "code": "Cb-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 88
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-IV-1",
+      "domain": "綜合活動",
+      "code": "Da-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Da",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 89
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-IV-2",
+      "domain": "綜合活動",
+      "code": "Da-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Da",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 90
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-IV-1",
+      "domain": "綜合活動",
+      "code": "Ac-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ac",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 91
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-IV-2",
+      "domain": "綜合活動",
+      "code": "Ac-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ac",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 92
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Dc-IV-1",
+      "domain": "綜合活動",
+      "code": "Dc-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 93
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-IV-3",
+      "domain": "綜合活動",
+      "code": "Aa-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Aa",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 94
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-IV-3",
+      "domain": "綜合活動",
+      "code": "Cb-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 95
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/家Db-IV-3",
+      "domain": "綜合活動",
+      "code": "家Db-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Db",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 96
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/輔Dd-IV-2",
+      "domain": "綜合活動",
+      "code": "輔Dd-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dd",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 97
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/家Da-IV-1",
+      "domain": "綜合活動",
+      "code": "家Da-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Da",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 98
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/家Da-IV-2",
+      "domain": "綜合活動",
+      "code": "家Da-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Da",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 99
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/輔Dc-IV-1",
+      "domain": "綜合活動",
+      "code": "輔Dc-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 100
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Dc-IV-2",
+      "domain": "綜合活動",
+      "code": "Dc-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 101
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/童Aa-IV-2",
+      "domain": "綜合活動",
+      "code": "童Aa-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Aa",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 102
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/童Bb-IV-2",
+      "domain": "綜合活動",
+      "code": "童Bb-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 103
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/童Cb-IV-3",
+      "domain": "綜合活動",
+      "code": "童Cb-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 104
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/輔Dc-IV-2",
+      "domain": "綜合活動",
+      "code": "輔Dc-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 105
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bc-IV-1",
+      "domain": "綜合活動",
+      "code": "Bc-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 106
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-IV-2",
+      "domain": "綜合活動",
+      "code": "Bb-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 107
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/家Ab-IV-2",
+      "domain": "綜合活動",
+      "code": "家Ab-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ab",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 108
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/家Cc-IV-1",
+      "domain": "綜合活動",
+      "code": "家Cc-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 109
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/家Cc-IV-2",
+      "domain": "綜合活動",
+      "code": "家Cc-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Cc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 110
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/家Dc-IV-1",
+      "domain": "綜合活動",
+      "code": "家Dc-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Dc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 111
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/童Ca-IV-3",
+      "domain": "綜合活動",
+      "code": "童Ca-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ca",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 112
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/輔Bc-IV-1",
+      "domain": "綜合活動",
+      "code": "輔Bc-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 113
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/輔Da-IV-1",
+      "domain": "綜合活動",
+      "code": "輔Da-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Da",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 114
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-IV-4",
+      "domain": "綜合活動",
+      "code": "Bb-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Bb",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 115
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-IV-3",
+      "domain": "綜合活動",
+      "code": "Ab-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ab",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 116
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-IV-3",
+      "domain": "綜合活動",
+      "code": "Ca-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Ca",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 117
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Db-IV-3",
+      "domain": "綜合活動",
+      "code": "Db-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "Db",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 118
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-V-2",
+      "domain": "綜合活動",
+      "code": "Aa-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Aa",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 119
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-V-3",
+      "domain": "綜合活動",
+      "code": "Aa-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Aa",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 120
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-V-4",
+      "domain": "綜合活動",
+      "code": "Aa-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Aa",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 121
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-V-1",
+      "domain": "綜合活動",
+      "code": "Ab-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ab",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 122
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-V-1",
+      "domain": "綜合活動",
+      "code": "Ba-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ba",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 123
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-V-1",
+      "domain": "綜合活動",
+      "code": "Bb-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 124
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Bb-V-2",
+      "domain": "綜合活動",
+      "code": "Bb-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 125
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-V-1",
+      "domain": "綜合活動",
+      "code": "Ca-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ca",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 126
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-V-2",
+      "domain": "綜合活動",
+      "code": "Ca-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ca",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 127
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-V-3",
+      "domain": "綜合活動",
+      "code": "Ca-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ca",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 128
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-V-4",
+      "domain": "綜合活動",
+      "code": "Ca-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ca",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 129
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-V-1",
+      "domain": "綜合活動",
+      "code": "Cb-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Cb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 130
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-V-2",
+      "domain": "綜合活動",
+      "code": "Cb-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Cb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 131
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-V-1",
+      "domain": "綜合活動",
+      "code": "Da-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 132
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-V-2",
+      "domain": "綜合活動",
+      "code": "Da-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 133
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-V-3",
+      "domain": "綜合活動",
+      "code": "Da-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 134
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-V-4",
+      "domain": "綜合活動",
+      "code": "Da-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 135
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-V-5",
+      "domain": "綜合活動",
+      "code": "Da-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 136
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Db-V-1",
+      "domain": "綜合活動",
+      "code": "Db-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Db",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 137
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Db-V-2",
+      "domain": "綜合活動",
+      "code": "Db-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Db",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 138
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Db-V-3",
+      "domain": "綜合活動",
+      "code": "Db-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Db",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 139
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ea-V-1",
+      "domain": "綜合活動",
+      "code": "Ea-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ea",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 140
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ea-V-2",
+      "domain": "綜合活動",
+      "code": "Ea-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ea",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 141
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Eb-V-1",
+      "domain": "綜合活動",
+      "code": "Eb-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Eb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 142
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Eb-V-2",
+      "domain": "綜合活動",
+      "code": "Eb-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Eb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 143
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-V-2",
+      "domain": "綜合活動",
+      "code": "Ab-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ab",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 144
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-V-1",
+      "domain": "綜合活動",
+      "code": "Ac-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ac",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 145
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-V-2",
+      "domain": "綜合活動",
+      "code": "Ac-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ac",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 146
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-V-3",
+      "domain": "綜合活動",
+      "code": "Ac-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ac",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 147
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ac-V-4",
+      "domain": "綜合活動",
+      "code": "Ac-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ac",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 148
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-V-2",
+      "domain": "綜合活動",
+      "code": "Ba-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ba",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 149
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-V-3",
+      "domain": "綜合活動",
+      "code": "Ba-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ba",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 150
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-V-4",
+      "domain": "綜合活動",
+      "code": "Ba-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ba",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 151
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ba-V-5",
+      "domain": "綜合活動",
+      "code": "Ba-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ba",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 152
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/涯Bb-V-1",
+      "domain": "綜合活動",
+      "code": "涯Bb-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 153
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/涯Bb-V-2",
+      "domain": "綜合活動",
+      "code": "涯Bb-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 154
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-V-1",
+      "domain": "綜合活動",
+      "code": "Cc-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Cc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 155
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Dc-V-1",
+      "domain": "綜合活動",
+      "code": "Dc-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Dc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 156
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Dc-V-2",
+      "domain": "綜合活動",
+      "code": "Dc-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Dc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 157
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-V-5",
+      "domain": "綜合活動",
+      "code": "Aa-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Aa",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 158
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-V-6",
+      "domain": "綜合活動",
+      "code": "Aa-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Aa",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 159
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Aa-V-7",
+      "domain": "綜合活動",
+      "code": "Aa-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Aa",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 160
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-V-3",
+      "domain": "綜合活動",
+      "code": "Ab-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ab",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 161
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ab-V-4",
+      "domain": "綜合活動",
+      "code": "Ab-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ab",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 162
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-V-5",
+      "domain": "綜合活動",
+      "code": "Ca-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ca",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 163
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-V-6",
+      "domain": "綜合活動",
+      "code": "Ca-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ca",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 164
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Ca-V-7",
+      "domain": "綜合活動",
+      "code": "Ca-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Ca",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 165
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-V-3",
+      "domain": "綜合活動",
+      "code": "Cb-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Cb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 166
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cb-V-4",
+      "domain": "綜合活動",
+      "code": "Cb-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Cb",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 167
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-V-6",
+      "domain": "綜合活動",
+      "code": "Da-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 168
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Da-V-7",
+      "domain": "綜合活動",
+      "code": "Da-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 169
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/未Bb-V-1",
+      "domain": "綜合活動",
+      "code": "未Bb-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 170
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/未Bb-V-2",
+      "domain": "綜合活動",
+      "code": "未Bb-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 171
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/未Bb-V-3",
+      "domain": "綜合活動",
+      "code": "未Bb-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 172
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/未Bb-V-4",
+      "domain": "綜合活動",
+      "code": "未Bb-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 173
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/未Bb-V-5",
+      "domain": "綜合活動",
+      "code": "未Bb-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Bb",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 174
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/Cc-V-2",
+      "domain": "綜合活動",
+      "code": "Cc-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Cc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 175
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1a-II-1",
+      "domain": "綜合活動",
+      "code": "1a-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1a-IV-1",
+      "domain": "綜合活動",
+      "code": "1a-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1a-V-1",
+      "domain": "綜合活動",
+      "code": "1a-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1a-III-1",
+      "domain": "綜合活動",
+      "code": "1a-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1b-II-1",
+      "domain": "綜合活動",
+      "code": "1b-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1b-III-1",
+      "domain": "綜合活動",
+      "code": "1b-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1c-II-1",
+      "domain": "綜合活動",
+      "code": "1c-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1c-III-1",
+      "domain": "綜合活動",
+      "code": "1c-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1d-II-1",
+      "domain": "綜合活動",
+      "code": "1d-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "1d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1d-III-1",
+      "domain": "綜合活動",
+      "code": "1d-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "1d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2a-II-1",
+      "domain": "綜合活動",
+      "code": "2a-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2a-III-1",
+      "domain": "綜合活動",
+      "code": "2a-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2b-II-1",
+      "domain": "綜合活動",
+      "code": "2b-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2b-II-2",
+      "domain": "綜合活動",
+      "code": "2b-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2b",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2b-III-1",
+      "domain": "綜合活動",
+      "code": "2b-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2c-II-1",
+      "domain": "綜合活動",
+      "code": "2c-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2c-III-1",
+      "domain": "綜合活動",
+      "code": "2c-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2d-II-1",
+      "domain": "綜合活動",
+      "code": "2d-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2d-II-2",
+      "domain": "綜合活動",
+      "code": "2d-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "2d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2d-III-1",
+      "domain": "綜合活動",
+      "code": "2d-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2d-III-2",
+      "domain": "綜合活動",
+      "code": "2d-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "2d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3a-II-1",
+      "domain": "綜合活動",
+      "code": "3a-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3a-III-1",
+      "domain": "綜合活動",
+      "code": "3a-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3b-II-1",
+      "domain": "綜合活動",
+      "code": "3b-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3b-III-1",
+      "domain": "綜合活動",
+      "code": "3b-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3c-II-1",
+      "domain": "綜合活動",
+      "code": "3c-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3c-III-1",
+      "domain": "綜合活動",
+      "code": "3c-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3d-II-1",
+      "domain": "綜合活動",
+      "code": "3d-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "3d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3d-III-1",
+      "domain": "綜合活動",
+      "code": "3d-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "3d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1a-IV-2",
+      "domain": "綜合活動",
+      "code": "1a-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1b-IV-1",
+      "domain": "綜合活動",
+      "code": "1b-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1b-IV-2",
+      "domain": "綜合活動",
+      "code": "1b-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1b",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1c-IV-1",
+      "domain": "綜合活動",
+      "code": "1c-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1c-IV-2",
+      "domain": "綜合活動",
+      "code": "1c-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1c",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1c-IV-3",
+      "domain": "綜合活動",
+      "code": "1c-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1c",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1d-IV-1",
+      "domain": "綜合活動",
+      "code": "1d-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1d-IV-2",
+      "domain": "綜合活動",
+      "code": "1d-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "1d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2a-IV-1",
+      "domain": "綜合活動",
+      "code": "2a-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2a-IV-2",
+      "domain": "綜合活動",
+      "code": "2a-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2a-IV-3",
+      "domain": "綜合活動",
+      "code": "2a-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2a",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2b-IV-1",
+      "domain": "綜合活動",
+      "code": "2b-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2b-IV-2",
+      "domain": "綜合活動",
+      "code": "2b-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2b",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2c-IV-1",
+      "domain": "綜合活動",
+      "code": "2c-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2c-IV-2",
+      "domain": "綜合活動",
+      "code": "2c-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2c",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2d-IV-1",
+      "domain": "綜合活動",
+      "code": "2d-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2d-IV-2",
+      "domain": "綜合活動",
+      "code": "2d-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "2d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3a-IV-1",
+      "domain": "綜合活動",
+      "code": "3a-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 46
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3a-IV-2",
+      "domain": "綜合活動",
+      "code": "3a-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 47
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3b-IV-1",
+      "domain": "綜合活動",
+      "code": "3b-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 48
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3c-IV-1",
+      "domain": "綜合活動",
+      "code": "3c-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 49
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3c-IV-2",
+      "domain": "綜合活動",
+      "code": "3c-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3c",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 50
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3d-IV-1",
+      "domain": "綜合活動",
+      "code": "3d-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 51
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3d-IV-2",
+      "domain": "綜合活動",
+      "code": "3d-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "3d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 52
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1b-V-1",
+      "domain": "綜合活動",
+      "code": "1b-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 53
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2a-V-1",
+      "domain": "綜合活動",
+      "code": "2a-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 54
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2b-V-1",
+      "domain": "綜合活動",
+      "code": "2b-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 55
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3a-V-1",
+      "domain": "綜合活動",
+      "code": "3a-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 56
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3b-V-1",
+      "domain": "綜合活動",
+      "code": "3b-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 57
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/4a-V-1",
+      "domain": "綜合活動",
+      "code": "4a-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "4a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 58
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/4b-V-1",
+      "domain": "綜合活動",
+      "code": "4b-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "4b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 59
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/5a-V-1",
+      "domain": "綜合活動",
+      "code": "5a-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "5a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 60
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/5b-V-1",
+      "domain": "綜合活動",
+      "code": "5b-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "5b",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 61
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1c-V-1",
+      "domain": "綜合活動",
+      "code": "1c-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 62
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1c-V-2",
+      "domain": "綜合活動",
+      "code": "1c-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1c",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 63
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3c-V-1",
+      "domain": "綜合活動",
+      "code": "3c-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 64
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1a-V-2",
+      "domain": "綜合活動",
+      "code": "1a-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 65
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1b-V-2",
+      "domain": "綜合活動",
+      "code": "1b-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1b",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 66
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2a-V-2",
+      "domain": "綜合活動",
+      "code": "2a-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 67
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3a-V-2",
+      "domain": "綜合活動",
+      "code": "3a-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 68
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/4b-V-2",
+      "domain": "綜合活動",
+      "code": "4b-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "4b",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 69
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/4c-V-1",
+      "domain": "綜合活動",
+      "code": "4c-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "4c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 70
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3b-V-2",
+      "domain": "綜合活動",
+      "code": "3b-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3b",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 71
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/4a-V-2",
+      "domain": "綜合活動",
+      "code": "4a-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "4a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 72
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/2b-V-2",
+      "domain": "綜合活動",
+      "code": "2b-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2b",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 73
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/3b-V-3",
+      "domain": "綜合活動",
+      "code": "3b-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3b",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 74
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "綜合活動/1b-V-3",
+      "domain": "綜合活動",
+      "code": "1b-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1b",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/綜合活動/綜合活動領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 75
+      },
+      "keywords": [],
+      "warnings": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "綜合活動/Aa-II-1",
+      "to": "綜合活動/Aa-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Aa-III-1",
+      "to": "綜合活動/Aa-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Aa-IV-1",
+      "to": "綜合活動/Aa-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Aa-II-2",
+      "to": "綜合活動/Aa-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Aa-III-2",
+      "to": "綜合活動/Aa-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/童Aa-IV-2",
+      "to": "綜合活動/Aa-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Aa-II-3",
+      "to": "綜合活動/Aa-IV-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Aa-IV-3",
+      "to": "綜合活動/Aa-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ab-II-1",
+      "to": "綜合活動/Ab-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ab-III-1",
+      "to": "綜合活動/Ab-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ab-IV-1",
+      "to": "綜合活動/Ab-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ab-II-2",
+      "to": "綜合活動/Ab-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ab-III-2",
+      "to": "綜合活動/Ab-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/家Ab-IV-2",
+      "to": "綜合活動/Ab-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-II-1",
+      "to": "綜合活動/Ac-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-III-1",
+      "to": "綜合活動/Ac-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-IV-1",
+      "to": "綜合活動/Ac-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-II-2",
+      "to": "綜合活動/Ac-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-III-2",
+      "to": "綜合活動/Ac-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-IV-2",
+      "to": "綜合活動/Ac-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-II-3",
+      "to": "綜合活動/Ac-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ac-III-3",
+      "to": "綜合活動/Ac-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ad-II-1",
+      "to": "綜合活動/Ad-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ad-II-2",
+      "to": "綜合活動/Ad-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-II-1",
+      "to": "綜合活動/Ba-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-III-1",
+      "to": "綜合活動/Ba-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-IV-1",
+      "to": "綜合活動/Ba-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-II-2",
+      "to": "綜合活動/Ba-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-III-2",
+      "to": "綜合活動/Ba-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-IV-2",
+      "to": "綜合活動/Ba-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-II-3",
+      "to": "綜合活動/Ba-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ba-III-3",
+      "to": "綜合活動/Ba-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-II-1",
+      "to": "綜合活動/Bb-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-III-1",
+      "to": "綜合活動/Bb-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-IV-1",
+      "to": "綜合活動/Bb-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-II-2",
+      "to": "綜合活動/Bb-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-III-2",
+      "to": "綜合活動/童Bb-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-IV-2",
+      "to": "綜合活動/Bb-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-II-3",
+      "to": "綜合活動/Bb-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-III-3",
+      "to": "綜合活動/Bb-IV-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-IV-3",
+      "to": "綜合活動/未Bb-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bc-II-1",
+      "to": "綜合活動/Bc-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bc-III-1",
+      "to": "綜合活動/Bc-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bc-II-2",
+      "to": "綜合活動/Bc-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bc-III-2",
+      "to": "綜合活動/Bc-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bc-II-3",
+      "to": "綜合活動/Bc-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bd-II-1",
+      "to": "綜合活動/Bd-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bd-II-2",
+      "to": "綜合活動/Bd-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-II-1",
+      "to": "綜合活動/Ca-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-III-1",
+      "to": "綜合活動/Ca-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-IV-1",
+      "to": "綜合活動/Ca-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-II-2",
+      "to": "綜合活動/Ca-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-III-2",
+      "to": "綜合活動/Ca-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-IV-2",
+      "to": "綜合活動/Ca-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-II-3",
+      "to": "綜合活動/Ca-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-III-3",
+      "to": "綜合活動/童Ca-IV-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ca-IV-3",
+      "to": "綜合活動/Ca-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cb-II-1",
+      "to": "綜合活動/Cb-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cb-III-1",
+      "to": "綜合活動/Cb-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cb-IV-1",
+      "to": "綜合活動/Cb-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cb-II-2",
+      "to": "綜合活動/Cb-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cb-III-2",
+      "to": "綜合活動/Cb-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cb-IV-2",
+      "to": "綜合活動/Cb-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cb-III-3",
+      "to": "綜合活動/Cb-IV-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/童Cb-IV-3",
+      "to": "綜合活動/Cb-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cc-II-1",
+      "to": "綜合活動/Cc-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cc-III-1",
+      "to": "綜合活動/Cc-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/家Cc-IV-1",
+      "to": "綜合活動/Cc-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cc-II-2",
+      "to": "綜合活動/Cc-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cc-III-2",
+      "to": "綜合活動/Cc-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/家Cc-IV-2",
+      "to": "綜合活動/Cc-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cc-II-3",
+      "to": "綜合活動/Cc-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cd-II-1",
+      "to": "綜合活動/Cd-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Cd-II-2",
+      "to": "綜合活動/Cd-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Db-IV-1",
+      "to": "綜合活動/Db-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Db-IV-2",
+      "to": "綜合活動/Db-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/輔Da-IV-1",
+      "to": "綜合活動/Da-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/家Da-IV-2",
+      "to": "綜合活動/Da-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/家Dc-IV-1",
+      "to": "綜合活動/Dc-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Db-IV-3",
+      "to": "綜合活動/Db-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/輔Dc-IV-2",
+      "to": "綜合活動/Dc-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Bb-IV-4",
+      "to": "綜合活動/未Bb-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/Ab-IV-3",
+      "to": "綜合活動/Ab-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1a-II-1",
+      "to": "綜合活動/1a-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1a-III-1",
+      "to": "綜合活動/1a-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1a-IV-1",
+      "to": "綜合活動/1a-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1b-II-1",
+      "to": "綜合活動/1b-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1b-III-1",
+      "to": "綜合活動/1b-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1b-IV-1",
+      "to": "綜合活動/1b-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1c-II-1",
+      "to": "綜合活動/1c-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1c-III-1",
+      "to": "綜合活動/1c-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1c-IV-1",
+      "to": "綜合活動/1c-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1d-II-1",
+      "to": "綜合活動/1d-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1d-III-1",
+      "to": "綜合活動/1d-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2a-II-1",
+      "to": "綜合活動/2a-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2a-III-1",
+      "to": "綜合活動/2a-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2a-IV-1",
+      "to": "綜合活動/2a-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2b-II-1",
+      "to": "綜合活動/2b-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2b-III-1",
+      "to": "綜合活動/2b-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2b-IV-1",
+      "to": "綜合活動/2b-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2b-II-2",
+      "to": "綜合活動/2b-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2b-IV-2",
+      "to": "綜合活動/2b-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2c-II-1",
+      "to": "綜合活動/2c-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2c-III-1",
+      "to": "綜合活動/2c-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2d-II-1",
+      "to": "綜合活動/2d-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2d-III-1",
+      "to": "綜合活動/2d-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2d-II-2",
+      "to": "綜合活動/2d-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2d-III-2",
+      "to": "綜合活動/2d-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3a-II-1",
+      "to": "綜合活動/3a-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3a-III-1",
+      "to": "綜合活動/3a-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3a-IV-1",
+      "to": "綜合活動/3a-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3b-II-1",
+      "to": "綜合活動/3b-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3b-III-1",
+      "to": "綜合活動/3b-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3b-IV-1",
+      "to": "綜合活動/3b-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3c-II-1",
+      "to": "綜合活動/3c-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3c-III-1",
+      "to": "綜合活動/3c-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3c-IV-1",
+      "to": "綜合活動/3c-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3d-II-1",
+      "to": "綜合活動/3d-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3d-III-1",
+      "to": "綜合活動/3d-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1a-IV-2",
+      "to": "綜合活動/1a-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1b-IV-2",
+      "to": "綜合活動/1b-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/1c-IV-2",
+      "to": "綜合活動/1c-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/2a-IV-2",
+      "to": "綜合活動/2a-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "綜合活動/3a-IV-2",
+      "to": "綜合活動/3a-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    }
+  ]
+}

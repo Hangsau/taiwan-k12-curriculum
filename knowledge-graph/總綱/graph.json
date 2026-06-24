@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "domain": "總綱",
+  "generated_at": "2026-06-24T20:19:31+08:00",
+  "total_nodes": 0,
+  "total_edges": 0,
+  "structure_types": [
+    "none"
+  ],
+  "stages_present": [],
+  "source_files": [
+    "curriculum/總綱/十二年國教課程綱要總綱.structured.json",
+    "curriculum/總綱/十二年國教課程綱要總綱_111學年度實施.structured.json"
+  ],
+  "nodes": [],
+  "edges": []
+}

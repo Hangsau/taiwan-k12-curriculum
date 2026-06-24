@@ -1,0 +1,817 @@
+{
+  "schema_version": "1.0",
+  "domain": "國防",
+  "generated_at": "2026-06-24T20:19:31+08:00",
+  "total_nodes": 42,
+  "total_edges": 0,
+  "structure_types": [
+    "A"
+  ],
+  "stages_present": [
+    "V"
+  ],
+  "source_files": [
+    "curriculum/國防/全民國防教育課程綱要.structured.json"
+  ],
+  "nodes": [
+    {
+      "id": "國防/A-V-1",
+      "domain": "國防",
+      "code": "A-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/B-V-1",
+      "domain": "國防",
+      "code": "B-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "B",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/C-V-1",
+      "domain": "國防",
+      "code": "C-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "C",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/D-V-1",
+      "domain": "國防",
+      "code": "D-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/D-V-2",
+      "domain": "國防",
+      "code": "D-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/D-V-3",
+      "domain": "國防",
+      "code": "D-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/E-V-1",
+      "domain": "國防",
+      "code": "E-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/E-V-2",
+      "domain": "國防",
+      "code": "E-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "E",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/F-V-1",
+      "domain": "國防",
+      "code": "F-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "F",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/F-V-2",
+      "domain": "國防",
+      "code": "F-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "F",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/G-V-1",
+      "domain": "國防",
+      "code": "G-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "G",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/G-V-2",
+      "domain": "國防",
+      "code": "G-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "G",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/H-V-1",
+      "domain": "國防",
+      "code": "H-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/H-V-2",
+      "domain": "國防",
+      "code": "H-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/I-V-1",
+      "domain": "國防",
+      "code": "I-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "I",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/I-V-2",
+      "domain": "國防",
+      "code": "I-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "I",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/I-V-3",
+      "domain": "國防",
+      "code": "I-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "I",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/J-V-1",
+      "domain": "國防",
+      "code": "J-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "J",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/J-V-2",
+      "domain": "國防",
+      "code": "J-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "J",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/J-V-3",
+      "domain": "國防",
+      "code": "J-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "J",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/K-V-1",
+      "domain": "國防",
+      "code": "K-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "K",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/K-V-2",
+      "domain": "國防",
+      "code": "K-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "K",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-1",
+      "domain": "國防",
+      "code": "1-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-2",
+      "domain": "國防",
+      "code": "1-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-3",
+      "domain": "國防",
+      "code": "1-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-4",
+      "domain": "國防",
+      "code": "1-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-5",
+      "domain": "國防",
+      "code": "1-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-6",
+      "domain": "國防",
+      "code": "1-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-7",
+      "domain": "國防",
+      "code": "1-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-8",
+      "domain": "國防",
+      "code": "1-V-8",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-9",
+      "domain": "國防",
+      "code": "1-V-9",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 9,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-10",
+      "domain": "國防",
+      "code": "1-V-10",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 10,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-11",
+      "domain": "國防",
+      "code": "1-V-11",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 11,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-12",
+      "domain": "國防",
+      "code": "1-V-12",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 12,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/1-V-13",
+      "domain": "國防",
+      "code": "1-V-13",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "1",
+      "ordinal": 13,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/2-V-1",
+      "domain": "國防",
+      "code": "2-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/2-V-2",
+      "domain": "國防",
+      "code": "2-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/2-V-3",
+      "domain": "國防",
+      "code": "2-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/2-V-4",
+      "domain": "國防",
+      "code": "2-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "2",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/3-V-1",
+      "domain": "國防",
+      "code": "3-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/3-V-2",
+      "domain": "國防",
+      "code": "3-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "國防/3-V-3",
+      "domain": "國防",
+      "code": "3-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "3",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/國防/全民國防教育課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    }
+  ],
+  "edges": []
+}

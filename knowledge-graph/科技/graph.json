@@ -1,0 +1,2437 @@
+{
+  "schema_version": "1.0",
+  "domain": "科技",
+  "generated_at": "2026-06-24T20:19:31+08:00",
+  "total_nodes": 112,
+  "total_edges": 36,
+  "structure_types": [
+    "A"
+  ],
+  "stages_present": [
+    "IV",
+    "V"
+  ],
+  "source_files": [
+    "curriculum/科技/科技領域課程綱要.structured.json"
+  ],
+  "nodes": [
+    {
+      "id": "科技/A-IV-1",
+      "domain": "科技",
+      "code": "A-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-IV-2",
+      "domain": "科技",
+      "code": "A-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-IV-3",
+      "domain": "科技",
+      "code": "A-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-IV-1",
+      "domain": "科技",
+      "code": "P-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-IV-2",
+      "domain": "科技",
+      "code": "P-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-IV-3",
+      "domain": "科技",
+      "code": "P-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-IV-4",
+      "domain": "科技",
+      "code": "P-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-IV-5",
+      "domain": "科技",
+      "code": "P-IV-5",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/S-IV-1",
+      "domain": "科技",
+      "code": "S-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/S-IV-2",
+      "domain": "科技",
+      "code": "S-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/S-IV-3",
+      "domain": "科技",
+      "code": "S-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/S-IV-4",
+      "domain": "科技",
+      "code": "S-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/D-IV-1",
+      "domain": "科技",
+      "code": "D-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/D-IV-2",
+      "domain": "科技",
+      "code": "D-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "D",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/D-IV-3",
+      "domain": "科技",
+      "code": "D-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "D",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/T-IV-1",
+      "domain": "科技",
+      "code": "T-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "T",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/T-IV-2",
+      "domain": "科技",
+      "code": "T-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "T",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-IV-1",
+      "domain": "科技",
+      "code": "H-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-IV-2",
+      "domain": "科技",
+      "code": "H-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-IV-3",
+      "domain": "科技",
+      "code": "H-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-IV-4",
+      "domain": "科技",
+      "code": "H-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-IV-5",
+      "domain": "科技",
+      "code": "H-IV-5",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-IV-6",
+      "domain": "科技",
+      "code": "H-IV-6",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-IV-7",
+      "domain": "科技",
+      "code": "H-IV-7",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "H",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-V-1",
+      "domain": "科技",
+      "code": "A-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-V-2",
+      "domain": "科技",
+      "code": "A-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-V-3",
+      "domain": "科技",
+      "code": "A-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-V-1",
+      "domain": "科技",
+      "code": "P-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-V-2",
+      "domain": "科技",
+      "code": "P-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-V-3",
+      "domain": "科技",
+      "code": "P-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "P",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/S-V-1",
+      "domain": "科技",
+      "code": "S-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/S-V-2",
+      "domain": "科技",
+      "code": "S-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/D-V-1",
+      "domain": "科技",
+      "code": "D-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/D-V-2",
+      "domain": "科技",
+      "code": "D-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/T-V-1",
+      "domain": "科技",
+      "code": "T-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "T",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-V-1",
+      "domain": "科技",
+      "code": "H-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-V-2",
+      "domain": "科技",
+      "code": "H-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/H-V-3",
+      "domain": "科技",
+      "code": "H-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "H",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/N-IV-1",
+      "domain": "科技",
+      "code": "N-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/N-IV-2",
+      "domain": "科技",
+      "code": "N-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/N-IV-3",
+      "domain": "科技",
+      "code": "N-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-IV-6",
+      "domain": "科技",
+      "code": "P-IV-6",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/P-IV-7",
+      "domain": "科技",
+      "code": "P-IV-7",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "P",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-IV-4",
+      "domain": "科技",
+      "code": "A-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-IV-5",
+      "domain": "科技",
+      "code": "A-IV-5",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-IV-6",
+      "domain": "科技",
+      "code": "A-IV-6",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "A",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/N-V-1",
+      "domain": "科技",
+      "code": "N-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 46
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/N-V-2",
+      "domain": "科技",
+      "code": "N-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 47
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/L-V-1",
+      "domain": "科技",
+      "code": "L-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "L",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 48
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/L-V-2",
+      "domain": "科技",
+      "code": "L-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "L",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 49
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Da-V-1",
+      "domain": "科技",
+      "code": "Da-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 50
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Da-V-2",
+      "domain": "科技",
+      "code": "Da-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Da",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 51
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-V-4",
+      "domain": "科技",
+      "code": "A-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 52
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-V-5",
+      "domain": "科技",
+      "code": "A-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 53
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-V-6",
+      "domain": "科技",
+      "code": "A-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 54
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/I-V-1",
+      "domain": "科技",
+      "code": "I-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "I",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 55
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/I-V-2",
+      "domain": "科技",
+      "code": "I-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "I",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 56
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/A-V-7",
+      "domain": "科技",
+      "code": "A-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "A",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 57
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Rd-V-1",
+      "domain": "科技",
+      "code": "Rd-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Rd",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 58
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Rc-V-1",
+      "domain": "科技",
+      "code": "Rc-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Rc",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 59
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Rc-V-2",
+      "domain": "科技",
+      "code": "Rc-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Rc",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 60
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Rc-V-3",
+      "domain": "科技",
+      "code": "Rc-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Rc",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 61
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Rp-V-1",
+      "domain": "科技",
+      "code": "Rp-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Rp",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 62
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Tt-V-1",
+      "domain": "科技",
+      "code": "Tt-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Tt",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 63
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Tp-V-1",
+      "domain": "科技",
+      "code": "Tp-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Tp",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 64
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/Tp-V-2",
+      "domain": "科技",
+      "code": "Tp-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "Tp",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 65
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/t-IV-1",
+      "domain": "科技",
+      "code": "t-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/t-IV-2",
+      "domain": "科技",
+      "code": "t-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/t-IV-3",
+      "domain": "科技",
+      "code": "t-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/t-IV-4",
+      "domain": "科技",
+      "code": "t-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "t",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/t-V-1",
+      "domain": "科技",
+      "code": "t-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "t",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/t-V-2",
+      "domain": "科技",
+      "code": "t-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "t",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/t-V-3",
+      "domain": "科技",
+      "code": "t-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "t",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/c-IV-1",
+      "domain": "科技",
+      "code": "c-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/c-IV-2",
+      "domain": "科技",
+      "code": "c-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "c",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/c-IV-3",
+      "domain": "科技",
+      "code": "c-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "c",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/c-V-1",
+      "domain": "科技",
+      "code": "c-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "c",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/c-V-2",
+      "domain": "科技",
+      "code": "c-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "c",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/c-V-3",
+      "domain": "科技",
+      "code": "c-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "c",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/p-IV-1",
+      "domain": "科技",
+      "code": "p-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "p",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/p-IV-2",
+      "domain": "科技",
+      "code": "p-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "p",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/p-IV-3",
+      "domain": "科技",
+      "code": "p-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "p",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/p-V-1",
+      "domain": "科技",
+      "code": "p-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "p",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-IV-1",
+      "domain": "科技",
+      "code": "a-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-IV-2",
+      "domain": "科技",
+      "code": "a-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-IV-3",
+      "domain": "科技",
+      "code": "a-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-V-1",
+      "domain": "科技",
+      "code": "a-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-V-2",
+      "domain": "科技",
+      "code": "a-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-V-3",
+      "domain": "科技",
+      "code": "a-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-V-4",
+      "domain": "科技",
+      "code": "a-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-V-5",
+      "domain": "科技",
+      "code": "a-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-V-6",
+      "domain": "科技",
+      "code": "a-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/r-V-1",
+      "domain": "科技",
+      "code": "r-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/r-V-2",
+      "domain": "科技",
+      "code": "r-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/r-V-3",
+      "domain": "科技",
+      "code": "r-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/r-V-4",
+      "domain": "科技",
+      "code": "r-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "r",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/m-V-1",
+      "domain": "科技",
+      "code": "m-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "m",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/m-V-2",
+      "domain": "科技",
+      "code": "m-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "m",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/k-IV-1",
+      "domain": "科技",
+      "code": "k-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/k-IV-2",
+      "domain": "科技",
+      "code": "k-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/k-IV-3",
+      "domain": "科技",
+      "code": "k-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/k-IV-4",
+      "domain": "科技",
+      "code": "k-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "k",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/k-V-1",
+      "domain": "科技",
+      "code": "k-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "k",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/k-V-2",
+      "domain": "科技",
+      "code": "k-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "k",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/k-V-3",
+      "domain": "科技",
+      "code": "k-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "k",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/a-IV-4",
+      "domain": "科技",
+      "code": "a-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/s-IV-1",
+      "domain": "科技",
+      "code": "s-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/s-IV-2",
+      "domain": "科技",
+      "code": "s-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/s-IV-3",
+      "domain": "科技",
+      "code": "s-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/s-V-1",
+      "domain": "科技",
+      "code": "s-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/s-V-2",
+      "domain": "科技",
+      "code": "s-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "科技/s-V-3",
+      "domain": "科技",
+      "code": "s-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/科技/科技領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "科技/A-IV-1",
+      "to": "科技/A-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/A-IV-2",
+      "to": "科技/A-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/A-IV-3",
+      "to": "科技/A-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/P-IV-1",
+      "to": "科技/P-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/P-IV-2",
+      "to": "科技/P-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/P-IV-3",
+      "to": "科技/P-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/S-IV-1",
+      "to": "科技/S-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/S-IV-2",
+      "to": "科技/S-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/D-IV-1",
+      "to": "科技/D-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/D-IV-2",
+      "to": "科技/D-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/T-IV-1",
+      "to": "科技/T-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/H-IV-1",
+      "to": "科技/H-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/H-IV-2",
+      "to": "科技/H-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/H-IV-3",
+      "to": "科技/H-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/N-IV-1",
+      "to": "科技/N-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/N-IV-2",
+      "to": "科技/N-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/A-IV-4",
+      "to": "科技/A-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/A-IV-5",
+      "to": "科技/A-V-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/A-IV-6",
+      "to": "科技/A-V-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/t-IV-1",
+      "to": "科技/t-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/t-IV-2",
+      "to": "科技/t-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/t-IV-3",
+      "to": "科技/t-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/c-IV-1",
+      "to": "科技/c-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/c-IV-2",
+      "to": "科技/c-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/c-IV-3",
+      "to": "科技/c-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/p-IV-1",
+      "to": "科技/p-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/a-IV-1",
+      "to": "科技/a-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/a-IV-2",
+      "to": "科技/a-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/a-IV-3",
+      "to": "科技/a-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/a-IV-4",
+      "to": "科技/a-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/k-IV-1",
+      "to": "科技/k-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/k-IV-2",
+      "to": "科技/k-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/k-IV-3",
+      "to": "科技/k-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/s-IV-1",
+      "to": "科技/s-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/s-IV-2",
+      "to": "科技/s-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "科技/s-IV-3",
+      "to": "科技/s-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    }
+  ]
+}

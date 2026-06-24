@@ -1,0 +1,5865 @@
+{
+  "schema_version": "1.0",
+  "domain": "數學",
+  "generated_at": "2026-06-24T20:19:31+08:00",
+  "total_nodes": 243,
+  "total_edges": 153,
+  "structure_types": [
+    "A"
+  ],
+  "stages_present": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V"
+  ],
+  "source_files": [
+    "curriculum/數學/數學領域課程綱要.structured.json"
+  ],
+  "nodes": [
+    {
+      "id": "數學/N-1-1",
+      "domain": "數學",
+      "code": "N-1-1",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "N",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-1-2",
+      "domain": "數學",
+      "code": "N-1-2",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "N",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-1-3",
+      "domain": "數學",
+      "code": "N-1-3",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "N",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-1-4",
+      "domain": "數學",
+      "code": "N-1-4",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "N",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-1-1",
+      "domain": "數學",
+      "code": "S-1-1",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "S",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-1-5",
+      "domain": "數學",
+      "code": "N-1-5",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "N",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-11",
+      "domain": "數學",
+      "code": "N-2-11",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 11,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-13",
+      "domain": "數學",
+      "code": "N-2-13",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 13,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-14",
+      "domain": "數學",
+      "code": "N-2-14",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 14,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-1-6",
+      "domain": "數學",
+      "code": "N-1-6",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "N",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-1-2",
+      "domain": "數學",
+      "code": "S-1-2",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "S",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-1-1",
+      "domain": "數學",
+      "code": "R-1-1",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "R",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-1-2",
+      "domain": "數學",
+      "code": "R-1-2",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "R",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/D-1-1",
+      "domain": "數學",
+      "code": "D-1-1",
+      "code_format": "numeric_phase",
+      "stage": "I",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-1",
+      "domain": "數學",
+      "code": "N-2-1",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-2",
+      "domain": "數學",
+      "code": "N-2-2",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-3",
+      "domain": "數學",
+      "code": "N-2-3",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-2-4",
+      "domain": "數學",
+      "code": "R-2-4",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "R",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-4",
+      "domain": "數學",
+      "code": "N-2-4",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-5",
+      "domain": "數學",
+      "code": "N-2-5",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-6",
+      "domain": "數學",
+      "code": "N-2-6",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-2-3",
+      "domain": "數學",
+      "code": "R-2-3",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "R",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-7",
+      "domain": "數學",
+      "code": "N-2-7",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-9",
+      "domain": "數學",
+      "code": "N-2-9",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 9,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-7",
+      "domain": "數學",
+      "code": "N-3-7",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-8",
+      "domain": "數學",
+      "code": "N-2-8",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 8,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-10",
+      "domain": "數學",
+      "code": "N-2-10",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 10,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-11",
+      "domain": "數學",
+      "code": "N-3-11",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 11,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-2-12",
+      "domain": "數學",
+      "code": "N-2-12",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "N",
+      "ordinal": 12,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-15",
+      "domain": "數學",
+      "code": "N-3-15",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 15,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-16",
+      "domain": "數學",
+      "code": "N-3-16",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 16,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-2-1",
+      "domain": "數學",
+      "code": "S-2-1",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "S",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-2-2",
+      "domain": "數學",
+      "code": "S-2-2",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "S",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-7",
+      "domain": "數學",
+      "code": "S-4-7",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-8",
+      "domain": "數學",
+      "code": "S-4-8",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 8,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/D-2-1",
+      "domain": "數學",
+      "code": "D-2-1",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-2-3",
+      "domain": "數學",
+      "code": "S-2-3",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "S",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-2-4",
+      "domain": "數學",
+      "code": "S-2-4",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "S",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-2-5",
+      "domain": "數學",
+      "code": "S-2-5",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "S",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-2-1",
+      "domain": "數學",
+      "code": "R-2-1",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "R",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-2-2",
+      "domain": "數學",
+      "code": "R-2-2",
+      "code_format": "numeric_phase",
+      "stage": "II",
+      "category": "R",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-1",
+      "domain": "數學",
+      "code": "N-3-1",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-2",
+      "domain": "數學",
+      "code": "N-3-2",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-3",
+      "domain": "數學",
+      "code": "N-3-3",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-4",
+      "domain": "數學",
+      "code": "N-3-4",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-5",
+      "domain": "數學",
+      "code": "N-3-5",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-6",
+      "domain": "數學",
+      "code": "N-3-6",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 46
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-3-1",
+      "domain": "數學",
+      "code": "R-3-1",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "R",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 47
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-3",
+      "domain": "數學",
+      "code": "N-4-3",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 48
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-8",
+      "domain": "數學",
+      "code": "N-3-8",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 8,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 49
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-9",
+      "domain": "數學",
+      "code": "N-3-9",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 9,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 50
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-10",
+      "domain": "數學",
+      "code": "N-3-10",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 10,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 51
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-12",
+      "domain": "數學",
+      "code": "N-3-12",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 12,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 52
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-3-1",
+      "domain": "數學",
+      "code": "S-3-1",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "S",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 53
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-13",
+      "domain": "數學",
+      "code": "N-3-13",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 13,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 54
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-14",
+      "domain": "數學",
+      "code": "N-3-14",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 14,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 55
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-13",
+      "domain": "數學",
+      "code": "N-4-13",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 13,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 56
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-3-17",
+      "domain": "數學",
+      "code": "N-3-17",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "N",
+      "ordinal": 17,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 57
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-3-2",
+      "domain": "數學",
+      "code": "S-3-2",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "S",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 58
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-3-3",
+      "domain": "數學",
+      "code": "S-3-3",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "S",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 59
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-3-4",
+      "domain": "數學",
+      "code": "S-3-4",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "S",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 60
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-3-2",
+      "domain": "數學",
+      "code": "R-3-2",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "R",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 61
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/D-3-1",
+      "domain": "數學",
+      "code": "D-3-1",
+      "code_format": "numeric_phase",
+      "stage": "III",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 62
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-1",
+      "domain": "數學",
+      "code": "N-4-1",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 63
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-2",
+      "domain": "數學",
+      "code": "N-4-2",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 64
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-4",
+      "domain": "數學",
+      "code": "N-4-4",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 65
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-5",
+      "domain": "數學",
+      "code": "N-4-5",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 66
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-6",
+      "domain": "數學",
+      "code": "N-4-6",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 67
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-7",
+      "domain": "數學",
+      "code": "N-4-7",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 68
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-8",
+      "domain": "數學",
+      "code": "N-4-8",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 8,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 69
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-9",
+      "domain": "數學",
+      "code": "N-4-9",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 9,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 70
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-1",
+      "domain": "數學",
+      "code": "S-4-1",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 71
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-10",
+      "domain": "數學",
+      "code": "N-4-10",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 10,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 72
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-11",
+      "domain": "數學",
+      "code": "N-4-11",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 11,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 73
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-4-12",
+      "domain": "數學",
+      "code": "N-4-12",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "N",
+      "ordinal": 12,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 74
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-2",
+      "domain": "數學",
+      "code": "S-4-2",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 75
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-3",
+      "domain": "數學",
+      "code": "S-4-3",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 76
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-4",
+      "domain": "數學",
+      "code": "S-4-4",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 77
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-5",
+      "domain": "數學",
+      "code": "S-4-5",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 78
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-4-6",
+      "domain": "數學",
+      "code": "S-4-6",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "S",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 79
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-4-1",
+      "domain": "數學",
+      "code": "R-4-1",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "R",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 80
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-4-2",
+      "domain": "數學",
+      "code": "R-4-2",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "R",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 81
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-4-3",
+      "domain": "數學",
+      "code": "R-4-3",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "R",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 82
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-4-4",
+      "domain": "數學",
+      "code": "R-4-4",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "R",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 83
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/D-4-1",
+      "domain": "數學",
+      "code": "D-4-1",
+      "code_format": "numeric_phase",
+      "stage": "IV",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 84
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-1",
+      "domain": "數學",
+      "code": "N-5-1",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 85
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-2",
+      "domain": "數學",
+      "code": "N-5-2",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 86
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-5-2",
+      "domain": "數學",
+      "code": "R-5-2",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "R",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 87
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-3",
+      "domain": "數學",
+      "code": "N-5-3",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 88
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-4",
+      "domain": "數學",
+      "code": "N-5-4",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 89
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-5",
+      "domain": "數學",
+      "code": "N-5-5",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 90
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-6",
+      "domain": "數學",
+      "code": "N-5-6",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 91
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-10",
+      "domain": "數學",
+      "code": "N-5-10",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 10,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 92
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-7",
+      "domain": "數學",
+      "code": "N-5-7",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 93
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-8",
+      "domain": "數學",
+      "code": "N-5-8",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 8,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 94
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-9",
+      "domain": "數學",
+      "code": "N-5-9",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 9,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 95
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-11",
+      "domain": "數學",
+      "code": "N-5-11",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 11,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 96
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-12",
+      "domain": "數學",
+      "code": "N-5-12",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 12,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 97
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-13",
+      "domain": "數學",
+      "code": "N-5-13",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 13,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 98
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-14",
+      "domain": "數學",
+      "code": "N-5-14",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 14,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 99
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-15",
+      "domain": "數學",
+      "code": "N-5-15",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 15,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 100
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/N-5-16",
+      "domain": "數學",
+      "code": "N-5-16",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "N",
+      "ordinal": 16,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 101
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-5-1",
+      "domain": "數學",
+      "code": "S-5-1",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 102
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-5-2",
+      "domain": "數學",
+      "code": "S-5-2",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 2,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 103
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-5-3",
+      "domain": "數學",
+      "code": "S-5-3",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 104
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-5-4",
+      "domain": "數學",
+      "code": "S-5-4",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 4,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 105
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-5-5",
+      "domain": "數學",
+      "code": "S-5-5",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 5,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 106
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-5-6",
+      "domain": "數學",
+      "code": "S-5-6",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 6,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 107
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/S-5-7",
+      "domain": "數學",
+      "code": "S-5-7",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "S",
+      "ordinal": 7,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 108
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-5-1",
+      "domain": "數學",
+      "code": "R-5-1",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "R",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 109
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/R-5-3",
+      "domain": "數學",
+      "code": "R-5-3",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "R",
+      "ordinal": 3,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 110
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/D-5-1",
+      "domain": "數學",
+      "code": "D-5-1",
+      "code_format": "numeric_phase",
+      "stage": "V",
+      "category": "D",
+      "ordinal": 1,
+      "type": "content",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "content_codes",
+        "index": 111
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-1",
+      "domain": "數學",
+      "code": "n-I-1",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 0
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-2",
+      "domain": "數學",
+      "code": "n-I-2",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 1
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-3",
+      "domain": "數學",
+      "code": "n-I-3",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 2
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-4",
+      "domain": "數學",
+      "code": "n-I-4",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 3
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-5",
+      "domain": "數學",
+      "code": "n-I-5",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 4
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-6",
+      "domain": "數學",
+      "code": "n-I-6",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 5
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-7",
+      "domain": "數學",
+      "code": "n-I-7",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 6
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-8",
+      "domain": "數學",
+      "code": "n-I-8",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 7
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-I-9",
+      "domain": "數學",
+      "code": "n-I-9",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "n",
+      "ordinal": 9,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 8
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-I-1",
+      "domain": "數學",
+      "code": "s-I-1",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "s",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 9
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-I-1",
+      "domain": "數學",
+      "code": "r-I-1",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "r",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 10
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-I-2",
+      "domain": "數學",
+      "code": "r-I-2",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "r",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 11
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-I-3",
+      "domain": "數學",
+      "code": "r-I-3",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "r",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 12
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-I-1",
+      "domain": "數學",
+      "code": "d-I-1",
+      "code_format": "roman_phase",
+      "stage": "I",
+      "category": "d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 13
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-1",
+      "domain": "數學",
+      "code": "n-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 14
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-2",
+      "domain": "數學",
+      "code": "n-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 15
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-3",
+      "domain": "數學",
+      "code": "n-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 16
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-4",
+      "domain": "數學",
+      "code": "n-II-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 17
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-5",
+      "domain": "數學",
+      "code": "n-II-5",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 18
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-6",
+      "domain": "數學",
+      "code": "n-II-6",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 19
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-7",
+      "domain": "數學",
+      "code": "n-II-7",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 20
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-8",
+      "domain": "數學",
+      "code": "n-II-8",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 21
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-9",
+      "domain": "數學",
+      "code": "n-II-9",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 9,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 22
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-II-10",
+      "domain": "數學",
+      "code": "n-II-10",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "n",
+      "ordinal": 10,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 23
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-II-1",
+      "domain": "數學",
+      "code": "s-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "s",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 24
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-II-2",
+      "domain": "數學",
+      "code": "s-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "s",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 25
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-II-3",
+      "domain": "數學",
+      "code": "s-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "s",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 26
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-II-4",
+      "domain": "數學",
+      "code": "s-II-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "s",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 27
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-II-1",
+      "domain": "數學",
+      "code": "r-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "r",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 28
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-II-2",
+      "domain": "數學",
+      "code": "r-II-2",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "r",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 29
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-II-3",
+      "domain": "數學",
+      "code": "r-II-3",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "r",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 30
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-II-4",
+      "domain": "數學",
+      "code": "r-II-4",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "r",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 31
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-II-5",
+      "domain": "數學",
+      "code": "r-II-5",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "r",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 32
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-II-1",
+      "domain": "數學",
+      "code": "d-II-1",
+      "code_format": "roman_phase",
+      "stage": "II",
+      "category": "d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 33
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-1",
+      "domain": "數學",
+      "code": "n-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 34
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-2",
+      "domain": "數學",
+      "code": "n-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 35
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-3",
+      "domain": "數學",
+      "code": "n-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 36
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-4",
+      "domain": "數學",
+      "code": "n-III-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 37
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-5",
+      "domain": "數學",
+      "code": "n-III-5",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 38
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-6",
+      "domain": "數學",
+      "code": "n-III-6",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 39
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-7",
+      "domain": "數學",
+      "code": "n-III-7",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 40
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-8",
+      "domain": "數學",
+      "code": "n-III-8",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 41
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-9",
+      "domain": "數學",
+      "code": "n-III-9",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 9,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 42
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-10",
+      "domain": "數學",
+      "code": "n-III-10",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 10,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 43
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-11",
+      "domain": "數學",
+      "code": "n-III-11",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 11,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 44
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-III-12",
+      "domain": "數學",
+      "code": "n-III-12",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "n",
+      "ordinal": 12,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 45
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-III-1",
+      "domain": "數學",
+      "code": "s-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "s",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 46
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-III-2",
+      "domain": "數學",
+      "code": "s-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "s",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 47
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-III-3",
+      "domain": "數學",
+      "code": "s-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "s",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 48
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-III-4",
+      "domain": "數學",
+      "code": "s-III-4",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "s",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 49
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-III-5",
+      "domain": "數學",
+      "code": "s-III-5",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "s",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 50
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-III-6",
+      "domain": "數學",
+      "code": "s-III-6",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "s",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 51
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-III-7",
+      "domain": "數學",
+      "code": "s-III-7",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "s",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 52
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-III-1",
+      "domain": "數學",
+      "code": "r-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "r",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 53
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-III-2",
+      "domain": "數學",
+      "code": "r-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "r",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 54
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/r-III-3",
+      "domain": "數學",
+      "code": "r-III-3",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "r",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 55
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-III-1",
+      "domain": "數學",
+      "code": "d-III-1",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 56
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-III-2",
+      "domain": "數學",
+      "code": "d-III-2",
+      "code_format": "roman_phase",
+      "stage": "III",
+      "category": "d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 57
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-1",
+      "domain": "數學",
+      "code": "n-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 58
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-2",
+      "domain": "數學",
+      "code": "n-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 59
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-3",
+      "domain": "數學",
+      "code": "n-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 60
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-4",
+      "domain": "數學",
+      "code": "n-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 61
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-5",
+      "domain": "數學",
+      "code": "n-IV-5",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 62
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-6",
+      "domain": "數學",
+      "code": "n-IV-6",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 63
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-7",
+      "domain": "數學",
+      "code": "n-IV-7",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 64
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-8",
+      "domain": "數學",
+      "code": "n-IV-8",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 65
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-IV-9",
+      "domain": "數學",
+      "code": "n-IV-9",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "n",
+      "ordinal": 9,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 66
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-1",
+      "domain": "數學",
+      "code": "s-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 67
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-2",
+      "domain": "數學",
+      "code": "s-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 68
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-3",
+      "domain": "數學",
+      "code": "s-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 69
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-4",
+      "domain": "數學",
+      "code": "s-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 70
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-5",
+      "domain": "數學",
+      "code": "s-IV-5",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 71
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-6",
+      "domain": "數學",
+      "code": "s-IV-6",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 72
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-7",
+      "domain": "數學",
+      "code": "s-IV-7",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 73
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-8",
+      "domain": "數學",
+      "code": "s-IV-8",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 74
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-9",
+      "domain": "數學",
+      "code": "s-IV-9",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 9,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 75
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-10",
+      "domain": "數學",
+      "code": "s-IV-10",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 10,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 76
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-11",
+      "domain": "數學",
+      "code": "s-IV-11",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 11,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 77
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-12",
+      "domain": "數學",
+      "code": "s-IV-12",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 12,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 78
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-13",
+      "domain": "數學",
+      "code": "s-IV-13",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 13,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 79
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-14",
+      "domain": "數學",
+      "code": "s-IV-14",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 14,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 80
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-15",
+      "domain": "數學",
+      "code": "s-IV-15",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 15,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 81
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-IV-16",
+      "domain": "數學",
+      "code": "s-IV-16",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "s",
+      "ordinal": 16,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 82
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/g-IV-1",
+      "domain": "數學",
+      "code": "g-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "g",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 83
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/g-IV-2",
+      "domain": "數學",
+      "code": "g-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "g",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 84
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-IV-1",
+      "domain": "數學",
+      "code": "a-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 85
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-IV-2",
+      "domain": "數學",
+      "code": "a-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 86
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-IV-3",
+      "domain": "數學",
+      "code": "a-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 87
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-IV-4",
+      "domain": "數學",
+      "code": "a-IV-4",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 88
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-IV-5",
+      "domain": "數學",
+      "code": "a-IV-5",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 89
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-IV-6",
+      "domain": "數學",
+      "code": "a-IV-6",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "a",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 90
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-IV-1",
+      "domain": "數學",
+      "code": "f-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "f",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 91
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-IV-2",
+      "domain": "數學",
+      "code": "f-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "f",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 92
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-IV-3",
+      "domain": "數學",
+      "code": "f-IV-3",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "f",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 93
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-IV-1",
+      "domain": "數學",
+      "code": "d-IV-1",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 94
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-IV-2",
+      "domain": "數學",
+      "code": "d-IV-2",
+      "code_format": "roman_phase",
+      "stage": "IV",
+      "category": "d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 95
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-1",
+      "domain": "數學",
+      "code": "n-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 96
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-2",
+      "domain": "數學",
+      "code": "n-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 97
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-3",
+      "domain": "數學",
+      "code": "n-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 98
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-4",
+      "domain": "數學",
+      "code": "n-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 99
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-5",
+      "domain": "數學",
+      "code": "n-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 100
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-6",
+      "domain": "數學",
+      "code": "n-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 101
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-7",
+      "domain": "數學",
+      "code": "n-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 102
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/n-V-8",
+      "domain": "數學",
+      "code": "n-V-8",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "n",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 103
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-V-1",
+      "domain": "數學",
+      "code": "s-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 104
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/s-V-2",
+      "domain": "數學",
+      "code": "s-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "s",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 105
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/g-V-1",
+      "domain": "數學",
+      "code": "g-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "g",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 106
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/g-V-2",
+      "domain": "數學",
+      "code": "g-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "g",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 107
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/g-V-3",
+      "domain": "數學",
+      "code": "g-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "g",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 108
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/g-V-4",
+      "domain": "數學",
+      "code": "g-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "g",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 109
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/g-V-5",
+      "domain": "數學",
+      "code": "g-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "g",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 110
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-V-1",
+      "domain": "數學",
+      "code": "a-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 111
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-V-2",
+      "domain": "數學",
+      "code": "a-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 112
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-V-3",
+      "domain": "數學",
+      "code": "a-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 113
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/a-V-4",
+      "domain": "數學",
+      "code": "a-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "a",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 114
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-1",
+      "domain": "數學",
+      "code": "f-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 115
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-2",
+      "domain": "數學",
+      "code": "f-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 116
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-3",
+      "domain": "數學",
+      "code": "f-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 117
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-4",
+      "domain": "數學",
+      "code": "f-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 118
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-5",
+      "domain": "數學",
+      "code": "f-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 119
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-6",
+      "domain": "數學",
+      "code": "f-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 120
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-7",
+      "domain": "數學",
+      "code": "f-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 121
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-8",
+      "domain": "數學",
+      "code": "f-V-8",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 8,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 122
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/f-V-9",
+      "domain": "數學",
+      "code": "f-V-9",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "f",
+      "ordinal": 9,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 123
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-V-1",
+      "domain": "數學",
+      "code": "d-V-1",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "d",
+      "ordinal": 1,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 124
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-V-2",
+      "domain": "數學",
+      "code": "d-V-2",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "d",
+      "ordinal": 2,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 125
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-V-3",
+      "domain": "數學",
+      "code": "d-V-3",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "d",
+      "ordinal": 3,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 126
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-V-4",
+      "domain": "數學",
+      "code": "d-V-4",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "d",
+      "ordinal": 4,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 127
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-V-5",
+      "domain": "數學",
+      "code": "d-V-5",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "d",
+      "ordinal": 5,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 128
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-V-6",
+      "domain": "數學",
+      "code": "d-V-6",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "d",
+      "ordinal": 6,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 129
+      },
+      "keywords": [],
+      "warnings": []
+    },
+    {
+      "id": "數學/d-V-7",
+      "domain": "數學",
+      "code": "d-V-7",
+      "code_format": "roman_phase",
+      "stage": "V",
+      "category": "d",
+      "ordinal": 7,
+      "type": "performance",
+      "title": "",
+      "description": "",
+      "source_file": "curriculum/數學/數學領域課程綱要.structured.json",
+      "source_ref": {
+        "structured_section": "performance_codes",
+        "index": 130
+      },
+      "keywords": [],
+      "warnings": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "數學/N-1-1",
+      "to": "數學/N-2-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-1",
+      "to": "數學/N-3-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-1",
+      "to": "數學/N-4-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-1",
+      "to": "數學/N-5-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-1-2",
+      "to": "數學/N-2-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-2",
+      "to": "數學/N-3-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-2",
+      "to": "數學/N-4-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-2",
+      "to": "數學/N-5-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-1-3",
+      "to": "數學/N-2-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-3",
+      "to": "數學/N-3-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-3",
+      "to": "數學/N-4-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-3",
+      "to": "數學/N-5-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-1-4",
+      "to": "數學/N-2-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-4",
+      "to": "數學/N-3-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-4",
+      "to": "數學/N-4-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-4",
+      "to": "數學/N-5-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-1-1",
+      "to": "數學/S-2-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-2-1",
+      "to": "數學/S-3-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-3-1",
+      "to": "數學/S-4-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-4-1",
+      "to": "數學/S-5-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-1-5",
+      "to": "數學/N-2-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-5",
+      "to": "數學/N-3-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-5",
+      "to": "數學/N-4-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-5",
+      "to": "數學/N-5-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-11",
+      "to": "數學/N-3-11",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-11",
+      "to": "數學/N-4-11",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-11",
+      "to": "數學/N-5-11",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-13",
+      "to": "數學/N-3-13",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-13",
+      "to": "數學/N-4-13",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-13",
+      "to": "數學/N-5-13",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-14",
+      "to": "數學/N-3-14",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-14",
+      "to": "數學/N-5-14",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-1-6",
+      "to": "數學/N-2-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-6",
+      "to": "數學/N-3-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-6",
+      "to": "數學/N-4-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-6",
+      "to": "數學/N-5-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-1-2",
+      "to": "數學/S-2-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-2-2",
+      "to": "數學/S-3-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-3-2",
+      "to": "數學/S-4-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-4-2",
+      "to": "數學/S-5-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-1-1",
+      "to": "數學/R-2-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-2-1",
+      "to": "數學/R-3-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-3-1",
+      "to": "數學/R-4-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-4-1",
+      "to": "數學/R-5-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-1-2",
+      "to": "數學/R-2-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-2-2",
+      "to": "數學/R-3-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-3-2",
+      "to": "數學/R-4-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-4-2",
+      "to": "數學/R-5-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/D-1-1",
+      "to": "數學/D-2-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/D-2-1",
+      "to": "數學/D-3-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/D-3-1",
+      "to": "數學/D-4-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/D-4-1",
+      "to": "數學/D-5-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-2-4",
+      "to": "數學/R-4-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-2-3",
+      "to": "數學/R-4-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/R-4-3",
+      "to": "數學/R-5-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-7",
+      "to": "數學/N-3-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-7",
+      "to": "數學/N-4-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-7",
+      "to": "數學/N-5-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-9",
+      "to": "數學/N-3-9",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-9",
+      "to": "數學/N-4-9",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-9",
+      "to": "數學/N-5-9",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-8",
+      "to": "數學/N-3-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-8",
+      "to": "數學/N-4-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-8",
+      "to": "數學/N-5-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-10",
+      "to": "數學/N-3-10",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-10",
+      "to": "數學/N-4-10",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-10",
+      "to": "數學/N-5-10",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-2-12",
+      "to": "數學/N-3-12",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-12",
+      "to": "數學/N-4-12",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-4-12",
+      "to": "數學/N-5-12",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-15",
+      "to": "數學/N-5-15",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/N-3-16",
+      "to": "數學/N-5-16",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-4-7",
+      "to": "數學/S-5-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-2-3",
+      "to": "數學/S-3-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-3-3",
+      "to": "數學/S-4-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-4-3",
+      "to": "數學/S-5-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-2-4",
+      "to": "數學/S-3-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-3-4",
+      "to": "數學/S-4-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-4-4",
+      "to": "數學/S-5-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-2-5",
+      "to": "數學/S-4-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-4-5",
+      "to": "數學/S-5-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/S-4-6",
+      "to": "數學/S-5-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-1",
+      "to": "數學/n-II-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-1",
+      "to": "數學/n-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-1",
+      "to": "數學/n-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-1",
+      "to": "數學/n-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-2",
+      "to": "數學/n-II-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-2",
+      "to": "數學/n-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-2",
+      "to": "數學/n-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-2",
+      "to": "數學/n-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-3",
+      "to": "數學/n-II-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-3",
+      "to": "數學/n-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-3",
+      "to": "數學/n-IV-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-3",
+      "to": "數學/n-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-4",
+      "to": "數學/n-II-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-4",
+      "to": "數學/n-III-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-4",
+      "to": "數學/n-IV-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-4",
+      "to": "數學/n-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-5",
+      "to": "數學/n-II-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-5",
+      "to": "數學/n-III-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-5",
+      "to": "數學/n-IV-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-5",
+      "to": "數學/n-V-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-6",
+      "to": "數學/n-II-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-6",
+      "to": "數學/n-III-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-6",
+      "to": "數學/n-IV-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-6",
+      "to": "數學/n-V-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-7",
+      "to": "數學/n-II-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-7",
+      "to": "數學/n-III-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-7",
+      "to": "數學/n-IV-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-7",
+      "to": "數學/n-V-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-8",
+      "to": "數學/n-II-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-8",
+      "to": "數學/n-III-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-8",
+      "to": "數學/n-IV-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-IV-8",
+      "to": "數學/n-V-8",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-I-9",
+      "to": "數學/n-II-9",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-9",
+      "to": "數學/n-III-9",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-III-9",
+      "to": "數學/n-IV-9",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-I-1",
+      "to": "數學/s-II-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-II-1",
+      "to": "數學/s-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-III-1",
+      "to": "數學/s-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-IV-1",
+      "to": "數學/s-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/r-I-1",
+      "to": "數學/r-II-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/r-II-1",
+      "to": "數學/r-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/r-I-2",
+      "to": "數學/r-II-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/r-II-2",
+      "to": "數學/r-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/r-I-3",
+      "to": "數學/r-II-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/r-II-3",
+      "to": "數學/r-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/d-I-1",
+      "to": "數學/d-II-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/d-II-1",
+      "to": "數學/d-III-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/d-III-1",
+      "to": "數學/d-IV-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/d-IV-1",
+      "to": "數學/d-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/n-II-10",
+      "to": "數學/n-III-10",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-II-2",
+      "to": "數學/s-III-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-III-2",
+      "to": "數學/s-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-IV-2",
+      "to": "數學/s-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-II-3",
+      "to": "數學/s-III-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-III-3",
+      "to": "數學/s-IV-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-II-4",
+      "to": "數學/s-III-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-III-4",
+      "to": "數學/s-IV-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-III-5",
+      "to": "數學/s-IV-5",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-III-6",
+      "to": "數學/s-IV-6",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/s-III-7",
+      "to": "數學/s-IV-7",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/d-III-2",
+      "to": "數學/d-IV-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/d-IV-2",
+      "to": "數學/d-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/g-IV-1",
+      "to": "數學/g-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/g-IV-2",
+      "to": "數學/g-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/a-IV-1",
+      "to": "數學/a-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/a-IV-2",
+      "to": "數學/a-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/a-IV-3",
+      "to": "數學/a-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/a-IV-4",
+      "to": "數學/a-V-4",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/f-IV-1",
+      "to": "數學/f-V-1",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/f-IV-2",
+      "to": "數學/f-V-2",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    },
+    {
+      "from": "數學/f-IV-3",
+      "to": "數學/f-V-3",
+      "relation": "prerequisite",
+      "strength": "recommended",
+      "note": "auto-detected: stage-monotonic same-ordinal",
+      "source": "auto"
+    }
+  ]
+}
