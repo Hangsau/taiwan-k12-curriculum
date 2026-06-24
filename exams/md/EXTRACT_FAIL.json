@@ -1,0 +1,1472 @@
+{
+  "generated_at": "2026-06-25T01:53:35.517162+08:00",
+  "total": 5883,
+  "success": 5517,
+  "fail_count": 366,
+  "fail": [
+    {
+      "path": "exams/108-國文試卷定稿doc.pdf",
+      "reason": "pdftotext failed: Failed to open file '/home/hangsau/projects/taiwan-k12-curriculum/exams/108-國文試卷定稿doc.pdf'."
+    },
+    {
+      "path": "exams/ddes/108/上學期期中考/2C10811.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期中考/3C10811.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期中考/3N10811.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期中考/3S10811.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期中考/4N10811.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期中考/5N10811.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期末考/3E10812.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期末考/4C10812.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期末考/4H10812.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期末考/4N10812.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期末考/4S10812.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期末考/6M10812.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/上學期期末考/6N10812.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/1C10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/2C10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/3N10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/3S10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/4C10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/4M10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/4N10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/5M10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/5N10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期中考/6E10821.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/2M10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/3E10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/3N10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/4C10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/4M10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/6E10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/6H10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/108/下學期期末考/6N10822.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/109/上學期期中考/2C10911.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/109/上學期期中考/5S10911.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/109/上學期期中考/6M10911.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/109/上學期期末考/5N10912.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/109/下學期期末考/5N10922.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/111/上學期期中考/6M11111.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/111/上學期期末考/3N11112.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/111/上學期期末考/4M11112.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/111/上學期期末考/6S11112.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/111/下學期期中考/5C11121 .doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/ddes/114/上學期期中考/6C11411A.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ä¸æ¢åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ä¸æ¢åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«æé½åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ç¤¾é ­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期中考/ç¸£ç«ç¤¾é ­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ä¸æ¢åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ä¸æ¢åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ä¸æ¢åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ä¸æ¢åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ä¼¸æ±åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ä¼¸æ±åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«æé½åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«æ°çåå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade1/期末考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬äºæ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè æä¸­è ä¸æ° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè æä¸­è ä¸æ° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè ææ«è ä¸æ° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè ææ«è ä¸æ° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬äºæ¬¡æ®µè æä¸­è ä¸æ° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/公民/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ ç¤¾æé å å¬æ° ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬äºæ¬¡æ®µè æä¸­è æ³°å® è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬äºæ¬¡æ®µè æä¸­è æ³°å® è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/化學/ç§ç«é»æé«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å åå­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è ä¸æ° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è ä¸æ° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è æ³°å® ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è æ³°å® è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è æ³°å® ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è æ³°å® è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/å¸ç«éºå±±é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/ç§ç«é»æé«ä¸­ é«äº 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/國文/ç§ç«é»æé«ä¸­ é«äº 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/地球科學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å å°çç§å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è æ³°å® ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/地球科學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å å°çç§å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è æ³°å® è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/地球科學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å å°çç§å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è æ³°å® ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/地球科學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å å°çç§å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è æ³°å® è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/地球科學/å¸ç«éºå±±é«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å å°çç§å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·ç¹ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/地球科學/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å å°çç§å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/地球科學/ç§ç«é»æé«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å å°çç§å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/數學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/數學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/數學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/數學/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/數學/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/數學/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/數學/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/歷史/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å æ­·å² ç¬¬ä¸æ¬¡æ®µè æä¸­è ä¸æ° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/歷史/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å æ­·å² ç¬¬ä¸æ¬¡æ®µè æä¸­è ä¸æ° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/歷史/å¸ç«å­é¾é«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å æ­·å² ç¬¬ä¸æ¬¡æ®µè ææ«è ä¸æ° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/歷史/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ ç¤¾æé å æ­·å² ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/歷史/ç§ç«é»æé«ä¸­ é«äº 108 ä¸å­¸æ ç¤¾æé å æ­·å² ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬äºæ¬¡æ®µè æä¸­è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬äºæ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/å¸ç«éºå±±é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬ä¸æ¬¡æ®µè æä¸­è æ³°å® è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/物理/ç§ç«é»æé«ä¸­ é«äº 108 ä¸å­¸æ èªç¶ç§å­¸é å ç©ç ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/生物/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å çç© ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/生物/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å çç© ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/生物/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å çç© ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/生物/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å çç© ç¬¬ä¸æ¬¡æ®µè ææ«è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/生物/ç§ç«é»æé«ä¸­ é«ä¸ 108 ä¸å­¸æ èªç¶ç§å­¸é å çç© ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/英文/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/英文/å¸ç«å­é¾é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/英文/å¸ç«éºå±±é«ä¸­ é«ä¸ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè æä¸­è é¾é¨° è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade10/英文/ç§ç«é»æé«ä¸­ é«äº 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè æä¸­è å¶ä» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/å¸ç«å»¶å¹³åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«ä¸æ¢åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«ä¸æ¢åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«ä¸­æ­£åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«æååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«ææ¹åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«ç°ä¸­åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期中考/ç¸£ç«ç°ä¸­åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«å¤§èåå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«æ°¸è±åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade2/期末考/ç¸£ç«æ°¸è±åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期中考/å¸ç«å»¶å¹³åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期中考/å¸ç«å»¶å¹³åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期中考/ç¸£ç«ä¼¸æ±åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期中考/ç¸£ç«ä¼¸æ±åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期中考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期中考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期中考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/å¸ç«åç¶­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/å¸ç«é·å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«ä¼¸æ±åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«ä¼¸æ±åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«å§å®åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«åç¾åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«åç¾åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«æé½åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/期末考/ç¸£ç«ç°ä¸­åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第一次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第一次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第一次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第一次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第一次段考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第一次段考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第一次段考/ç¸£ç«æ°¸è±åå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第三次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第三次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第三次段考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«å¤§ååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade3/第二次段考/ç¸£ç«æååå° ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/期中考/ç¸£ç«ä¼¸æ±åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/期中考/ç¸£ç«ä¼¸æ±åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/期末考/ç¸£ç«ä¼¸æ±åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/期末考/ç¸£ç«ä¼¸æ±åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/期末考/ç¸£ç«ç°ä¸­åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/期末考/ç¸£ç«ç°ä¸­åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«ä¸æ¢åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«ä¸æ¢åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«æ°¸ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«æ°¸ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«èé¤¨åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«èé¤¨åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第一次段考/ç¸£ç«é¾æ¸¯åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«ä¸æ¢åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«ä¸æ¢åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«æ°¸ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«æ°¸ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«èé¤¨åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第三次段考/ç¸£ç«èé¤¨åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«ä¸æ¢åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«ä¸æ¢åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«å¤§ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«æååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«æ°¸ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«æ°¸ååå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«èé¤¨åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade4/第二次段考/ç¸£ç«èé¤¨åå° åå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期中考/ç¸£ç«ä¼¸æ±åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期中考/ç¸£ç«å§å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期中考/ç¸£ç«æ±è³åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期中考/ç¸£ç«æ±è³åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期中考/ç¸£ç«ç°ä¸­åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期中考/ç¸£ç«è¬ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期末考/ç¸£ç«ä¼¸æ±åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期末考/ç¸£ç«ä¼¸æ±åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期末考/ç¸£ç«åç¾åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期末考/ç¸£ç«åç¾åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期末考/ç¸£ç«è¬ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/期末考/ç¸£ç«è¬ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«å¯¶å±±åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«é·å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«é·å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第一次段考/ç¸£ç«é¾æ¸¯åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第二次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第二次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第二次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第二次段考/ç¸£ç«å¤§ååå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第二次段考/ç¸£ç«é·å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade5/第二次段考/ç¸£ç«é·å®åå° äºå¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade6/期中考/ç¸£ç«ä¼¸æ±åå° å­å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade6/期中考/ç¸£ç«ä¼¸æ±åå° å­å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade6/期末考/ç¸£ç«ä¸­æ­£åå° å­å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade6/期末考/ç¸£ç«ä¸­æ­£åå° å­å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade6/第一次段考/ç¸£ç«æååå° å­å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade6/第二次段考/ç¸£ç«æååå° å­å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade6/第二次段考/ç¸£ç«æååå° å­å¹´ç´ 108 ä¸å­¸æ èªæé å åèª ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第一次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第一次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第一次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第一次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第一次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æºªåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.xlsx",
+      "reason": "xlsx-skipped: 不是考卷內容"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æºªåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æºªåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.xlsx",
+      "reason": "xlsx-skipped: 不是考卷內容"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¤§æºªåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¹³ååä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¹³ååä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¹³ååä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.xlsx",
+      "reason": "xlsx-skipped: 不是考卷內容"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«å¹³ååä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第三次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«å¹³ååä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«ææåä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade7/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¸å¹´ç´ 108 ä¸å­¸æ èªæé å è±æ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«å¤§æ¨¹åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«å¤§æ¨¹åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«ææåä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«ææåä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«æ°èåä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«æ°èåä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/ç¸£ç«åå¿åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第一次段考/ç¸£ç«åå¿åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第三次段考/å¸ç«å¤§æ¨¹åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第三次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第三次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/å¸ç«å¤§æ¨¹åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/å¸ç«å¹³ååä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/å¸ç«ææåä¸­ å«å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/å¸ç«ææåä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/å¸ç«ææåä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/ç¸£ç«åå¿åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade8/第二次段考/ç¸£ç«åå¿åä¸­ å«å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/113-1-1-åååä¸­-9åA.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«å¤§æ¨¹åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«å¤§æ¨¹åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«ææåä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ æ¸å­¸é å æ¸å­¸ ç¬¬ä¸æ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«ææåä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«æ°èåä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«æ°èåä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第一次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第三次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬ä¸æ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/113-1-2-åååä¸­-9åæ.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è ç¿°æ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/å¸ç«å¤§æ¨¹åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è ç¿°æ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè ææ«è åä¸ ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/å¸ç«æåé«ä¸­éè¨­åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè ææ«è åä¸ è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/ç¸£ç«åå¿åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» ç­æ¡.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    },
+    {
+      "path": "exams/melances/grade9/第二次段考/ç¸£ç«åå¿åä¸­ ä¹å¹´ç´ 108 ä¸å­¸æ èªæé å åæ ç¬¬äºæ¬¡æ®µè æä¸­è åº·è» è©¦å·.doc",
+      "reason": "doc-skipped: 舊版 .doc binary 格式，無 antiword/libreoffice 可用"
+    }
+  ]
+}

@@ -41,3 +41,7 @@ data/raw/
 data/intermediate/
 *.pdf
 !docs/**/*.pdf
+
+# 考卷 .md 衍生品（working tree 留底用，license 不清不 commit）
+exams/md/by-grade-subject/
+exams/md/EXTRACT_FAIL.json.tmp

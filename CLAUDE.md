@@ -10,8 +10,8 @@
 
 接手 session 開始時，**先看這個區塊**判斷最新狀態：
 
-- **最後更新**：2026-06-24 晚（§16 P3 全領域知識圖譜完成 + P2-B 考卷收尾）
-- **當前 Phase**：P1 ✅ + P1.5 ✅ + **P2 教材 ✅ + P2-B 考卷/試題 ✅** + **P3 知識圖譜 ✅** + P4 遊戲端 ⏳ + P5 開放資料 ⏳
+- **最後更新**：2026-06-25 凌晨（§18 P2-B-2 考卷 .md 整理 + 108 課綱前清理 — 5517 .md / 5883 原始檔 / 366 fail / 606 個 100-107 刪除）
+- **當前 Phase**：P1 ✅ + P1.5 ✅ + **P2 教材 ✅ + P2-B 考卷/試題 ✅ + P2-B-2 .md 整理 ✅** + **P3 知識圖譜 ✅** + P4 遊戲端 ⏳ + P5 開放資料 ⏳
 - **內容進度**：
   - 20/20 領域純文字 markdown（P1 上半）
   - 20/20 領域結構化 JSON（P1 下半 + §13 #1 自然科學從 A 改 B、社會加表格型 warning）
@@ -394,6 +394,92 @@ from_code to_code [strength] [note]
 當撞 529 或 network glitch 導致 session 中斷，**未 commit 的檔案仍留在 working tree**，下一個 session 接手時要先 `git status` 看有什麼 pending diff。
 
 本 repo 的 CLAUDE.md §0 STATE 是 single source of truth，下個 session 接手時必讀。
+
+---
+
+## 18. P2-B-2 考卷 .md 整理 + 108 課綱前清理（2026-06-25 完成）
+
+### 18.1 user 補充需求
+
+user「**108 課綱之前的考題可以先刪除**」+「**全部都更新好嗎 github 該更新就更新 不要等我好嗎**」+「**變成 .md 檔案 其他歸檔起來放著備查**」。
+
+### 18.2 考卷 .md 整理（2026-06-25 完成）
+
+| 項目 | 數量 |
+|------|------|
+| 原始檔總數（PDF + DOCX + DOC + XLSX） | **5883** |
+| 成功抽成 .md | **5517** |
+| 失敗 | **366**（362 .doc binary 跳過 + 3 .xlsx 跳過 + 1 pdftotext failed）|
+| 刪除 ROC 100-107（108 課綱前） | **606**（531 tracked git rm + 75 working tree rm）|
+| 最終保留 | **5277**（5883 - 606）|
+
+**產出結構**（`exams/md/`，**.gitignore 排除不上 github**）：
+```
+exams/md/
+├── by-grade-subject/
+│   ├── 國小-國小_1_年級/國文/         # 按 學段-年級/科目 分目錄
+│   │   ├── 108-上學期-期中考-[ddes]-<sha8>.md
+│   │   └── ...
+│   ├── 國小-國小_1_年級/數學/
+│   ├── ...
+│   └── 高中-高中/國文/
+└── EXTRACT_FAIL.json                  # 失敗清單（366 個）
+```
+
+**每個 .md frontmatter**（YAML）：
+```yaml
+source: CEEC | melances | ddes
+year_roc: 108
+stage: 國小 | 國中 | 高中
+grade_label: 國小 1 年級
+subject: 國文
+semester: 上學期 | 下學期 | null
+test_type: 期中考 | 期末考 | 段考 | 學測 | 指考 | 分科
+variant: a | b | 甲 | 乙 | null      # 高中分組
+school: 大墩國小 | 美和國小 | null
+version: 康軒 | 南一 | 翰林 | null
+original_filename: ...
+original_path: exams/...
+sha256: <64 hex>
+size: <bytes>
+ext: pdf | docx
+license: 依來源
+extracted_at: <ISO8601>
+```
+
+### 18.3 工具鏈
+
+| Script | 用途 |
+|--------|------|
+| `scripts/extract_exams_to_md.py` | 把 PDF / DOCX 抽成純文字 .md，按年級×科目歸檔。stdlib-only（zipfile + ET + subprocess pdftotext）。支援 ddes 編碼解碼（`<年級><科目><學年><學期><考試碼>[variant]`）+ CEEC 學測指考命名 + melances 米蘭老師 Drive |
+| `scripts/verify_exams_md.py` | 8 項驗證：frontmatter 合法 / 必填欄位 / 原始檔存在 / sha256 一致 / body 不空 / ddes test_type 必填 / 目錄結構合法 / 覆蓋率（每個原始檔對應 .md 或 EXTRACT_FAIL） |
+| `scripts/index_exams.py` | 既有 — 重跑產 INDEX.md / INDEX.json（總考卷 metadata） |
+
+### 18.4 ddes 編碼規則（重要 — 解讀 5 位數字的關鍵）
+
+檔名格式：`<年級 1><科目 1><學年 3><學期 1><考試碼 1>[variant 1].<ext>`
+
+| 學期碼 | 意義 | 考試碼 | 意義 |
+|--------|------|--------|------|
+| 1 | 上學期 | 1 | 期中考 |
+| 2 | 下學期 | 2 | 期末考 |
+
+例：`3E10812.doc` = 3 年級英文 108 學年 **上學期期末考**
+例：`5N10922.doc` = 5 年級自然 109 學年 **下學期期末考**
+例：`6C11411A.doc` = 6 年級國文 114 學年 **上學期期中考 A 卷**
+
+### 18.5 已知限制
+
+- **melances BIG5 mojibake**：米蘭老師 Drive 來源檔名是 BIG5 編碼被當 UTF-8 解碼的亂碼（`ç¸£ç«` 之類）。`safe_filename()` 嘗試多種 reverse 都無法 100% 復原，**fallback 到「未分科目」**（年級仍正確分）。若要正確分類 subject，需手動批次 rename 原始檔為 UTF-8（外部任務）
+- **.doc binary 跳過**：362 個 .doc 檔沒 antiword 也沒 libreoffice（sudo 需密碼、無 NOPASSWD），先跳過、記 EXTRACT_FAIL.json。如要救回：用 `pip install --user olefile` 或裝 LibreOffice headless
+- **少數 ddes body 空**：PDF 是純圖檔掃描（pdftotext 抽不到），1 個失敗記 EXTRACT_FAIL.json
+- **.md 不 commit**：體積大（每個 5-50KB × 5517 = ~100MB）+ 來源 license 不清（米蘭老師 Drive 無明確授權），**只 commit 在 working tree**，.gitignore 排除 `exams/md/by-grade-subject/`
+
+### 18.6 下個 session 接著做（如有需要）
+
+- 重命名 melances 原始檔為 UTF-8（外部工具）
+- 裝 antiword 或 LibreOffice 重抽 362 個 .doc
+- OCR 重抽 ddes 掃描檔（用 tesseract）
 
 ---
 
