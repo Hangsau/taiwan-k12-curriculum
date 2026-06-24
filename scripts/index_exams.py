@@ -72,28 +72,11 @@ SOURCE_PATTERNS = {
 
 
 def classify_file(path: Path) -> dict:
-    """分類一個考卷檔案。"""
+    """分類一個考卷檔案：年級、科目、版本、考試類型。"""
     name = path.name
     rel = str(path.relative_to(ROOT))
     size = path.stat().st_size if path.exists() else 0
     ext = path.suffix.lower().lstrip(".")
-
-    # 學年
-    year_m = re.match(r"^(\d{2,3})[-_]", name)
-    year = year_m.group(1) if year_m else None
-    # 學年→西元
-    if year and len(year) == 3:
-        year_roc = year
-    else:
-        year_roc = None
-
-    # 學科
-    subject = None
-    name_lower = name.lower()
-    for subj, kws in SUBJECT_KEYWORDS.items():
-        if any(kw in name_lower for kw in kws):
-            subject = subj
-            break
 
     # 來源（必須在學段判斷前，因為學段判斷依賴 source）
     source = "其他"
@@ -105,37 +88,94 @@ def classify_file(path: Path) -> dict:
         except Exception:
             pass
 
-    # 學段
+    # ===== 學段 =====
     stage = None
+    grade = None
     rel_lower = rel.lower()
-    # CEEC 特殊：來源是「CEEC 大考中心」→ 一定是高中
+
+    # CEEC = 高中（固定）
     if source == "CEEC 大考中心（高中試題）":
         stage = "高中"
+        grade = "高中"  # 高中不分年級（混合多年級）
     else:
-        for st, patterns in STAGE_PATTERNS.items():
-            if any(p in rel_lower for p in patterns):
-                stage = st
-                break
+        # 米蘭老師：從路徑 gradeN 拿
+        gm = re.search(r"grade(\d+)", rel_lower)
+        if gm:
+            gn = int(gm.group(1))
+            if 1 <= gn <= 6:
+                stage = "國小"
+                grade = f"國小 {gn} 年級"
+            elif 7 <= gn <= 9:
+                stage = "國中"
+                grade = f"國中 {gn - 6} 年級"
+            elif gn == 10:
+                stage = "高中"
+                grade = "高中 1 年級"  # grade10 約略對應高中
+        # Fallback：從檔名/路徑其他關鍵字
+        if stage is None:
+            for st, patterns in STAGE_PATTERNS.items():
+                if any(p in rel_lower for p in patterns):
+                    stage = st
+                    break
 
-    # 期中考 / 期末考 / 段考
-    test_type = None
-    if "期中考" in rel or "mid" in rel_lower:
-        test_type = "期中考"
-    elif "期末考" in rel or "final" in rel_lower:
-        test_type = "期末考"
-    elif "段考" in rel:
-        test_type = "段考"
+    # ===== 學年（西元）=====
+    year_m = re.match(r"^(\d{2,3})[-_]", name)
+    year_roc = year_m.group(1) if year_m else None
 
-    # 上/下學期
+    # ===== 學科（更精準解析）=====
+    subject = None
+    # 米蘭老師檔名格式：「國語1上」或「數學3下」等
+    # 第一個字/詞通常就是科目
+    subject_patterns = [
+        ("國文", ["國文", "國語", "國綜", "國寫"]),
+        ("英文", ["英文", "英語", "english"]),
+        ("數學", ["數學", "數甲", "數乙", "數a", "數b"]),
+        ("自然科學", ["自然", "理化", "物理", "化學", "生物", "地科", "地球科學"]),
+        ("社會", ["社會", "歷史", "地理", "公民", "史", "地", "公"]),
+        ("生活", ["生活"]),
+        ("健康與體育", ["健康", "體育", "健體"]),
+    ]
+    name_for_subj = name  # 保留原始大小寫（中文）
+    for subj, kws in subject_patterns:
+        if any(kw in name_for_subj for kw in kws):
+            subject = subj
+            break
+
+    # 學期（上/下）
     semester = None
-    if "上學期" in rel or "上" in name:
+    if "上學期" in rel or "上學期" in name:
         semester = "上學期"
-    elif "下學期" in rel or "下" in name:
+    elif "下學期" in rel or "下學期" in name:
         semester = "下學期"
 
-    # 校名 / 來源學校
+    # 考試類型
+    test_type = None
+    if "期中考" in rel or "期中考" in name:
+        test_type = "期中考"
+    elif "期末考" in rel or "期末考" in name:
+        test_type = "期末考"
+    elif "段考" in rel or "段考" in name:
+        test_type = "段考"
+    elif "第一次" in name or "1st" in name.lower():
+        test_type = "第一次段考"
+    elif "第二次" in name or "2nd" in name.lower():
+        test_type = "第二次段考"
+    elif "第三次" in name or "3rd" in name.lower():
+        test_type = "第三次段考"
+
+    # 教科書版本
+    version = None
+    version_kws = ["南一", "康軒", "翰林", "何嘉仁", "龍騰", "泰宇", "全華", "五南", "旗立", "佳音"]
+    for v in version_kws:
+        if v in name:
+            version = v
+            break
+
+    # 校名
     school = None
-    school_m = re.search(r"([一-鿿]{2,5}(?:國小|國中|高中))", name)
+    school_m = re.search(r"(市立[一-鿿]{1,5}(?:國小|國中|高中))", name)
+    if not school_m:
+        school_m = re.search(r"([一-鿿]{2,5}(?:國小|國中|高中))", name)
     if school_m:
         school = school_m.group(1)
 
@@ -146,7 +186,9 @@ def classify_file(path: Path) -> dict:
         "ext": ext,
         "year_roc": year_roc,
         "stage": stage,
+        "grade": grade,
         "subject": subject,
+        "version": version,
         "test_type": test_type,
         "semester": semester,
         "source": source,
@@ -176,12 +218,15 @@ def main():
     # 統計
     by_source = defaultdict(list)
     by_stage = defaultdict(list)
+    by_grade = defaultdict(list)
     by_year = defaultdict(list)
     by_subject = defaultdict(list)
     for c in classifications:
         by_source[c["source"]].append(c)
         if c["stage"]:
             by_stage[c["stage"]].append(c)
+        if c["grade"]:
+            by_grade[c["grade"]].append(c)
         if c["year_roc"]:
             by_year[c["year_roc"]].append(c)
         if c["subject"]:
@@ -193,6 +238,9 @@ def main():
     log(f"\n按學段分：")
     for st, items in sorted(by_stage.items(), key=lambda x: -len(x[1])):
         log(f"  {st:10} {len(items):>4} 個")
+    log(f"\n按年級分 (國小/國中)：")
+    for gr in sorted(by_grade.keys()):
+        log(f"  {gr:15} {len(by_grade[gr]):>4} 個")
     log(f"\n按學年分 (top 10)：")
     for yr, items in sorted(by_year.items())[-10:]:
         log(f"  {yr:10} {len(items):>4} 個")
@@ -282,30 +330,65 @@ def main():
             md_lines.append("")
 
     md_lines.extend([
-        "## 6. 米蘭老師 Drive 段考考古題",
+        "## 6. 米蘭老師 Drive 段考考古題（按年級 → 科目 → 版本）",
         "",
     ])
     mel_items = by_source.get("米蘭老師 Drive", [])
     if mel_items:
-        # 按學年分組
-        mel_by_year = defaultdict(list)
+        # 按年級 → 科目 → 版本分組
+        mel_by_grade = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
         for c in mel_items:
             y = "未明"
-            # 從路徑抓學年 (e.g. grade1, grade2)
             gm = re.search(r"grade(\d+)", c["path"])
             if gm:
-                y = f"grade{gm.group(1)}"
-            mel_by_year[y].append(c)
-        for y in sorted(mel_by_year.keys()):
+                gn = int(gm.group(1))
+                if 1 <= gn <= 6:
+                    y = f"國小 {gn} 年級"
+                elif 7 <= gn <= 9:
+                    y = f"國中 {gn - 6} 年級"
+                elif gn == 10:
+                    y = "高中"
+            subj = c["subject"] or "未分類"
+            ver = c["version"] or "未標示"
+            mel_by_grade[y][subj][ver].append(c)
+
+        for y in sorted(mel_by_grade.keys()):
             md_lines.append(f"### {y}")
             md_lines.append("")
-            md_lines.append(f"**{len(mel_by_year[y])} 個檔案**")
+            md_lines.append("| 科目 | 版本 | 考試類型/學期 | 數量 |")
+            md_lines.append("|------|------|---------------|------|")
+            for subj in sorted(mel_by_grade[y].keys()):
+                for ver in sorted(mel_by_grade[y][subj].keys()):
+                    items = mel_by_grade[y][subj][ver]
+                    by_test = defaultdict(list)
+                    for it in items:
+                        tt = it["test_type"] or "?"
+                        sm = it["semester"] or "?"
+                        by_test[(tt, sm)].append(it)
+                    test_summary = ", ".join(
+                        f"{tt}{sm}×{len(its)}"
+                        for (tt, sm), its in sorted(by_test.items())
+                    )
+                    md_lines.append(f"| {subj} | {ver} | {test_summary} | {len(items)} |")
             md_lines.append("")
-            md_lines.append("| 檔名 | 大小 | 階段 | 學期 |")
-            md_lines.append("|------|------|------|------|")
-            for c in sorted(mel_by_year[y], key=lambda x: x["filename"]):
-                size_kb = c["size"] / 1024
-                md_lines.append(f"| `{c['filename'][:50]}` | {size_kb:.1f} KB | {c['test_type'] or '?'} | {c['semester'] or '?'} |")
+
+        # 詳細每個檔案
+        md_lines.append("### 詳細清單（按年級）")
+        md_lines.append("")
+        for y in sorted(mel_by_grade.keys()):
+            md_lines.append(f"#### {y}")
+            md_lines.append("")
+            md_lines.append("| 檔名 | 科目 | 版本 | 考試 | 學期 | 學校 | 大小 |")
+            md_lines.append("|------|------|------|------|------|------|------|")
+            for subj in sorted(mel_by_grade[y].keys()):
+                for ver in sorted(mel_by_grade[y][subj].keys()):
+                    for c in sorted(mel_by_grade[y][subj][ver], key=lambda x: x["filename"]):
+                        size_kb = c["size"] / 1024
+                        md_lines.append(
+                            f"| `{c['filename'][:45]}` | {subj} | {ver} | "
+                            f"{c['test_type'] or '?'} | {c['semester'] or '?'} | "
+                            f"{c['school'] or '?'} | {size_kb:.0f} KB |"
+                        )
             md_lines.append("")
 
     md_lines.extend([
