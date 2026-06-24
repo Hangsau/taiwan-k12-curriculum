@@ -1,0 +1,331 @@
+{
+  "global": {},
+  "by_domain": {},
+  "by_exam": {
+    "109-社會科定稿.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "109-數學試卷定稿.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "113-數學甲.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "110-自然.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "114-自然試題定稿.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "109-國文選擇題試卷定稿.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "112-化學考科.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-數學甲試卷定稿.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "108-國寫試卷定稿.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "114-數學b.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "114-國綜.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "112-數學a.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "113-歷史.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "108-數學試卷定稿.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "115-自然.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-1國綜.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "114-英文.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "112-公民與社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "115-數學a.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "108-國文選擇題試卷定稿.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "111-數學a試卷定稿.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "111-生物試卷定稿.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "112-社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "111-歷史試卷定稿.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "114-生物.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "110-數學.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "114-數學甲.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "114-社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "114-物理.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-2國寫試卷定稿.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "112-地理考科.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "113-社會科試題定稿.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "112-1國文國綜.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "114-國寫.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "115-數學b.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "113-國寫定稿.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "112-2國文國寫.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "114-公民與社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "115-社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "112-英文.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "114-地理.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "110-國文.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "113-數學b試題定稿.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "115-英文.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "111-自然.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "110-國寫試卷.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "108-英文試卷定稿.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "113-自然試題定稿.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "113-公民與社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "113-英文科定稿.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "113-地理.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "114-數學乙.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "112-數學甲考科.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "112-自然.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "114-化學.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "112-數學b.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "113-生物.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-數學b.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "115-國綜.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "114-數學a.txt": {
+      "domain": "數學",
+      "counts": {}
+    },
+    "113-物理.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "110-社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "109-國寫定稿.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "108-社會試卷定稿.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "111-社會.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "112-生物考科.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "113-化學.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-公民與社會試卷定稿.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "113-國綜試題定稿.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "108-自然試卷定稿.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "110-英文試卷.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "112-物理考科.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "109-英文試卷定稿.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "111-化學試卷定稿.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-物理試卷定稿.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-地理試卷定稿.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "112-歷史考科.txt": {
+      "domain": "社會",
+      "counts": {}
+    },
+    "109-自然試卷定稿.txt": {
+      "domain": "自然科學",
+      "counts": {}
+    },
+    "111-英文.txt": {
+      "domain": "英語文",
+      "counts": {}
+    },
+    "115-國寫.txt": {
+      "domain": "國語文",
+      "counts": {}
+    },
+    "114-歷史.txt": {
+      "domain": "社會",
+      "counts": {}
+    }
+  },
+  "total_exams": 82
+}
