@@ -124,22 +124,32 @@ def classify_file(path: Path) -> dict:
 
     # ===== 學科（更精準解析）=====
     subject = None
-    # 米蘭老師檔名格式：「國語1上」或「數學3下」等
-    # 第一個字/詞通常就是科目
-    subject_patterns = [
-        ("國文", ["國文", "國語", "國綜", "國寫"]),
-        ("英文", ["英文", "英語", "english"]),
-        ("數學", ["數學", "數甲", "數乙", "數a", "數b"]),
-        ("自然科學", ["自然", "理化", "物理", "化學", "生物", "地科", "地球科學"]),
-        ("社會", ["社會", "歷史", "地理", "公民", "史", "地", "公"]),
-        ("生活", ["生活"]),
-        ("健康與體育", ["健康", "體育", "健體"]),
-    ]
     name_for_subj = name  # 保留原始大小寫（中文）
-    for subj, kws in subject_patterns:
-        if any(kw in name_for_subj for kw in kws):
-            subject = subj
-            break
+    # 米蘭老師 + ddes 檔名代碼（如「2C10811.doc」）：第 2 個字是科目碼
+    # C=國語, M=數學, S=社會, N=自然, H=健康, E=英語, A=?
+    code_subject_map = {
+        "C": "國文", "M": "數學", "S": "社會", "N": "自然科學",
+        "H": "健康與體育", "E": "英文", "A": "自然科學",  # 視上下文
+    }
+    # 抓檔名前 2 個字元（如「2C」、「5M」）
+    code_m = re.match(r"^(\d)([A-Z])", name)
+    if code_m:
+        subject = code_subject_map.get(code_m.group(2))
+    if not subject:
+        # 一般檔名（如「國語1上期中」、「新北安和國小-國語1期中」）
+        subject_patterns = [
+            ("國文", ["國文", "國語", "國綜", "國寫"]),
+            ("英文", ["英文", "英語", "english"]),
+            ("數學", ["數學", "數甲", "數乙", "數a", "數b"]),
+            ("自然科學", ["自然", "理化", "物理", "化學", "生物", "地科", "地球科學"]),
+            ("社會", ["社會", "歷史", "地理", "公民"]),
+            ("生活", ["生活"]),
+            ("健康與體育", ["健康", "體育", "健體"]),
+        ]
+        for subj, kws in subject_patterns:
+            if any(kw in name_for_subj for kw in kws):
+                subject = subj
+                break
 
     # 學期（上/下）
     semester = None
@@ -306,6 +316,44 @@ def main():
     ])
     for subj, items in sorted(by_subject.items(), key=lambda x: -len(x[1])):
         md_lines.append(f"| {subj} | {len(items)} |")
+
+    md_lines.extend([
+        "",
+        "## 4.5 各年級 × 各科目交叉分佈（user 要求）",
+        "",
+    ])
+    # 交叉表
+    grade_subject = defaultdict(lambda: defaultdict(int))
+    for c in classifications:
+        g = c.get("grade") or "未分"
+        s = c.get("subject") or "未分"
+        grade_subject[g][s] += 1
+    all_subjects = sorted(set(s for g in grade_subject.values() for s in g.keys()))
+    grade_order = sorted(grade_subject.keys(), key=lambda g: (
+        0 if "國小 1" in g else
+        1 if "國小 2" in g else
+        2 if "國小 3" in g else
+        3 if "國小 4" in g else
+        4 if "國小 5" in g else
+        5 if "國小 6" in g else
+        6 if "國中" in g else
+        7 if "高中" in g else 9
+    ))
+    md_lines.append("| 年級 \\ 科目 | " + " | ".join(all_subjects) + " | 總計 |")
+    md_lines.append("|" + "---|" * (len(all_subjects) + 2))
+    for g in grade_order:
+        row = [g]
+        total = 0
+        for s in all_subjects:
+            n = grade_subject[g].get(s, 0)
+            row.append(str(n) if n else "—")
+            total += n
+        row.append(str(total))
+        md_lines.append("| " + " | ".join(row) + " |")
+    md_lines.append("| **總計** | " + " | ".join(
+        str(sum(grade_subject[g].get(s, 0) for g in grade_subject))
+        for s in all_subjects
+    ) + " | " + str(len(classifications)) + " |")
 
     md_lines.extend([
         "",
