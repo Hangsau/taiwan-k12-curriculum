@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-25T02:09:18.364852+08:00",
+  "generated_at": "2026-06-25T02:53:16.812110+08:00",
   "total": 5883,
   "success": 5878,
   "fail_count": 5,
   "fail": [
     {
       "path": "exams/108-國文試卷定稿doc.pdf",
-      "reason": "pdftotext failed: Failed to open file '/home/hangsau/projects/taiwan-k12-curriculum/exams/108-國文試卷定稿doc.pdf'."
+      "reason": "pdf extraction failed: 108-國文試卷定稿doc.pdf"
     },
     {
       "path": "exams/ddes/114/上學期期中考/6C11411A.doc",

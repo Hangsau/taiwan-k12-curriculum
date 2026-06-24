@@ -53,7 +53,11 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 import zipfile
+from pathlib import Path  # noqa: E402
+
+# 確保 Path 用（被下面用）
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
@@ -127,22 +131,40 @@ def log(msg: str):
 # ============================================================
 
 def extract_pdf(path: Path) -> str:
-    """pdftotext 抽 PDF 文字。回傳純文字（layout 保留）。"""
+    """抽 PDF 文字：用 pdftotext（穩定、timeout 控制）。
+    純圖檔會回空字串（body_empty），script 會 fallback OCR。
+    """
     try:
         result = subprocess.run(
             ["pdftotext", "-enc", "UTF-8", "-layout", str(path), "-"],
-            capture_output=True, text=True, timeout=60,
+            capture_output=True, text=True, timeout=20,  # 短 timeout 防卡
         )
         if result.returncode == 0:
             return result.stdout
-        # fallback：PyMuPDF
-        import fitz
-        doc = fitz.open(str(path))
-        pages = [p.get_text() for p in doc]
-        doc.close()
-        return "\n".join(pages)
-    except Exception as e:
-        raise RuntimeError(f"pdftotext failed: {e}")
+    except subprocess.TimeoutExpired:
+        pass
+    except Exception:
+        pass
+    # fallback：OCR（純圖檔掃描，限時）
+    try:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            ppm_prefix = f"{tmpdir}/p"
+            subprocess.run(
+                ["pdftoppm", "-r", "150", "-f", "1", "-l", "1", "-png", str(path), ppm_prefix],
+                capture_output=True, timeout=15,
+            )
+            for png in sorted(Path(tmpdir).glob("*.png")):
+                result = subprocess.run(
+                    ["tesseract", str(png), "-", "-l", "chi_tra", "--psm", "6"],
+                    capture_output=True, text=True, timeout=30,
+                )
+                if result.returncode == 0 and result.stdout.strip():
+                    return result.stdout
+    except subprocess.TimeoutExpired:
+        pass
+    except Exception:
+        pass
+    raise RuntimeError(f"pdf extraction failed: {path.name}")
 
 
 def extract_docx(path: Path) -> str:
@@ -222,6 +244,32 @@ def decode_ddes_filename(name: str) -> dict | None:
     }
 
 
+SUBJECT_KEYWORDS = {
+    "國文": ["國文科", "國語文", "國語科", "國文", "國語", "國綜", "國寫"],
+    "英文": ["英文科", "英語科", "英文", "英語"],
+    "數學": ["數學科", "數學"],
+    "自然科學": ["自然科", "自然科學", "自然與生活科技", "理化", "物理科", "化學科", "生物科", "地科"],
+    "社會": ["社會科", "社會", "歷史科", "地理科", "公民科"],
+    "健康與體育": ["健康與體育", "體育科", "健體", "健康教育"],
+}
+
+
+def detect_subject_from_text(text: str) -> str | None:
+    """從 PDF 內容找科目 keyword（國文科 / 英文科 / 數學科 / 等）。
+    移除空白/換行後搜尋，避免「國 中 文」這種 OCR 結果干擾。
+    """
+    if not text:
+        return None
+    # 清掉所有空白
+    clean = re.sub(r"\s+", "", text)
+    # 優先匹配較長的 keyword（如「國文科」比「國文」精準）
+    for canon in ["自然科學", "健康與體育", "國文", "英文", "數學", "社會"]:
+        for kw in SUBJECT_KEYWORDS[canon]:
+            if kw in clean:
+                return canon
+    return None
+
+
 def parse_melances_path(rel: str) -> dict:
     """從米蘭老師路徑解析年級 / 科目 / 學期 / 學年 / 版本 / 校名。
     路徑樣式: melances/grade3/期末考/<校名> ... <年級> ... <學年> <學期> ... <科目> ... <版本> ...pdf
@@ -268,7 +316,11 @@ def parse_melances_path(rel: str) -> dict:
             info["subject"] = "數學"
         elif "/english" in rel.lower() or "english" in fname.lower() or "eng" in fname.lower():
             info["subject"] = "英文"
-    # fallback：未分類（不要因為 BIG5 mojibake 解析失敗而中斷）
+    # 從 PDF 內容抓科目（最可靠：fitz/pdftotext/OCR 抽出後是 UTF-8 中文）
+    if "subject" not in info:
+        # 從路徑拿 content（透過 classify_file 傳入 — 見 classify_file 那邊）
+        pass  # 實際 detect 在 classify_file 內跑
+    return info
     # 抓版本
     version_kws = ["南一", "康軒", "翰林", "何嘉仁", "龍騰", "泰宇", "全華", "五南", "旗立", "佳音"]
     for v in version_kws:
@@ -534,6 +586,11 @@ def main():
                 success.append(info)
                 continue
             body = extract_text(info)
+            # 用 body 內容補抓 subject（melances BIG5 mojibake 救回用）
+            if (not info.get("subject") or info["subject"] == "未分科目") and body:
+                detected = detect_subject_from_text(body)
+                if detected:
+                    info["subject"] = detected
             out = write_md(info, body)
             info["output_path"] = str(out.relative_to(ROOT))
             by_target_dir[str(out.parent.relative_to(MD_ROOT))] += 1
