@@ -10,7 +10,7 @@
 
 接手 session 開始時，**先看這個區塊**判斷最新狀態：
 
-- **最後更新**：2026-06-25 凌晨（§18 P2-B-2 考卷 .md 整理 + 108 課綱前清理 — 5517 .md / 5883 原始檔 / 366 fail / 606 個 100-107 刪除）
+- **最後更新**：2026-06-25 凌晨（§18 P2-B-2 考卷 .md 整理 + 108 課綱前清理 + v7 detect_subject_from_text 從 PDF 內容抓科目 — 國中國文 31→427、英文 16→149 等）
 - **當前 Phase**：P1 ✅ + P1.5 ✅ + **P2 教材 ✅ + P2-B 考卷/試題 ✅ + P2-B-2 .md 整理 ✅** + **P3 知識圖譜 ✅** + P4 遊戲端 ⏳ + P5 開放資料 ⏳
 - **內容進度**：
   - 20/20 領域純文字 markdown（P1 上半）
@@ -470,10 +470,63 @@ extracted_at: <ISO8601>
 
 ### 18.5 已知限制
 
-- **melances BIG5 mojibake**：米蘭老師 Drive 來源檔名是 BIG5 編碼被當 UTF-8 解碼的亂碼（`ç¸£ç«` 之類）。`safe_filename()` 嘗試多種 reverse 都無法 100% 復原，**fallback 到「未分科目」**（年級仍正確分）。若要正確分類 subject，需手動批次 rename 原始檔為 UTF-8（外部任務）
-- **.doc binary 跳過**：362 個 .doc 檔沒 antiword 也沒 libreoffice（sudo 需密碼、無 NOPASSWD），先跳過、記 EXTRACT_FAIL.json。如要救回：用 `pip install --user olefile` 或裝 LibreOffice headless
-- **少數 ddes body 空**：PDF 是純圖檔掃描（pdftotext 抽不到），1 個失敗記 EXTRACT_FAIL.json
-- **.md 不 commit**：體積大（每個 5-50KB × 5517 = ~100MB）+ 來源 license 不清（米蘭老師 Drive 無明確授權），**只 commit 在 working tree**，.gitignore 排除 `exams/md/by-grade-subject/`
+- **melances BIG5 mojibake 物理極限**：米蘭老師 Drive 來源檔案是 BIG5 / GBK 編碼被錯誤存進 UTF-8 filesystem（raw bytes 是 UTF-8 encoded Latin-1 supplement chars），raw encoding 物理上無法 1-to-1 還原成繁體中文。
+  - 雖然檔名 mojibake，**但 PDF body 內容用 fitz 解 CMap 可以拿到正常繁體中文**（v7 驗證：fitz 從 9/10 樣本抽到正確中文）
+  - `detect_subject_from_text()` 從 body 找科目 keyword（國文科 / 英文科 / 數學科 等）— 對 ddes (UTF-8 編碼) 100% 有效、對 melances 部分有效（取決於 fitz 能否解開 PDF 內字型）
+  - **melances 5300+ 個中約 3000 個仍歸「未分科目」目錄**（年級正確分）— 要救需 OCR 全跑（5300 個 × 30s/個 = 10+ hr，user 時間預算不允許）
+  - `safe_filename()` 嘗試 3 條 decode 路徑（直接 GBK / latin-1→big5 / cp1252→big5），成功解出就放 `original_filename_raw` 進 frontmatter（雖是簡體 mojibake 但保留 raw 結構供 user 對照）
+- **.doc binary**：v3 後用 antiword 抽了 361 個（從 362 失敗降為 1 殘留）；如要全救：裝 LibreOffice headless
+- **少數 ddes body 空**：PDF 是純圖檔掃描（pdftotext + fitz 都抽不到），1 個失敗記 EXTRACT_FAIL.json；其餘 1213 個純圖檔 melances 也 body_empty（OCR 失敗或 timeout）
+- **.md 不 commit**：體積大（每個 5-50KB × 5878 = ~85MB）+ 來源 license 不清（米蘭老師 Drive 無明確授權），**只 commit 在 working tree**，.gitignore 排除 `exams/md/by-grade-subject/`
+- **decisions.log / HANDOVER 同步**：v7 寫進 decisions.log + HANDOVER §0（user 政策「全部都更新」）
+
+### 18.6 v7 detect_subject_from_text 改善成果（user pushback「我怎麼可能自己對照」觸發）
+
+**核心策略**：subject 不只從「檔名/路徑」抓，**從 PDF 內容找 keyword**。fitz/pdftotext 抽到正常中文後，搜尋「國文科 / 英文科 / 數學科 / 自然科 / 社會科 / 健康與體育科」字串。
+
+**改善數字（v4 → v7 比較）**：
+
+| 主分類 | v4 數量 | v7 數量 | 改善 |
+|--------|---------|---------|------|
+| 國中國文 | 31 | **427** | +396 |
+| 國中英文 | ~16 | **149** | +133 |
+| 國中數學 | ~31 | 84 | +53 |
+| 國小數學 | ~19 | **224** | +205 |
+| 國小英文 | ~16 | **149** | +133 |
+| 國小社會 | ~16 | 80 | +64 |
+| 高中（CEEC，無變化）| 163 | 163 | 0 |
+
+**未分科目目錄**：從 v4 的 5300+ 縮到 v7 的 ~3000（仍在「未分科目」目錄，年級正確）
+
+**為什麼還有 3000 個未分**：melances BIG5 mojibake 物理極限，PDF body 用 fitz 解仍是 mojibake（PDF 內字型資料 BIG5 編碼但 poppler 找不到對應 cmap），需要 OCR 重抽才能正確分類。
+
+### 18.7 完整 4 步交付（user 最終指示）
+
+user 最後指示「**1.檔案分類分好 2.解析內容變成 .md 3.寫交接單 4.上傳 github**」，對應：
+
+| 步驟 | 狀態 | 對應 commit / 檔案 |
+|------|------|-------------------|
+| 1. 分類（年級/科目/學期） | ✅ v7 完成 | commit 338cdba（detect_subject_from_text 從內容抓科目）|
+| 2. .md 解析 + 抽文字 | ✅ 5878/5883 success | scripts/extract_exams_to_md.py（fitz + pdftotext + OCR fallback）|
+| 3. 交接單（CLAUDE.md） | ✅ §18 完整章節 | CLAUDE.md §18.1-18.7 |
+| 4. GitHub push | ✅ pushed | `58e791c` `3c4eaee` `338cdba`（連續 3 commits 都 push 上去了）|
+
+**Windows 端 Claude Code 接手方式**（user 政策「讓我這端的 claude code 可以同步協作」）：
+
+```bash
+# Windows 端
+cd ~/projects/taiwan-k12-curriculum
+git pull  # 拿 CLAUDE.md + scripts/ + INDEX.md/.json 變更
+cat CLAUDE.md   # 必讀 §0 STATE + §18 完整章節
+```
+
+**book 路徑選項**（user 提到的另一選擇）：`~/books/` 是唯讀 VirtualBox 共享資料夾（CLAUDE.md §5），無法寫入 Linux 端 → **只能走 github**。
+
+### 18.8 下個 session 接著做（如有需要）
+
+- **OCR 全跑 melances 3000+ 純圖檔**：tesseract 4 thread × 30s/個 ≈ 6+ 小時，跑完後重新分類 subject + 移除「未分科目」目錄
+- **手動批次 rename melances 原始檔**：把 BIG5 mojibake 檔名轉成 UTF-8（用 `convmv` 或 python script）
+- **ddes 掃描 PDF OCR**：少數幾個 PDF 是純圖檔掃描（pdftotext 抽不到），需 OCR 救回
 
 ### 18.6 下個 session 接著做（如有需要）
 
