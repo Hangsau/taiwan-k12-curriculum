@@ -90,14 +90,17 @@
 
 ---
 
-## Phase 5 — 開放資料釋出 ⏳
+## Phase 5 — 開放資料釋出 ✅ 2026-06-25
 
 > 目標：讓其他人也能用這份資料
 
+- [x] `CITATION.cff`（CFF 1.2.0）— GitHub 自動顯示「Cite this repository」
+- [x] 強化 `README.md`（量化指標 + 三類用法 + citation bibtex）
+- [x] `docs/release-notes.md`（v0.1.0~v0.5.0 五個 milestone）
 - [ ] GitHub Pages 文件站
 - [ ] 下載 zip（per phase / per 領域）
 - [ ] 資料儀表板（覆蓋率、更新時間）
-- [ ] 引用文檔（citation.cff / DOI？）
+- [ ] DOI（透過 Zenodo？）
 
 ---
 
