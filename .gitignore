@@ -45,3 +45,16 @@ data/intermediate/
 # 考卷 .md 衍生品（working tree 留底用，license 不清不 commit）
 exams/md/by-grade-subject/
 exams/md/EXTRACT_FAIL.json.tmp
+
+# === 不公開（授權不清 / 品質不足）===
+# 米蘭老師 Drive 段考 — 來源未授權散布
+exams/melances/
+# 大墩國小段考 — 學校自製，授權不明
+exams/ddes/
+# AI 生成教材 — 無人類審查，誤導性內容（generate_textbooks.py 產出）
+textbooks/generated/
+# 均一教育平台爬取 — HTML chrome 無教學內容（download_junyi*.py 產出）
+textbooks/archived/
+# v0.5.0 release artifacts — m3 自決發行，未授權
+CITATION.cff
+docs/release-notes.md
